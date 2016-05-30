@@ -1,0 +1,64 @@
+
+#
+# Generic top-level workspace .gitignore.
+#
+
+#
+# Eclipse
+#
+/.metadata/*
+/Servers/*
+
+#
+# Installation tree.
+#
+/install/*
+
+#
+#
+# Logs.
+#
+logs/
+
+#
+# Vim backup files.
+#
+*.swp
+
+#
+# Derived files.
+#
+bin/
+*.class
+**/doc/api/
+
+#
+# JUnit test reports
+#
+**/test/reports/
+
+#
+# Local versions.
+#
+/branch.sh
+
+#
+# MAC OSX folder files.
+#
+.DS_Store
+
+target/
+
+#
+# Haskell hscope data.
+#
+/hscope.out
+
+node_modules/
+
+.idea/
+*.iml
+
+dist/
+.cabal-sandbox/
+.stack-work/
