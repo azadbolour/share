@@ -1,15 +1,20 @@
 
-Based on the following paper with some modifications.
+# Sample Programs from Martin Grabmuller - Monad Transformers Step by Step
 
 http://catamorph.de/documents/Transformers.pdf
 
-Other resources:
+The progression of the examples from the paper goes as follows:
 
-http://blog.jakubarnold.cz/2014/07/22/building-monad-transformers-part-1.html
-https://github.com/kqr/gists/blob/master/articles/gentle-introduction-monad-transformers.md
-https://ocharles.org.uk/blog/posts/2016-01-26-transformers-free-monads-mtl-laws.html
+  - BasicEvaluator.hs
+  - GracefulEvaluator.hs
+  - EnvironmentDependentEvaluator.hs
+  - ProfilingEvaluator.hs
+  - LoggingEvaluator.hs
+  - IOEvaluator.hs
 
-Reminder of the monad transformer types used in the examples.
+These samples are based on the paper but refactored a bit for readability, etc.
+
+# Monad Transformer Cheat Sheet
 
 ExceptT - a variant of EitherT - has an inner Either
 
@@ -44,4 +49,10 @@ WriterT -
     newtype WriterT output stackedMonad value = WriterT { runWriterT :: stackedMonad (value, output) }
     runWriterT :: WriterT output stackedMonad value -> stackedMonad(value, output)
 ```
+
+# Other resources:
+
+http://blog.jakubarnold.cz/2014/07/22/building-monad-transformers-part-1.html
+https://github.com/kqr/gists/blob/master/articles/gentle-introduction-monad-transformers.md
+https://ocharles.org.uk/blog/posts/2016-01-26-transformers-free-monads-mtl-laws.html
 
