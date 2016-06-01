@@ -2,6 +2,7 @@
 
 examples="
   BasicEvaluator.hs
+  MonadicEvaluator.hs
   GracefulEvaluator.hs
   EnvironmentDependentEvaluator.hs
   ProfilingEvaluator.hs
