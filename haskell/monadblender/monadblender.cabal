@@ -1,0 +1,33 @@
+name:                monadblender
+version:             0.1.0.0
+synopsis:            another way to look at monad transformers
+description:         
+homepage:            
+license:             BSD3
+license-file:        LICENSE
+author:              Azad Bolour
+maintainer:          example@example.com
+copyright:           2017 Azad Bolour
+category:            Haskell
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable monad-blender-sample-exe
+  hs-source-dirs:      app
+  main-is:             MonadBlenderSample.hs
+  other-modules:       MonadBlender
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                      , transformers
+                      , mtl
+  default-language:    Haskell2010
+executable monad-blender-check-exe
+  hs-source-dirs:      app
+  main-is:             MonadBlenderCheck.hs
+  other-modules:       MonadBlender
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                      , transformers
+                      , mtl
+                      , QuickCheck
+  default-language:    Haskell2010
