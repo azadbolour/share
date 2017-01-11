@@ -6,6 +6,8 @@ http://catamorph.de/documents/Transformers.pdf
 The progression of the examples from the paper goes as follows:
 
   - BasicEvaluator.hs
+  - BasicEvaluator.hs
+  - MonadicEvaluator.hs
   - GracefulEvaluator.hs
   - EnvironmentDependentEvaluator.hs
   - ProfilingEvaluator.hs
