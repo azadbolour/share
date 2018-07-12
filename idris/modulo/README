@@ -1,3 +1,49 @@
 
-So far unsuccessful attempt at proving the algebraic group axioms for 
-modular arithmetic.
+My current (as yet unsuccessful) attempt at proving the group axioms 
+for plus in modular arithmetic.
+
+In representing numbers modulo some modulus, I wanted to preserve the following
+basic properties:
+
+- For a given modulus, there are exactly 'modulus' representatives of natural
+  numbers modulo that modulus, corresponding to 0, 1, ... (modulus - 1).
+
+- The representatives of modular numbers have a circular successor/predecessor
+  relationship. These relationships are inherited from those of corresponding
+  natural numbers, except at the boundaries of 0 and (modulus - 1), where to
+  form a circular sequence, we'd need the successor of (modulus - 1) to be 0,
+  and the predecessor of 0 to be (modulus - 1).
+
+A simple representation is a dependent pair consisting of a natural number
+together with a proof that it is less than the modulus: 
+
+    (n: Nat ** S n `LTE` modulus)
+
+Let's call this a 'modulo dependent pair'.
+
+To represent modulo dependent pairs in a sequence, we can use two functions, say
+succ, pred:
+
+succ : (n: Nat ** LtModulus n) -> (m: Nat ** LtModulus m)
+pred : (m: Nat ** LtModulus m) -> (n: Nat ** LtModulus n)
+
+The idea then is to define modular plus in terms of the functions succ and pred,
+then to prove propositions about modular plus by using lemmas about the succ and
+pred functions.
+
+I am hoping that the following lemmas on succ and pred would be sufficient to
+prove the properties of modular plus needed for the group axioms.
+
+succ (pred mx) = mx
+pred (succ mx) = mx
+
+succ mx + my = succ (mx + my)
+mx + succ my = succ (mx + my)
+
+pred mx + my = pred (mx + my)
+mx + pred my = succ (mx + my)
+
+So far I have set this up and have a simple definition of modular plus in terms
+of the successor function. But I have not been successful in proving much with
+it. 
+
