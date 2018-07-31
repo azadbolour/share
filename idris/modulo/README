@@ -1,6 +1,6 @@
 
-My current (as yet unsuccessful) attempt at proving the group axioms 
-for plus in modular arithmetic.
+Work in progress on representing numbers modulo some modulus, and proving the group
+axioms for addition modulo n.
 
 In representing numbers modulo some modulus, I wanted to preserve the following
 basic properties:
@@ -14,22 +14,18 @@ basic properties:
   form a circular sequence, we'd need the successor of (modulus - 1) to be 0,
   and the predecessor of 0 to be (modulus - 1).
 
-A simple representation is a dependent pair consisting of a natural number
+Two representations are being worked on:
+
+Fin - The Idris library's Fin (finite natural number) data structure.
+
+Modulo Dependent Pair - A dependent pair consisting of a natural number
 together with a proof that it is less than the modulus: 
 
     (n: Nat ** S n `LTE` modulus)
 
-Let's call this a 'modulo dependent pair'.
-
-To represent modulo dependent pairs in a sequence, we can use two functions, say
-succ, pred:
-
-succ : (n: Nat ** LtModulus n) -> (m: Nat ** LtModulus m)
-pred : (m: Nat ** LtModulus m) -> (n: Nat ** LtModulus n)
-
-The idea then is to define modular plus in terms of the functions succ and pred,
-then to prove propositions about modular plus by using lemmas about the succ and
-pred functions.
+By using these, we should be able to define functions for the successor (succ)
+and predecessor (pred) of a number modulo modulus, and to prove propositions
+about modular addition by using lemmas about the succ and pred functions.
 
 I am hoping that the following lemmas on succ and pred would be sufficient to
 prove the properties of modular plus needed for the group axioms.
@@ -43,7 +39,28 @@ mx + succ my = succ (mx + my)
 pred mx + my = pred (mx + my)
 mx + pred my = succ (mx + my)
 
-So far I have set this up and have a simple definition of modular plus in terms
-of the successor function. But I have not been successful in proving much with
-it. 
+What is working so far:
+
+As a collaborative effort in the SF Types, Theorems, and Programming Languages
+Meetup, we were able to define modPlus: Fin m -> Fin m -> Fin m.
+
+ModFinMeetup.idr: 
+  The solution we worked out in the meetup, verbatim.
+
+ModFin.idr: 
+  Refactored version of ModFinMeetup in an attempt to make the implementation
+  of addition more intention-revealing. Includes copious comments about the 
+  recursion strategy. Needs further work to complete the implementation of 
+  the group operations and axioms.
+
+Other Files
+
+Group.idr
+  Interface specification of an algebraic group including the group axioms.
+  To be used to prove that modulo addition defines a group.
+
+ModularNat.idr
+  An initial attempt at represenenting integers modulo some modulus by using
+  dependent pairs. Not working [yet].
+
 
