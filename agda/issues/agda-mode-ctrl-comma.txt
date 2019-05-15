@@ -6,11 +6,9 @@ sure how to fix it. Similarly for C-. and C-;. Using agda 2.5.4.2.
 
 Clues are:
 
-1. These are not available as menu options in the Agda menu list of emacs.
+1. In my terminal (iTerm2), CTRL+, is mapped to a simple comma. 
 
-2. In my terminal (iTerm2), CTRL+, is mapped to a simple comma. 
-
-3. In emacs the same mapping is inherited. So when I do "C-c - C-," emacs
+2. In emacs the same mapping is inherited. So when I do "C-c - C-," emacs
 responds with the error: "C-c , is undefined".
 
 The regular MAC terminal does not allow CTRL-, input.
@@ -18,14 +16,28 @@ The regular MAC terminal does not allow CTRL-, input.
 Am I correct in assuming that it is the responsibility of agda-mode to do the
 necessary terminal magic to map CTRL+, to the right code? 
 
-I have also looked at the agda-mode files. But have not found where the mapping
-of control characters can be defined.
-
-I guess as a last resort I can try to map CTRL+, to the right code in the my
+I guess I can try to map CTRL+, to the right code in the my
 terminal preferences. But I am not sure what that code should be.
 
 Is there an Agda forum for asking these kinds of newbie questions? So far all I
 know about is the mailing list referred to here:
 
   https://lists.chalmers.se/mailman/listinfo/agda.
+
+Workaround
+
+For the moment I have changed C-c C-, in my agda2-mode.el to C-c C-g, and
+that works in emacs to give me "goal and context". Similar changes
+had to be made for C-c C-. and C-c C-;.
+
+Here are the changes I made in agda2-mode.el:
+
+    ;; (agda2-goal-and-context               ,(kbd "C-c C-,")     (local)        "Goal type and context")
+    (agda2-goal-and-context                  ,(kbd "C-c C-g")     (local)        "Goal type and context")
+    ;; (agda2-goal-and-context-and-inferred  ,(kbd "C-c C-.")     (local)        "Goal type, context and inferred type")
+    (agda2-goal-and-context-and-inferred     ,(kbd "C-c C-i")     (local)        "Goal type, context and inferred type")
+    ;; (agda2-goal-and-context-and-checked   ,(kbd "C-c C-;")     (local)        "Goal type, context and checked type")
+    (agda2-goal-and-context-and-checked      ,(kbd "C-c C-k")     (local)        "Goal type, context and checked type")
+ 
+
 
