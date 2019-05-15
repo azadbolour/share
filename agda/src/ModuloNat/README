@@ -1,5 +1,5 @@
 
-Representation of modular number as dependent pairs, and proofs of
+Representation of modular numbers as dependent pairs, and proofs of
 the group axioms for this representation.
 
 Agda version 2.6.0
@@ -11,7 +11,7 @@ operation and proofs
 
 SigmaMod.agda - representation of modular numbers as dependent pairs -
 sigmas, modular succesor, modular +, and modular inverse, and proofs
-of basic properties of of modular numbers
+of basic properties of modular numbers
 
 SigmaModGroupProperties.agda - proofs of the group properties of
 modular numbers represented as sigmas
