@@ -1,15 +1,13 @@
 
 module SigmaModGroupProperties where
 
-open import Function using (_$_)
 open import Data.Nat using (ℕ; zero; suc; pred; _<_; _≤_; s≤s; z≤n; _+_; _∸_)
-open import Data.Nat.Properties using (+-assoc; +-comm; ≤-refl; n≤1+n; <⇒≤; m+n∸m≡n; n∸m≤n; m∸n+n≡m) 
-open import Data.Product using (_×_; _,_; Σ; proj₁; proj₂)
+open import Data.Nat.Properties using (+-assoc; +-comm; n≤1+n; <⇒≤; m+n∸m≡n; n∸m≤n; m∸n+n≡m) 
+open import Data.Product using (_,_)
 import Relation.Binary.PropositionalEquality as Eq
 open Eq using (_≡_; _≢_; refl; cong; sym)
 open Eq.≡-Reasoning using (begin_; _∎; _≡⟨⟩_; _≡⟨_⟩_)
-open import Relation.Nullary.Negation using ()
-open import UtilProperties using (<-suc; ≤⇒<suc; <-suc-suc⇒<; +-comm-+assoc )
+open import UtilProperties using (≤⇒<suc; <-suc-suc⇒<; +-comm-+assoc)
 open import SigmaMod using (Mod; zeroₘ; sucₘ; sucₘⁿ; _+ₘ_; -ₘ_; +ₘ-by-+; naturalₘ; 
   sucₘ-additivity ; +ₘ-comm; sucₘⁿ-zeroₘ; cycle-zeroₘ )
 
@@ -48,7 +46,7 @@ sm<sn⇒n∸m+sm≡sn  {k} x sx<sk rewrite +-comm (k ∸ x) (suc x) | sm<sn⇒m+
 
 -- modulo plus applied twice is a function of natural number plus applied twice
 +ₘ-+ₘ-by-+-+ : {k : ℕ} → (mx my mz : Mod k) → (mx +ₘ my) +ₘ mz ≡ sucₘⁿ-zeroₘ ((naturalₘ mx + naturalₘ my) + naturalₘ mz)
-+ₘ-+ₘ-by-+-+  {k} mx@(x , lx) my@(y , ly) mz@(z , lz) =
++ₘ-+ₘ-by-+-+  {k} mx@(x , _) my@(y , _) mz@(z , _) =
   begin
     (mx +ₘ my) +ₘ mz ≡⟨ cong (_+ₘ mz) (+ₘ-by-+ mx my)  ⟩
     sucₘⁿ-zeroₘ (x + y) +ₘ mz ≡⟨ +ₘ-comm (sucₘⁿ-zeroₘ (x + y)) mz ⟩
@@ -60,7 +58,7 @@ sm<sn⇒n∸m+sm≡sn  {k} x sx<sk rewrite +-comm (k ∸ x) (suc x) | sm<sn⇒m+
 
 -- group associativity law for +ₘ
 +ₘ-assoc : {k : ℕ} → (mx my mz : Mod k) → (mx +ₘ my) +ₘ mz ≡ mx +ₘ (my +ₘ mz)
-+ₘ-assoc {k} mx@(x , lx) my@(y , ly) mz@(z , lz) =
++ₘ-assoc {k} mx@(x , _) my@(y , _) mz@(z , _) =
   begin
     (mx +ₘ my) +ₘ mz ≡⟨ +ₘ-+ₘ-by-+-+ mx my mz ⟩
     sucₘⁿ-zeroₘ ((x + y) + z) ≡⟨ cong sucₘⁿ-zeroₘ (+-comm-+assoc x y z) ⟩
@@ -68,3 +66,31 @@ sm<sn⇒n∸m+sm≡sn  {k} x sx<sk rewrite +-comm (k ∸ x) (suc x) | sm<sn⇒m+
     (my +ₘ mz) +ₘ mx ≡⟨ +ₘ-comm (my +ₘ mz) mx ⟩
     mx +ₘ (my +ₘ mz)  
   ∎
+
+record Group {ℓ} (A : Set ℓ) : Set ℓ where
+  field
+    -- Definitions.
+    _✴_ : A → A → A                                           -- group operation (\st5)
+    ✴-id : A                                                  -- identity element
+    ✴- : A → A                                                -- inverse
+    -- Properties.
+    ✴-identityˡ : (a : A) → ✴-id ✴ a ≡ a                      -- left identity 
+    ✴-identityʳ : (a : A) → a ✴ ✴-id ≡ a                      -- right identity
+    ✴-inverseˡ : (a : A) → (✴- a) ✴ a ≡ ✴-id                  -- left inverse
+    ✴-inverseʳ : (a : A) → a ✴ (✴- a) ≡ ✴-id                  -- right inverse
+    ✴-assoc : (x y z : A) → (x ✴ y) ✴ z ≡ x ✴ (y ✴ z)         -- associativity
+
+instance
+  ModGroup : {k : ℕ} → Group (Mod k)
+  ModGroup = record {
+    _✴_ = _+ₘ_ ;
+    ✴-id = zeroₘ ;
+    ✴- = -ₘ_ ;
+    ✴-identityˡ = +ₘ-identityˡ ;
+    ✴-identityʳ = +ₘ-identityʳ ;
+    ✴-inverseˡ = +ₘ-inverseˡ ;
+    ✴-inverseʳ = +ₘ-inverseʳ ;
+    ✴-assoc = +ₘ-assoc 
+   }
+    
+-- TODO. Example use of instance argument for group. 

@@ -3,6 +3,7 @@ Representation of modular numbers as dependent pairs, and proofs of
 the group axioms for this representation.
 
 Agda version 2.6.0
+emacs 26.1
 
 Agda Sources
 
