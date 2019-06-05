@@ -13,6 +13,7 @@ open import Relation.Nullary using (¬_; Dec; yes; no)
 open import Relation.Nullary.Negation using ()
 open import UtilProperties using (≤⇒<suc; <-step; <-suc⇒≤;
   <-same-type⇒≡; <-same-sucs-type⇒≡; _$^_; $^-∘-additive)
+open import Data.Empty using (⊥-elim)
 
 {- Representation of modular numbers. Use "k + 1" as the modulus, since
 there are no modular numbers for modulus zero.
@@ -122,19 +123,17 @@ uniqueₘ : {k : ℕ} → (mod1 : Mod k) → (mod2 : Mod k) → naturalₘ mod1 
 uniqueₘ {k} (zero , s≤s z≤n) (.0 , s≤s z≤n) refl = refl
 uniqueₘ {k} (suc x , x≤k) (.(suc x) , y≤k) refl rewrite <-same-sucs-type⇒≡ x k x≤k y≤k = refl
 
--- TODO - simplify or obviate the need for this proof
+-- TODO - can we obviate the need for this proof
 sucₘ≡incₘ : {k : ℕ} → (mod : Mod k) → (x<k : naturalₘ mod < k) → sucₘ mod ≡ incₘ {k} mod x<k
-sucₘ≡incₘ {k} (x , _)   x<k with x ≟ k   | <⇒≢ {x} {k} x<k
-sucₘ≡incₘ {k} _         _      | yes x≡k | x≢k with x≢k x≡k
-...                                               | ()
-sucₘ≡incₘ {k} _         _      | no _    | _ = uniqueₘ _ _ refl 
+sucₘ≡incₘ {k} (x , _) x<k with x ≟ k
+...                          | yes x≡k = let x≢k = <⇒≢ {x} {k} x<k in ⊥-elim (x≢k x≡k)
+...                          | no _ = uniqueₘ _ _ refl 
 
--- TODO - simplify or obviate the need for this proof
+-- TODO - can we obviate the need for this proof
 sucₘ≡zeroₘ : {k : ℕ} → (mod : Mod k) → (naturalₘ mod ≡ k) → sucₘ mod ≡ zeroₘ
 sucₘ≡zeroₘ {k} (x , lx) x≡k with x ≟ k
-sucₘ≡zeroₘ {k} (x , lx) x≡k | yes p = refl
-sucₘ≡zeroₘ {k} (x , lx) x≡k | no x≢k with x≢k x≡k
-...                                     | ()
+...                            | yes _ = refl
+...                            | no x≢k = ⊥-elim (x≢k x≡k)
 
 -- basic theorem 1
 -- modular values can be obtained by repeated succession from modular zero - as in naturals

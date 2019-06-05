@@ -1,0 +1,43 @@
+
+Representation of modular numbers as dependent pairs, and proofs of
+the group axioms for this representation.
+
+Agda version 2.6.0
+emacs 26.1
+
+Agda Sources
+
+UnitProperties.agda - general lemmas used in defining various
+operation and proofs
+
+SigmaMod.agda - representation of modular numbers as dependent pairs -
+sigmas, modular succesor, modular +, and modular inverse, and proofs
+of basic properties of modular numbers
+
+SigmaModGroupProperties.agda - proofs of the group properties of
+modular numbers represented as sigmas
+
+Overview
+
+The basic idea is to define a successor function for modular numbers
+and define modulo + based on succession. The successor function is a
+normal function, not a constructor. Unlike the natural number 'suc'
+constructor which goes on forever, the successor function for modulo
+numbers cycles after 'modulus' successions.
+
+Proofs are then based on the properties of the modular succession
+function.
+
+There are three basic theorems:
+
+First, the sequence of increasing modular numbers results from the
+repeated application of the successor function starting with modular
+zero.
+
+Second, modular succession cycles at the modulus.
+
+Third, addition of two modular numbers can be represented as a
+function of the addition of the corresponding natural numbers.
+
+These and various conveniene lemmas are then used to prove the group
+properties of modulr numbers for the sigma representation.
