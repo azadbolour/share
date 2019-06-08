@@ -2,8 +2,31 @@
 Representation of modular numbers as dependent pairs, and proofs of
 the group axioms for this representation.
 
-Agda version 2.6.0
-emacs 26.1
+This package provides a skeletal representation of modular numbers,
+and uses only postulates instead of functions and proofs.
+
+The proofs are left as exercises for you to try as you gain familiarity
+with Agda.
+
+Before starting on the proofs, you should have a basic knowledge of
+definitions and proofs based on naturals, induction, relations, and
+equality, as described, for example, in the first 4 chapters of the
+plfa book by Wadler and Kokke.
+
+Basic knowledge of the Logical Foundations chapters of plfa
+will be sufficient for proving all the postulates. 
+
+You can start by selecting postulates to prove at will and attempting
+to prove them by using earlier postulates and/or properties
+from the stdlib. 
+
+The imports in each source provide a number of stdlib properties that
+you may find useful in your proofs.
+
+The solutions [available in a parallel package] were developed by
+using Agda version 2.6.0. They use only the given imported
+properies. Your proofs will likely differ from the solutions, and may
+benefit from other lemmas of the stdlib.
 
 Agda Sources
 

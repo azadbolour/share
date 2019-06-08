@@ -9,7 +9,7 @@ open Eq using (_≡_; _≢_; refl; cong; sym)
 open Eq.≡-Reasoning using (begin_; _∎; _≡⟨⟩_; _≡⟨_⟩_)
 open import UtilProperties using (≤⇒<suc; <-suc-suc⇒<; +-comm-+assoc)
 open import SigmaMod using (Mod; zeroₘ; sucₘ; sucₘⁿ; _+ₘ_; -ₘ_; +ₘ-by-+; naturalₘ; 
-  sucₘ-additivity ; +ₘ-comm; sucₘⁿ-zeroₘ; cycle-zeroₘ )
+  sucₘⁿ-additivity ; +ₘ-comm; sucₘⁿ-zeroₘ; cycle-zeroₘ )
 
 -- group left identity law for +ₘ
 +ₘ-identityˡ : {k : ℕ} → (mod : Mod k) → zeroₘ +ₘ mod ≡ mod
@@ -51,7 +51,7 @@ sm<sn⇒n∸m+sm≡sn  {k} x sx<sk rewrite +-comm (k ∸ x) (suc x) | sm<sn⇒m+
     (mx +ₘ my) +ₘ mz ≡⟨ cong (_+ₘ mz) (+ₘ-by-+ mx my)  ⟩
     sucₘⁿ-zeroₘ (x + y) +ₘ mz ≡⟨ +ₘ-comm (sucₘⁿ-zeroₘ (x + y)) mz ⟩
     mz +ₘ sucₘⁿ-zeroₘ (x + y) ≡⟨⟩
-    sucₘⁿ z (sucₘⁿ (x + y) zeroₘ) ≡⟨ sucₘ-additivity z (x + y) zeroₘ ⟩
+    sucₘⁿ z (sucₘⁿ (x + y) zeroₘ) ≡⟨ sucₘⁿ-additivity z (x + y) zeroₘ ⟩
     sucₘⁿ-zeroₘ (z + (x + y))  ≡⟨ cong sucₘⁿ-zeroₘ (+-comm z (x + y)) ⟩
     sucₘⁿ-zeroₘ ((x + y) + z) 
   ∎

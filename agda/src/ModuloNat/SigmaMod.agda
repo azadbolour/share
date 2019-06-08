@@ -4,7 +4,7 @@ module SigmaMod where
 open import Function using (_$_; _∋_; _∘_ )
 open import Data.Nat using (ℕ; zero; suc; pred; _<_; _≤_; s≤s; z≤n; _+_; _∸_)
 open import Agda.Builtin.Nat using (mod-helper)
-open import Data.Nat.Properties using (<⇒≢; ≤∧≢⇒<; _≟_; +-assoc; +-comm; ≤-refl; m+n∸m≡n; n∸m≤n) 
+open import Data.Nat.Properties using (<⇒≢; ≤∧≢⇒<; _≟_; +-assoc; +-comm; ≤-refl; m+n∸m≡n; n∸m≤n; +-monoʳ-≤) 
 open import Data.Product using (Σ; _,_)
 import Relation.Binary.PropositionalEquality as Eq
 open Eq using (_≡_; _≢_; refl; cong; sym)
@@ -19,7 +19,7 @@ open import Data.Empty using (⊥-elim)
 there are no modular numbers for modulus zero.
 
 For consistency, all functions and data structures are parameterized
-by k, that is 1 less than the modulus. But for variable names we use
+by k, that is, 1 less than the modulus. But for variable names we use
 the modulus: mod₅1 : Mod 4 ; mod₅1 = (1, 1<5)  -}
 
 Mod : ℕ → Set
@@ -37,36 +37,41 @@ zeroₘ {k} = (zero , s≤s z≤n)
 mod₂1 : Mod (pred 2); mod₂1 = (1 , s≤s (s≤s z≤n))
 mod₃1 : Mod (pred 3); mod₃1 = (1 , s≤s (s≤s z≤n))
 
-mod₅1 : Mod (pred 5) ; mod₅1 = (1 , s≤s (s≤s z≤n))
-mod₅2 : Mod (pred 5) ; mod₅2 = (2 , s≤s (s≤s (s≤s z≤n)))
-mod₅3 : Mod (pred 5) ; mod₅3 = (3 , s≤s (s≤s (s≤s (s≤s z≤n))))
-mod₅4 : Mod (pred 5) ; mod₅4 = (4 , s≤s (s≤s (s≤s (s≤s (s≤s z≤n)))))
+mod₅0 : Mod 4 ; mod₅0 = (0 , (+-monoʳ-≤ 1 z≤n))
+mod₅1 : Mod 4 ; mod₅1 = (1 , (+-monoʳ-≤ 2 z≤n))
+mod₅2 : Mod 4 ; mod₅2 = (2 , (+-monoʳ-≤ 3 z≤n))
+mod₅3 : Mod 4 ; mod₅3 = (3 , (+-monoʳ-≤ 4 z≤n))
+mod₅4 : Mod 4 ; mod₅4 = (4 , (+-monoʳ-≤ 5 z≤n))
 
--- successor for modular numbers less than the maximum
+{-
+Succession for modular numbers: 
+  naturalₘ mod < k => increment natutal value 
+  naturalₘ mod ≡ k => zeroₘ
+-}
+
+-- increment a modular number to the next higher modular number where possible
+-- helper lemma for successor
 incₘ : {k : ℕ} → (mod : Mod k) → (naturalₘ mod < k) → Mod k
 incₘ {k} (x , _) x<k = (suc x , s≤s x<k)
 
--- successor with the addition of decidable x ≟ k
--- can be a with clause in sucₘ - but ran into issues with reductions
-sucMInternal : {k : ℕ} → (mod : Mod k) → Dec (naturalₘ mod ≡ k) → Mod k
-sucMInternal {k} (x , _) (yes x≡k) = zeroₘ
--- TODO. Ran into trouble trying to case-split on x<sk - should be s≤s x≤k.
--- Using hole for this case caused agda to loop!
-sucMInternal {k} modx@(x , x<sk) (no x≢k) =
+-- successor using a "with value" of Dec (naturalₘ mod ≡ k)
+sucₘInternal : {k : ℕ} → (mod : Mod k) → Dec (naturalₘ mod ≡ k) → Mod k
+sucₘInternal {k} (x , _) (yes x≡k) = zeroₘ
+sucₘInternal {k} modx@(x , x<sk) (no x≢k) =
   let x≤k = <-suc⇒≤ x k x<sk
       x<k = ≤∧≢⇒< {x} {k} x≤k x≢k
   in incₘ {k} modx x<k
 
--- modular successor - avoiding use of with
+-- modular successor
 sucₘ : {k : ℕ} → Mod k → Mod k
-sucₘ {k} mod@(x , x≤k) = sucMInternal {k} mod (x ≟ k)
+sucₘ {k} mod@(x , x≤k) = sucₘInternal {k} mod (x ≟ k)
 
 -- sample successors
 _ : sucₘ (sucₘ mod₅1) ≡ mod₅3; _ = refl
 _ : sucₘ mod₅4 ≡ zeroₘ {4} ; _ = refl
 _ : sucₘ {4} zeroₘ ≡ mod₅1 ; _ = refl
 
--- repeated modular succession - _$^_ is repeated application
+-- repeated modular succession [_$^_ is repeated application]
 sucₘⁿ : {k : ℕ} →  (n : ℕ) → (mod : Mod k) → Mod k
 sucₘⁿ {k} n = sucₘ $^ n
 
@@ -120,16 +125,17 @@ _ : (-ₘ mod₂1) +ₘ mod₂1 ≡ zeroₘ ; _ = refl
 
 -- uniqueness : there is a unique modular number of a given modulus for a given natural number
 uniqueₘ : {k : ℕ} → (mod1 : Mod k) → (mod2 : Mod k) → naturalₘ mod1 ≡ naturalₘ mod2 → mod1 ≡ mod2
-uniqueₘ {k} (zero , s≤s z≤n) (.0 , s≤s z≤n) refl = refl
-uniqueₘ {k} (suc x , x≤k) (.(suc x) , y≤k) refl rewrite <-same-sucs-type⇒≡ x k x≤k y≤k = refl
+uniqueₘ {k} (x , x<sk) (.x , y<sk) refl rewrite <-same-type⇒≡ y<sk x<sk = refl
 
--- TODO - can we obviate the need for this proof
+-- the successor of a modular number less than the maximum is obtained by incrementing it
+-- a convenience lemma
 sucₘ≡incₘ : {k : ℕ} → (mod : Mod k) → (x<k : naturalₘ mod < k) → sucₘ mod ≡ incₘ {k} mod x<k
 sucₘ≡incₘ {k} (x , _) x<k with x ≟ k
 ...                          | yes x≡k = let x≢k = <⇒≢ {x} {k} x<k in ⊥-elim (x≢k x≡k)
 ...                          | no _ = uniqueₘ _ _ refl 
 
--- TODO - can we obviate the need for this proof
+-- the successor of a maximum modular number is zeroₘ
+-- a convenience lemma
 sucₘ≡zeroₘ : {k : ℕ} → (mod : Mod k) → (naturalₘ mod ≡ k) → sucₘ mod ≡ zeroₘ
 sucₘ≡zeroₘ {k} (x , lx) x≡k with x ≟ k
 ...                            | yes _ = refl
@@ -161,26 +167,15 @@ cycle-zeroₘ {k} =
   ∎
 
 -- composition of iterated applications of modulo succession is additive in the number of iterations
-sucₘ-additivity : {k : ℕ} → (x y : ℕ) → (mod : Mod k) → ((sucₘⁿ x) ∘ (sucₘⁿ y)) mod ≡ sucₘⁿ (x + y) mod
-sucₘ-additivity {k} x y mod = $^-∘-additive sucₘ x y mod
+sucₘⁿ-additivity : {k : ℕ} → (x y : ℕ) → (mod : Mod k) → ((sucₘⁿ x) ∘ (sucₘⁿ y)) mod ≡ sucₘⁿ (x + y) mod
+sucₘⁿ-additivity {k} x y mod = $^-∘-additive sucₘ x y mod
 
 -- basic theorem 3
 -- the sum of 2 modular numbers can be reduced to a function of the sum of their natural counterparts
 +ₘ-by-+ : {k : ℕ} → (mod1 mod2 : Mod k) → mod1 +ₘ mod2 ≡ sucₘⁿ-zeroₘ {k} (naturalₘ mod1 + naturalₘ mod2)
-+ₘ-by-+ {k} (x , x≤k) (y , y≤k) =
-  begin
-    (x , x≤k) +ₘ (y , y≤k) ≡⟨⟩
-    sucₘⁿ x (y , y≤k) ≡⟨ cong (sucₘⁿ x) (sym (sucₘⁿ-identity y y≤k)) ⟩
-    sucₘⁿ x (sucₘⁿ {k} y (zeroₘ {k}) ) ≡⟨ sucₘ-additivity {k} x y zeroₘ ⟩
-    sucₘⁿ-zeroₘ {k} (x + y)
-  ∎
++ₘ-by-+ {k} (x , x<sk) (y , y<sk) rewrite sym (sucₘⁿ-identity y y<sk) | sucₘⁿ-additivity {k} x y zeroₘ = refl
 
 -- commutativity of modular addition
 +ₘ-comm : {k : ℕ} → (mod1 mod2 : Mod k) → mod1 +ₘ mod2 ≡ mod2 +ₘ mod1
-+ₘ-comm mx@(x , lx) my@(y , ly) =
-   begin
-     mx +ₘ my ≡⟨ +ₘ-by-+ mx my ⟩
-     sucₘⁿ-zeroₘ (x + y) ≡⟨ cong sucₘⁿ-zeroₘ (+-comm x y) ⟩
-     sucₘⁿ (y + x) zeroₘ ≡⟨ sym (+ₘ-by-+ my mx) ⟩
-     my +ₘ mx
-   ∎
++ₘ-comm {k} mx@(x , lx) my@(y , ly) rewrite +ₘ-by-+ mx my | +ₘ-by-+ my mx | +-comm x y = refl
+

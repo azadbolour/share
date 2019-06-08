@@ -13,13 +13,6 @@ open Eq.≡-Reasoning using (begin_; _∎; _≡⟨⟩_; _≡⟨_⟩_)
 <-suc : (a : ℕ) → a < suc a
 <-suc _ = ≤-refl
 
--- The congs are not really needed. Just use s≤s inline.
-≤-cong-suc : (a b : ℕ) → a ≤ b -> suc a ≤ suc b
-≤-cong-suc a b a≤b = s≤s a≤b
-
-<-cong-suc : (a b : ℕ) → a < b → suc a < suc b
-<-cong-suc a b a<b = s≤s a<b
-
 ≤⇒<suc : (a b : ℕ) → a ≤ b → a < suc b
 ≤⇒<suc a b a≤b = s≤s a≤b
 
@@ -27,7 +20,7 @@ open Eq.≡-Reasoning using (begin_; _∎; _≡⟨⟩_; _≡⟨_⟩_)
 ≡⇒<suc {.x} x refl = <-suc x
 
 <-step : (a b : ℕ) → a < b → a < suc b
-<-step a b a<b = <⇒≤ $ s≤s a<b
+<-step a b a<b = ≤-step a<b
 
 <-suc⇒≤ : (a b : ℕ) → (a < suc b) → a ≤ b
 <-suc⇒≤ a b (s≤s a≤b) = a≤b
@@ -62,6 +55,4 @@ _$^_ : {A : Set} → (f : A → A) → (n : ℕ) → (A → A)
 -- composition of iterated application is additive
 $^-∘-additive : {A : Set} → (f : A → A) → (m n : ℕ) → (a : A) → ((f $^ m) ∘ (f $^ n)) a ≡ (f $^ (m + n)) a
 $^-∘-additive f zero n a = refl
-$^-∘-additive f (suc m) n a rewrite $^-∘-additive f m n a = refl
-
-
+$^-∘-additive f (suc m) n a = cong f ($^-∘-additive f m n a)
