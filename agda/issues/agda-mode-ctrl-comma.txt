@@ -21,19 +21,20 @@ terminal preferences. But I am not sure what that code should be.
 
 Workaround
 
-For the moment I have changed C-c C-, in my agda2-mode.el to C-c C-g, and
-that works in emacs to give me "goal and context". Similar changes
-had to be made for C-c C-. and C-c C-;.
+Thw workaround is to change the associated keyboard shortcut in the file
+agda2-mode.el. I had originally changed C-c C-, to C-c C-g (for goal),
+and did similar changes for "C-c C-." amd "C-c-C-;".
 
-Here are the changes I made in agda2-mode.el:
+But Scott Coderberg came up with the clever trick of just changing "C-c C-,"
+to "C-c ,". Since the terminal just sends a "," for "C-,", typing
+"C-c C-," [as specified in the emacs command documentation] gets
+translated to "C-c ," and just works! Similarly for "C-c ." and "C-c ;".
+
+Sample:
 
     ;; (agda2-goal-and-context               ,(kbd "C-c C-,")     (local)        "Goal type and context")
-    (agda2-goal-and-context                  ,(kbd "C-c C-g")     (local)        "Goal type and context")
-    ;; (agda2-goal-and-context-and-inferred  ,(kbd "C-c C-.")     (local)        "Goal type, context and inferred type")
-    (agda2-goal-and-context-and-inferred     ,(kbd "C-c C-i")     (local)        "Goal type, context and inferred type")
-    ;; (agda2-goal-and-context-and-checked   ,(kbd "C-c C-;")     (local)        "Goal type, context and checked type")
-    (agda2-goal-and-context-and-checked      ,(kbd "C-c C-k")     (local)        "Goal type, context and checked type")
- 
+    (agda2-goal-and-context                  ,(kbd "C-c ,")       (local)        "Goal type and context")
+
 My agda-mode.el is at: ~/Library/Haskell/share/ghc-8.4.4-x86_64/Agda-2.6.0/emacs-mode/agda2-mode.el
-where may agda is: ~/Library/Haskell/bin/agda.
+where my agda is: ~/Library/Haskell/bin/agda.
 
