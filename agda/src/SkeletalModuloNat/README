@@ -30,7 +30,7 @@ benefit from other lemmas of the stdlib.
 
 Agda Sources
 
-UnitProperties.agda - general lemmas used in defining various
+UtilProperties.agda - general lemmas used in defining various
 operation and proofs
 
 SigmaMod.agda - representation of modular numbers as dependent pairs -
