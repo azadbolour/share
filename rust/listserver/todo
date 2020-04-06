@@ -1,0 +1,10 @@
+
+- Unit tests for the service layer.
+
+- Integration tests.
+
+- Implement all service methods in for in-memory store.
+
+- Implement all service methods for Sqlite.
+
+
