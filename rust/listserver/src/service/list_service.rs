@@ -1,8 +1,4 @@
-
-use super::super::base::base::ID;
-use super::super::base::base::Element;
-use super::super::base::base::max_id_length;
-use super::super::base::base::ListError;
+use listserver::base::{Element, ListError, ID, MAX_ID_LENGTH};
 
 pub type BareList = Vec<Element>;
 
@@ -20,7 +16,6 @@ pub type BareList = Vec<Element>;
  * TODO. Are these still needed? Much refactoring has occurred.
  */
 pub trait ListService: Sync + Send {
-
     fn create(&self, id: ID) -> Result<(), ListError>;
     fn get(&self, id: &ID) -> Result<BareList, ListError>;
     fn update(&self, id: &ID, list: BareList) -> Result<(), ListError>;
@@ -36,10 +31,14 @@ pub trait ListService: Sync + Send {
     fn validate_id(&self, id: &ID) -> Result<(), ListError> {
         if id.is_empty() {
             Err(ListError::ListIdEmptyError)
+        } else if id.len() > MAX_ID_LENGTH {
+            Err(ListError::ListIdTooLongError(
+                id.clone(),
+                id.len(),
+                MAX_ID_LENGTH,
+            ))
+        } else {
+            Ok(())
         }
-        else if id.len() > max_id_length {
-            Err(ListError::ListIdTooLongError(id.clone(), id.len(), max_id_length))
-        }
-        else { Ok(())}
     }
 }

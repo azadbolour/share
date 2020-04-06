@@ -1,11 +1,5 @@
-
-use super::super::base::base;
-
-use base::ID;
-use base::Element;
-use base::ListError;
-use super::list_service::BareList;
-use super::list_service::ListService;
+use super::list_service::{BareList, ListService};
+use listserver::base::{Element, ListError, ID};
 
 struct ListServiceSqlite {
     // TODO. Use sqlite connection.

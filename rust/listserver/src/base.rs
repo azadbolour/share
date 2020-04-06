@@ -1,15 +1,9 @@
-
-use std::fmt;
-use serde::export::Formatter;
-use serde::export::fmt::Error;
-
-use serde::{Serialize, Deserialize};
 use std::fmt::Debug;
 
 pub type ID = String;
 pub type Element = String;
 
-pub const max_id_length: usize = 20; // TODO. Increase max length.
+pub const MAX_ID_LENGTH: usize = 20; // TODO. Increase max length.
 
 #[derive(Serialize, Deserialize, Debug)]
 pub enum ListError {

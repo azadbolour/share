@@ -1,32 +1,22 @@
 #![allow(warnings)]
 #![feature(proc_macro_hygiene, decl_macro, cell_update)]
 
-use std::sync::Mutex;
 use std::collections::HashMap;
+use std::sync::Mutex;
 
-extern crate rocket;
-extern crate rocket_contrib;
-#[macro_use] extern crate serde_derive;
+use serde::{Deserialize, Serialize};
 
-use serde::{Serialize, Deserialize};
-
-use rocket::*;
-use rocket::State;
+use rocket::http::{ContentType, Status};
 use rocket::response::status;
-use rocket::http::{Status, ContentType};
-use rocket::response::Responder;
-use rocket::response::ResponseBuilder;
-use rocket_contrib::json::{Json};
+use rocket::response::{Responder, ResponseBuilder};
+use rocket::{get, post, routes, State};
+use rocket_contrib::json::Json;
 
-mod base;
 mod service;
 
-use service::list_service::ListService;
+use listserver::base::{Element, ListError, ListResult, ID};
+use service::list_service::{BareList, ListService};
 use service::list_service_in_memory::ListServiceInMemory;
-use base::base::{ID, Element};
-use base::base::ListResult;
-use base::base::ListError;
-use crate::service::list_service::BareList;
 
 /*
  * Anything given to "manage" must be thread-safe and transferable to another thread.
@@ -41,7 +31,9 @@ type JsonResult<T> = Json<ListResult<T>>;
 
 fn main() {
     println!("hello");
-    let list_service: Box<dyn ListService> = Box::new(ListServiceInMemory {store: Mutex::new(HashMap::new())});
+    let list_service: Box<dyn ListService> = Box::new(ListServiceInMemory {
+        store: Mutex::new(HashMap::new()),
+    });
 
     rocket::ignite()
         // .mount("/stacks", routes![add, get, push, pop, is_empty])
@@ -78,7 +70,7 @@ fn get(id: ID, state: ServiceState) -> JsonResult<BareList> {
  * Use header: key: Content-Type value: application/json
  * Response: { "Ok": null }
  */
-#[post("/add/<id>/<element>/<index>", format ="json")]
+#[post("/add/<id>/<element>/<index>", format = "json")]
 fn add_element(id: ID, element: Element, index: usize, state: ServiceState) -> JsonResult<()> {
     let service: &Box<dyn ListService> = state.inner();
     Json(service.add_element(&id, element, index))
@@ -94,6 +86,3 @@ fn lookup(id: ID, index: usize, state: ServiceState) -> JsonResult<Option<Elemen
     let service: &Box<dyn ListService> = state.inner();
     Json(service.get_element(&id, index))
 }
-
-
-
