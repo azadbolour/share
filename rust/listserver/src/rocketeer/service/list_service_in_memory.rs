@@ -1,9 +1,10 @@
 use std::collections::HashMap;
 use std::sync::{Mutex, MutexGuard};
 
-use listserver::base::{Element, ListError, ListResult, ID, MAX_ID_LENGTH};
+use crate::base::{Element, ListError, ListResult, ID};
+use crate::rocketeer::service::list_service::{BareList, ListService};
 
-use crate::{BareList, ListService};
+// use crate::{BareList, ListService};
 
 type SafeList = Mutex<BareList>;
 type UnsafeListStore = HashMap<ID, SafeList>;
@@ -12,8 +13,14 @@ pub struct ListServiceInMemory {
     pub store: Mutex<UnsafeListStore>,
 }
 
+pub fn boxed_service_factory() -> Box<dyn ListService> {
+    Box::new(ListServiceInMemory {
+        store: Mutex::new(HashMap::new()),
+    })
+}
+
 impl ListService for ListServiceInMemory {
-    fn create(&self, id: ID) -> Result<(), ListError> {
+    fn create(&self, id: &ID) -> Result<(), ListError> {
         self.validate_id(&id).and(self.create_internal(&id))
     }
 
@@ -21,15 +28,17 @@ impl ListService for ListServiceInMemory {
         self.validate_id(&id).and(self.get_internal(&id))
     }
 
+    #[allow(unused)]
     fn update(&self, id: &ID, list: BareList) -> Result<(), ListError> {
         unimplemented!()
     }
 
+    #[allow(unused)]
     fn delete(&self, id: &ID) -> Result<(), ListError> {
         unimplemented!()
     }
 
-    fn add_element(&self, id: &ID, element: Element, index: usize) -> Result<(), ListError> {
+    fn add_element(&self, id: &ID, element: &Element, index: usize) -> Result<(), ListError> {
         let store = &self.store;
         let mut lock = store.lock().expect("lock list store");
         match lock.get(&id.clone()) {
@@ -48,11 +57,13 @@ impl ListService for ListServiceInMemory {
             .and_then(|bare_list| Ok(bare_list.get(index).map(|el| el.clone())))
     }
 
-    fn update_element(&self, id: &ID, element: Element, index: usize) -> Result<(), ListError> {
+    #[allow(unused)]
+    fn update_element(&self, id: &ID, element: &Element, index: usize) -> Result<(), ListError> {
         unimplemented!()
     }
 
-    fn remove_element(&self, id: &ID, index: usize) {
+    #[allow(unused)]
+    fn remove_element(&self, id: &ID, index: usize) -> ListResult<()>{
         unimplemented!()
     }
 }
@@ -67,11 +78,7 @@ impl ListServiceInMemory {
         }
     }
 
-    fn do_insert(
-        &self,
-        id: &String,
-        lock: &mut MutexGuard<UnsafeListStore>,
-    ) -> Result<(), ListError> {
+    fn do_insert(&self, id: &ID, lock: &mut MutexGuard<UnsafeListStore>) -> Result<(), ListError> {
         let safe_list = self.new_empty_safe_list();
         // Insert for HashMap means insert_or_update (returning old value).
         match lock.insert(id.clone(), safe_list) {
@@ -90,30 +97,25 @@ impl ListServiceInMemory {
 
     fn get_internal(&self, id: &ID) -> ListResult<BareList> {
         let store = &self.store;
-        let mut lock = store.lock().expect("lock list store");
+        let lock = store.lock().expect("lock list store");
         match lock.get(&id.clone()) {
-            Some(safeList) => {
-                let listLock = safeList.lock().expect("lock list");
-                let bareList: BareList = listLock.to_vec();
-                Ok(bareList)
+            Some(safe_list) => {
+                let list_lock = safe_list.lock().expect("lock list");
+                let bare_list: BareList = list_lock.to_vec();
+                Ok(bare_list)
             }
             None => Err(ListError::DuplicateListIdError(id.clone())),
         }
     }
 
-    fn insert_into_safe_list(
-        &self,
-        save_list: &Mutex<Vec<String>>,
-        id: &String,
-        element: String,
-        index: usize,
-    ) -> Result<SafeList, ListError> {
+    fn insert_into_safe_list(&self, save_list: &Mutex<Vec<String>>, id: &ID, element: &Element, index: usize)
+      -> Result<SafeList, ListError> {
         let list_lock = save_list.lock().expect("lock list");
         let mut bare_list: BareList = list_lock.to_vec();
         if bare_list.len() < index {
             Err(ListError::ListIndexOutOfRangeError(id.clone(), index))
         } else {
-            bare_list.insert(index, element);
+            bare_list.insert(index, element.clone());
             Ok(Mutex::new(bare_list))
         }
     }

@@ -1,12 +1,6 @@
 
 ## List Server
 
-### Useful Links
-
-```
-https://api.rocket.rs/v0.3/rocket_contrib/
-```
-
 ### To Learn
 
 Detailed account of String vs &str. String is a library struct. str is a
@@ -17,6 +11,17 @@ https://blog.thoughtram.io/string-vs-str-in-rust/
 
 https://news.ycombinator.com/item?id=16546562
 
+### Some Links
+
+``
+https://doc.rust-lang.org/stable/rust-by-example/testing/unit_testing.html.
+```
+  
+Just has assert! assert_eq!. Good enough for now.
+
+```
+https://doc.rust-lang.org/book/ch11-03-test-organization.html
+```
 ### Issues
 
 - I wanted to have a type definition for the ID of a list, and use it in
@@ -35,32 +40,22 @@ https://news.ycombinator.com/item?id=16546562
 - Module model is unlike other languages. There is a sub-module relationship
   that is created by the use of the mod keyword. 
 
-  What worked for me is the following. Create a file hierarchy of modules
-  under src just like in other languages. The file main.rs stays in src.
-  All other .rs file reside in directories under src. In each directory,
-  create a dirname.mod file that includes a mod statement for each .rs
-  file in that directory. Like this:
+  For each sub-directory, create a directory.rs file in the parent that lists
+  the modules in the sub-directory.
 
-```
-    pub mod list_service;
-    pub mod list_service_in_memory;
-    pub mod list_service_sqlite;
-```
+  To refer to a module in an import you can use an absolute path that starts
+  with 'crate', for example:
 
-  To refer to one of the modules, you need a *path* in which super refers 
-  to the parent of where you are. For example:
+  ```
+  use crate::rocketeer::service::list_service::{BareList, ListService};
+  ```
 
-```
-  use super::super::base::base::ListResult;
-```
+  At the top level, create a lib.rs that lists all the top-level modules.
+  For relative paths that need siblings you can use super:: to go up 
+  one level.
 
-  The first super is like '.', the second is like '..', the first base refers to
-  to the sub-directory 'base' of the parent (or equivalently to the mod.rs file
-  in that sub-directory), and the second 'base' refers to the base,rs defined in
-  that sub-directory.
-
-  I am not sure the mod.rs files are strictly necessary, but for now I am going
-  with what worked.
+  I don't have the full story yet. Not sure about relative paths below 
+  the current module.
 
 - I ran out of time trying to model the return of user errors as HTTP status
   422 (Unprocessable Entity) which seems to be the standard for user errors
@@ -82,5 +77,5 @@ https://news.ycombinator.com/item?id=16546562
   return from the happy pathm and ListError is the return for errors (an enum of
   all the possible errors).
 
-  For now, errors detected by the framework (like 404) ar not customized.
+  For now, errors detected by the framework (like 404) are not customized.
 
