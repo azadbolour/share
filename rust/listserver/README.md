@@ -1,15 +1,33 @@
 
 ## List Server
 
+This crate implements an http service for managing lists of items. Each list has
+a String name, and a set of String elements. 
+
+The service layer uses a ListService trait, with two implementations, one 
+using an in-memory list store, `list_service-in_memory`, and one using a
+database, `list_service_db`. Currently the latter uses sqlite.
+
+The web layer is implemented by using *rocket*.
+
+The database layer is implemented by using *diesel*.
+
 ### To Learn
 
-Detailed account of String vs &str. String is a library struct. str is a
-base type, a language primitive, like u32. str is always borrowed - hence &str.
-It is borrowed either from a string literal or from a String.
+#### Strings
+
+- Detailed account of String vs &str. String is a library struct. str is a
+  base type, a language primitive, like u32. str is always borrowed - hence &str.
+  It is borrowed either from a string literal or from a String.
 
 https://blog.thoughtram.io/string-vs-str-in-rust/
 
 https://news.ycombinator.com/item?id=16546562
+
+#### Thread Safety
+
+Deep understanding of the *Send* and *Sync* traits. How Rust decides that they 
+are needed, and how they affect ccollaborators of data structures using them.
 
 ### Some Links
 
@@ -22,16 +40,25 @@ Just has assert! assert_eq!. Good enough for now.
 ```
 https://doc.rust-lang.org/book/ch11-03-test-organization.html
 ```
-### Issues
+
+For searching for versions of packages:
+
+```
+https://crates.io
+https://crates.io/search?q=dotenv
+```
+
+### Challenges
 
 - I wanted to have a type definition for the ID of a list, and use it in
   function parameters. But to set ID to &str in a type def you need a lifetime,
-  compiler suggests: pub type ID<'lifetime> = &'lifetime str; That makes the
-  code sufficiently more complicated, such that the type definition is not really
-  worth the effort any more. Using &str in general is problematic as in many cases it
-  and the data structures that use it will require a lifetime parameter, 
-  polluting the code base with lifetimes that really have nothing to do with
-  application logic or the domain model.
+  compiler suggests: pub type ID<'lifetime> = &'lifetime str.
+
+  That makes the code sufficiently more complicated, such that the type
+  definition is not really worth the effort any more. Using &str in general is
+  problematic as in many cases it and the data structures that use it will
+  require a lifetime parameter, polluting the code base with lifetimes that
+  really have nothing to do with application logic or the domain model.
 
   So even though &str is considered the preferred data structure in many
   functions that have a list ID parameter, for simpicity I am using String for
@@ -78,4 +105,17 @@ https://doc.rust-lang.org/book/ch11-03-test-organization.html
   all the possible errors).
 
   For now, errors detected by the framework (like 404) are not customized.
+
+- Gave up trying to make the database code generic in the type of database
+  (Sqlite, Postgres, etc.). The needed types get somewhat complicated requiring
+  several internal diesel type bounds, and I ran out of time enhancing the types
+  to work generically.
+
+### Sqlite Access
+
+```
+    sqlite3 database/lists.db <<EOF
+      ...
+    EOF
+```
 

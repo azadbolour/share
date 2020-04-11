@@ -1,11 +1,11 @@
-use crate::base::{Element, ListResult, ListError, ID, MAX_ID_LENGTH};
-
-pub type BareList = Vec<Element>;
+use crate::base::{ID, Element, BareList, ListResult, ListError, MAX_ID_LENGTH};
 
 /**
- * Require the implementation to be thread-safe by using Sync.
- * Also require implementation to be transferred across thread boundaries by using Send.
- * TODO. Are these still needed? Much refactoring has occurred.
+ * Service interface for manipulating lists.
+ *
+ * This trait will be used by the controller layer of the application.
+ * The rocket controller requires such a data structure to implement the Send the Sync traits.
+ * Sync is used for thread-safety. Send is used for moving between thread boundaries.
  */
 pub trait ListService: Sync + Send {
     fn create(&self, id: &ID) -> ListResult<()>;
@@ -16,7 +16,7 @@ pub trait ListService: Sync + Send {
     // The rest can be implemented in terms of the list-level functions.
 
     fn add_element(&self, id: &ID, element: &Element, index: usize) -> ListResult<()>;
-    fn get_element(&self, id: &ID, index: usize) -> ListResult<Option<Element>>;
+    fn get_element(&self, id: &ID, index: usize) -> ListResult<Element>;
     fn update_element(&self, id: &ID, element: &Element, index: usize) -> ListResult<()>;
     fn remove_element(&self, id: &ID, index: usize) -> ListResult<()>;
 

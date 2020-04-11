@@ -6,20 +6,40 @@ use rocket::local::Client;
 use rocket::http::ContentType;
 
 use serde_json::from_str;
-use listserver::rocketeer::service::list_service::{BareList, ListService};
+use listserver::rocketeer::service::list_service::{ListService};
 
 #[allow(unused_imports)]
-use listserver::base::{ID, Element, ListResult};
+use listserver::base::{ID, Element, ListResult, BareList};
 use listserver::rocketeer::service::list_service_in_memory;
+use listserver::rocketeer::service::list_service_db::ListServiceDb;
+use listserver::dbbase::ConnectionProvider;
+
+const DB_URL: &str = "database/lists.db";
 
 #[test]
-fn listserver_test() {
+fn listserver_in_memory_test() {
     let list_service: Box<dyn ListService> = list_service_in_memory::boxed_service_factory();
-    let rocket = ignite(list_service);
+    listserver_test(list_service)
+}
+
+#[test]
+fn listserver_sqlite_test() {
+    let connection_provider = ConnectionProvider::new(DB_URL).unwrap();
+    let list_service: Box<dyn ListService> = Box::new(ListServiceDb::new(connection_provider));
+    listserver_test(list_service)
+}
+
+const DRINKS: &str = "drinks";
+
+// TODO. URGENT. Use expect rather than unwrap in tests to get information about failure.
+fn listserver_test(service: Box<dyn ListService>) {
+    // TODO. Taking liberties here. Delete should go through the client.
+    service.delete(&DRINKS.to_string()).unwrap();
+    let rocket = ignite(service);
     let client = Client::new(rocket).expect("valid rocket");
     post_create(&client);
-    post_add_element(&client, "drinks", "tea", 0);
-    post_get(&client, "drinks", Ok(vec!["tea".to_string()]));
+    post_add_element(&client, DRINKS, "tea", 0);
+    post_get(&client, DRINKS, Ok(vec!["tea".to_string()]));
 
     // TODO. Add other service functions as they are implemented.
 }
@@ -49,7 +69,7 @@ fn post_create(client: &Client) {
 }
 
 fn post_get(client: &Client, id: &str, expected: ListResult<BareList>) {
-    let url = mk_get_url("drinks");
+    let url = mk_get_url(&id);
     let mut response = client
         .get(url)
         .header(ContentType::JSON)

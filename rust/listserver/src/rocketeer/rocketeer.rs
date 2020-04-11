@@ -13,15 +13,22 @@ use rocket::response::{Responder, ResponseBuilder};
 use rocket::{get, post, routes, State, Rocket};
 use rocket_contrib::json::{Json, JsonValue};
 
-use crate::base::{Element, ListError, ListResult, ID};
-use crate::rocketeer::service::list_service::{BareList, ListService};
+use crate::base::{ID, Element, ListError, ListResult, BareList};
+use crate::rocketeer::service::list_service::{ListService};
 // use crate::rocketeer::service::list_service_in_memory::ListServiceInMemory;
 use crate::rocketeer::service::list_service_in_memory;
 
 /*
- * Anything given to "manage" must be thread-safe and transferable to another thread.
- * Also have a static lifetime. Not sure how static is enforced for us.
- * pub fn manage<T: Send + Sync + 'static>(self, state: T) -> Self
+ * The controller layer of the listserver application using rocket.
+ */
+
+/*
+ * Anything given to rocket's "manage" function must be thread-safe and
+ * transferable to another thread, and have a static lifetime:
+ *
+ *      pub fn manage<T: Send + Sync + 'static>(self, state: T) -> Self
+ *
+ * TODO. Understand static. For now just copy pasting.
 */
 
 type ServiceState<'r> = State<'r, Box<dyn ListService>>;
@@ -32,7 +39,6 @@ const CREATE: &str = "create";
 const ADD: &str = "add";
 const GET: &str = "get";
 
-// TODO. The list_service should be a parameter. Test for both in-memory and sqlite.
 pub fn ignite(list_service: Box<dyn ListService>) -> Rocket {
     // let list_service: Box<dyn ListService> = list_service_in_memory::boxed_service_factory();
     rocket::ignite()
@@ -94,7 +100,7 @@ fn add_element(id: ID, element: Element, index: usize, state: ServiceState) -> J
  * Response: { "Ok": "tea" }
  */
 #[get("/lookup/<id>/<index>", format = "json")]
-fn lookup(id: ID, index: usize, state: ServiceState) -> JsonResult<Option<Element>> {
+fn lookup(id: ID, index: usize, state: ServiceState) -> JsonResult<Element> {
     let service: &Box<dyn ListService> = state.inner();
     Json(service.get_element(&id, index))
 }
