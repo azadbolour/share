@@ -31,11 +31,11 @@ are needed, and how they affect ccollaborators of data structures using them.
 
 ### Some Links
 
-``
+```
 https://doc.rust-lang.org/stable/rust-by-example/testing/unit_testing.html.
 ```
   
-Just has assert! assert_eq!. Good enough for now.
+Just has `assert! assert_eq!`. Good enough for now.
 
 ```
 https://doc.rust-lang.org/book/ch11-03-test-organization.html
@@ -45,6 +45,9 @@ For searching for versions of packages:
 
 ```
 https://crates.io
+```
+
+```
 https://crates.io/search?q=dotenv
 ```
 
