@@ -120,7 +120,4 @@ auto-increment, defaults, etc.
   trying to do that. Connection has type parameters, and I was unable to 
   set those up correctly for a generic connection.
 
-  For now I have a TODO item to use a hack for generic DAO code. The hack
-  has not been implemented.
-
 
