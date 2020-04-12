@@ -5,12 +5,40 @@ This crate implements an http service for managing lists of items. Each list has
 a String name, and a set of String elements. 
 
 The service layer uses a ListService trait, with two implementations, one 
-using an in-memory list store, `list_service-in_memory`, and one using a
+using an in-memory list store, `list_service_in_memory`, and one using a
 database, `list_service_db`. Currently the latter uses sqlite.
 
 The web layer is implemented by using *rocket*.
 
 The database layer is implemented by using *diesel*.
+
+### Working with Different Databases
+
+The list server code is not dynamically generic for connecting to different 
+databases (see Challenges section below).
+
+But the code can be repurposed to different databases by changing a
+configuration parameter in builds, tests, and runs.
+
+Currently the code has been tested with sqlite and postgres.
+
+The default database is sqlite since it only requires a file - not a server. 
+
+To work with a given database:
+
+- Make sure the files .env and .env.test include the correct database URL.
+  See current versions for samples.
+
+- run-migrations.sh             # prepare the database - if not prepared yet
+
+- cargo clean                   # to make sure source will be rebuilt 
+
+- build.sh db                   # where db is "sqlite" or "postgres"
+
+- test.sh test-name db          # ditto for db; use "" for all tests
+
+- `run.sh db_listserver db`     # ditto
+
 
 ### To Learn
 

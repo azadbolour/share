@@ -52,3 +52,11 @@ pub fn vec_head_option<T>(vec: &Vec<T>) -> Option<T> where T: Clone {
     }
 }
 
+// Q: Why FnMut? What is mutated? And why mut f?
+pub fn vec_map<T: Clone, U, F: FnMut(T) -> U>(vec: &Vec<T>, mut f: F) -> Vec<U> {
+    vec
+        .iter()
+        .map(|t| f((*t).clone()))
+        .collect()
+}
+

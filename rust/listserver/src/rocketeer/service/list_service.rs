@@ -10,7 +10,7 @@ use crate::base::{ID, Element, BareList, ListResult, ListError, MAX_ID_LENGTH};
 pub trait ListService: Sync + Send {
     fn create(&self, id: &ID) -> ListResult<()>;
     fn get(&self, id: &ID) -> ListResult<BareList>;
-    fn update(&self, id: &ID, list: BareList) -> ListResult<()>;
+    fn update(&self, id: &ID, list: &BareList) -> ListResult<()>;
     fn delete(&self, id: &ID) -> Result<(), ListError>;
 
     // The rest can be implemented in terms of the list-level functions.

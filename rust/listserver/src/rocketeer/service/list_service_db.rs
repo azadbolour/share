@@ -23,57 +23,46 @@ impl ListServiceDb {
 
 impl ListService for ListServiceDb {
     fn create(&self, id: &ID) -> ListResult<()> {
-        self.connection_provider.get_connection()
-            .and_then(|connection|
-                listdao::create(&connection, id)
-            )
+        let conn = self.connection_provider.get_connection()?;
+        listdao::create(&conn, id)
     }
 
-    #[allow(unused)]
     fn get(&self, id: &ID) -> ListResult<BareList> {
-        self.connection_provider.get_connection()
-            .and_then( |connection|
-                listdao::get(&connection, id)
-            )
+        let conn = self.connection_provider.get_connection()?;
+         listdao::get(&conn, id)
     }
 
-    #[allow(unused)]
-    fn update(&self, id: &ID, list: BareList) -> ListResult<()> {
-        unimplemented!()
+    fn update(&self, id: &ID, list: &BareList) -> ListResult<()> {
+        let conn = self.connection_provider.get_connection()?;
+        listdao::update(&conn, id, list.clone())
     }
 
-    #[allow(unused)]
     fn delete(&self, id: &ID) -> ListResult<()> {
-        self.connection_provider.get_connection()
-            .and_then(|connection|
-                listdao::delete(&connection, id)
-                    .map(|_| ())
-            )
+        let conn = self.connection_provider.get_connection()?;
+        listdao::delete(&conn, id)
+            .map(|_| ())
+
     }
 
-    #[allow(unused)]
     fn add_element(&self, id: &ID, element: &Element, index: usize) -> ListResult<()> {
-        self.connection_provider.get_connection()
-            .and_then(|connection|
-                listdao::add_element(&connection, id, element, index)
-            )
+        let conn = self.connection_provider.get_connection()?;
+        listdao::add_element(&conn, id, element, index)
     }
 
-    #[allow(unused)]
     fn get_element(&self, id: &ID, index: usize) -> ListResult<Element> {
-        // TODO. URGENT. Implement me.
-        unimplemented!()
+        let conn = self.connection_provider.get_connection()?;
+        listdao::get_element(&conn, id, index)
     }
 
     #[allow(unused)]
     fn update_element(&self, id: &ID, element: &Element, index: usize) -> ListResult<()> {
-        // TODO. URGENT. Implement me.
+        // TODO. URGENT. Implement me. Delegate to transactional dao function.
         unimplemented!()
     }
 
     #[allow(unused)]
     fn remove_element(&self, id: &ID, index: usize) -> ListResult<()> {
-        // TODO. URGENT. Implement me.
+        // TODO. URGENT. Implement me. Delegate to transactional dao function.
         unimplemented!()
     }
 }

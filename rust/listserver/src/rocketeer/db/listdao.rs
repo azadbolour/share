@@ -14,7 +14,7 @@ use crate::rocketeer::db::models::{ListWriter, List};
  *
  * Lists are saved in the database as json strings.
  *
- * TODO. These method should belong to a struct.
+ * TODO. These methods should belong to a struct.
  * But the struct would need a &ListConnection field.
  * Borrowed struct fields need lifetimes. So left for later as an advanced exercise.
  */
@@ -65,21 +65,30 @@ pub fn get_internal(connection: &ListConnection, id: &str) -> ListResult<List> {
     })
 }
 
-pub fn update(connection: &ListConnection, nm: &str, js: &str) -> ListResult<()> {
+pub fn update(connection: &ListConnection, id: &str, list: BareList) -> ListResult<()> {
+    let jsonlist = serde_json::to_string(&list)
+        .map_err(to_internal_error)?;
+    update_internal(connection, id, &jsonlist)
+}
+
+fn update_internal(connection: &ListConnection, id: &str, jsonlist: &str) -> ListResult<()> {
     use crate::rocketeer::db::schema::lists::dsl::*;
-    let target = lists.filter(name.eq(nm));
+    let target = lists.filter(name.eq(id));
     diesel::update(target)
-        .set(json.eq(js))
+        .set(json.eq(jsonlist))
         .execute(connection)
         .map(|_| ())
         .map_err(to_db_error)
 }
 
+// TODO. URGENT. Use transaction.
 pub fn add_element(connection: &ListConnection, id: &str, element: &str, index: usize) -> ListResult<()> {
     let list: List = get_internal(connection, id)?;
     let json_added_list: String = jsonlist::add_element(&list.json, element, index)?;
-    update(connection,id, &json_added_list)
+    update_internal(connection,id, &json_added_list)
 }
+
+// TODO. Add transactional update_element, delete_element.
 
 pub fn get_element(connection: &ListConnection, id: &str, index: usize) -> ListResult<ID> {
     let list: List = get_internal(connection, id)?;

@@ -2,7 +2,7 @@ use std::collections::HashMap;
 use std::sync::{Mutex, MutexGuard};
 
 use crate::base::{ID, Element, ListError, ListResult, BareList};
-use crate::base::{to_locking_error, vec_head_option};
+use crate::base::{to_locking_error};
 use crate::rocketeer::service::list_service::{ListService};
 
 type SafeList = Mutex<BareList>;
@@ -84,42 +84,53 @@ impl ListService for ListServiceInMemory {
         self.validate_id(&id).and(self.get_internal(&id))
     }
 
-    #[allow(unused)]
-    fn update(&self, id: &ID, list: BareList) -> ListResult<()> {
-        // TODO. URGENT. Implement me.
-        unimplemented!()
+    fn update(&self, id: &ID, list: &BareList) -> ListResult<()> {
+        let mut guarded_store= self.guarded_store()?;
+        if !guarded_store.contains_key(id) {
+            Err(ListError::ListIdNotFoundError(id.clone()))
+        }
+        else {
+            let safe_list = Mutex::new(list.clone());
+            guarded_store.insert(id.clone(), safe_list);
+            Ok(())
+        }
     }
 
-    #[allow(unused)]
     fn delete(&self, id: &ID) -> ListResult<()> {
         let store = &self.store;
-        let mut lock = store.lock()
+        let mut guarded_unsafe_store = store.lock()
             .map_err(to_locking_error)?;
-        lock.remove(id);
+        guarded_unsafe_store.remove(id);
         Ok(())
     }
 
     fn add_element(&self, id: &ID, element: &Element, index: usize) -> ListResult<()> {
         let store = &self.store;
-        let mut lock = store.lock()
+        let mut guarded_unsafe_store = store.lock()
             .map_err(to_locking_error)?;
-        let safe_list: &SafeList = lock.get(&id.clone())
+        let safe_list: &SafeList = guarded_unsafe_store.get(&id.clone())
             .ok_or(ListError::ListIdNotFoundError(id.clone()))?;
         let inserted_safe_list: SafeList = self.insert_into_safe_list(safe_list, id, element, index)?;
-        lock.insert(id.clone(), inserted_safe_list);
+        guarded_unsafe_store.insert(id.clone(), inserted_safe_list);
          Ok(())
     }
 
     fn get_element(&self, id: &ID, index: usize) -> ListResult<Element> {
         let bare_list = self.get(id)?;
-        vec_head_option(&bare_list)
-            .ok_or(ListError::ListIndexOutOfRangeError(id.clone(), index))
+        let element = bare_list.get(index)
+            .ok_or(ListError::ListIndexOutOfRangeError(id.clone(), index))?;
+        Ok(element.clone())
     }
 
-    #[allow(unused)]
     fn update_element(&self, id: &ID, element: &Element, index: usize) -> ListResult<()> {
-        // TODO. URGENT. Implement me.
-        unimplemented!()
+        let mut bare_list = self.get(id)?;
+        if index > bare_list.len() {
+            Err(ListError::ListIndexOutOfRangeError(id.clone(), index))
+        }
+        else {
+            bare_list.insert(index, element.clone());
+            self.update(id, &bare_list)
+        }
     }
 
     #[allow(unused)]

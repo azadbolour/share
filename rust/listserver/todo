@@ -1,2 +1,7 @@
 
+- Make sure multi-statement list updates use dao transactions.
+
+- Implement all element-level methods for both service implementations.
+
+- Test all element-level methods.
 

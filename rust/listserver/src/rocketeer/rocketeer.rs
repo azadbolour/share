@@ -41,6 +41,7 @@ const GET: &str = "get";
 
 pub fn ignite(list_service: Box<dyn ListService>) -> Rocket {
     // let list_service: Box<dyn ListService> = list_service_in_memory::boxed_service_factory();
+    println!("igniting rocket");
     rocket::ignite()
         .mount(PATH_PREFIX, routes![create, get, add_element, lookup])
         .manage(list_service)

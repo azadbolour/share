@@ -12,9 +12,9 @@ use listserver::rocketeer::service::list_service::{ListService};
 use listserver::base::{ID, Element, ListResult, BareList};
 use listserver::rocketeer::service::list_service_in_memory;
 use listserver::rocketeer::service::list_service_db::ListServiceDb;
-use listserver::dbbase::ConnectionProvider;
+use listserver::dbbase::{ConnectionProvider, get_database_url};
 
-const DB_URL: &str = "database/lists.db";
+const ENV_FILE: &str = ".env.test";
 
 #[test]
 fn listserver_in_memory_test() {
@@ -24,7 +24,8 @@ fn listserver_in_memory_test() {
 
 #[test]
 fn listserver_sqlite_test() {
-    let connection_provider = ConnectionProvider::new(DB_URL).unwrap();
+    let db_url = get_database_url(ENV_FILE).unwrap();
+    let connection_provider = ConnectionProvider::new(&db_url).unwrap();
     let list_service: Box<dyn ListService> = Box::new(ListServiceDb::new(connection_provider));
     listserver_test(list_service)
 }
