@@ -6,7 +6,7 @@ a String name, and a set of String elements.
 
 The service layer uses a ListService trait, with two implementations, one 
 using an in-memory list store, `list_service_in_memory`, and one using a
-database, `list_service_db`. Currently the latter uses sqlite.
+database, `list_service_db`. 
 
 The web layer is implemented by using *rocket*.
 
@@ -35,7 +35,7 @@ To work with a given database:
 
 - build.sh db                   # where db is "sqlite" or "postgres"
 
-- test.sh test-name db          # ditto for db; use "" for all tests
+- test.sh test-name db          # ditto for db; use "" for test-name to run all
 
 - `run.sh db_listserver db`     # ditto
 
