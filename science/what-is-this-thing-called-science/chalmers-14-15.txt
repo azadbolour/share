@@ -1,0 +1,108 @@
+
+Chapters 14, 15 - The Relationship between Theories and Reality
+
+These two final chapters include a wealth of materials on the relationship
+between scientific theories and reality. These chapters look to me like a
+pot-pouri of interesting ideas about theories and reality that had to be
+included in the book. I will not attempt to list the pot pouri. Instead, I 
+will describe just the basic ideas in my own words.
+
+First some preliminaries. Theories generally need an ontology. Let's assume, for
+simplicity and for specificity, that an ontology is a listing of the types of
+entities the theory is concerned with, a listing of the properties of each type
+of entity, and a listing of the possible relationships between various types of
+entities. Properties can be thought of as unary relations, so that, basically,
+an ontology would be a listing of entity and relationship types.
+
+A theory then constrains the relationships of the ontology in some way.  f the
+theory is correct, then certain collections of relationships between entities
+are excluded as being observable in the real world.
+
+As a trivial example, consider the "theory" of velocity. The entities of the
+theory are particles and events (designating the observation of a particle).
+Particles have velocity as their property. Events have particles, time, and
+position as their properties. And for a particle with a constant velocity, the
+set of events observed for that particle cannot be arbitrary. The events
+observed for a given particle must obey the "law" of constant velocity.
+
+I realize that this may be an oversimplification of the notion of a theory.
+But I need something concrete to hold on to in discussing the nature of
+theories. And for now this simple treatment should do.
+
+With that concrete model of a theory in mind, we can now explore the
+relationship between theories and reality. 
+
+The basic idea is called the correspondence principle: a theory is true if
+reality follows the theory. There are two sides to this claim. First the
+constraints imposed by the theory on its relationsgips should not be violated in
+reality: a true theory is not falsified. Second, all collections of
+relationships allowed by the theory should actually be observed in the real
+world: evidence for the theory should exhaust all possible cases of the theory.
+
+Chapters 14 and 15 discuss two different dichotomies in conceptualizing
+theories. 
+
+In chapter 14 the dichotomy is between thinking of a theory as the specification
+of a "regularity" in nature versus thinking of a theory as a specification of
+the "propensity" of various entities to act in certain ways when they appear in
+certain contexts (that is when they appear in specific roles in ceratin
+relations (in our simple model)).
+
+In chapter 15, the dichotomy is between thinking of the entities and relations
+of a theory's ontology as "real" (actually corresponding to real world objects
+and relations), versus as "artificial" [my word, which I am using for emphasis].
+
+The regularity view of a law can be thought of as a factorization of a set of
+similar experimental observations. We see that a set of experiments yield
+similar results and we factor out the similarities into a law (a la induction).
+These could be observations of the regular behavior of matter under certain
+conditions over time, such that later observations happen to be a function of
+earlier ones. But in the regularity view, the functional relationship between
+earlier and later observations is not central. That there is some regular
+relationship, some constraint between the values observed earlier and later, is
+all that matters.
+
+In the propensity view of a law, on the other hand, causation, that is 
+the functional relationship between observations over time plays a central 
+role. Matter is forced to behave in a causal way by its propensity to 
+act in a given manner in a given situation.
+
+To me the distinction between the real/fake view of a theory's entities and
+relations (discussed in chapter 15) is a more interesting dichotomy, since it is
+quite relevant to the question of science vs pseudo-science, as science purports
+to describe the "real" world out there, making the use of "artificial" entities
+in theories suspect.
+
+In a sense, the idea of assigning behavioral propensities to entities 
+seems artificial as well. To be further elaborated.
+
+An accepted example of an artificail entity is the ether. The problem, of
+course, is that the ether was considered for a long time to be a real entity.
+
+It is non-controversial to consider certain entities, such as iron, glass, 
+wire, as real. They can be observed and their types easily distinguished.
+
+In other cases, the best one can do is consider an entity as not necessarily
+real but as a tool to make reasoning about reality easier. This is the case for
+the ether. It is also the case for the idea of "propensity" to behave, and the
+idea of causation. All we can really say in a theory is that there are some
+constraints between events. But thinking about some of the constraints as
+causation makes it easier to reason about the evolution of events.
+
+It seems harder, on the other hand, to think of entities such as electrons and
+electromagnetic fields as mere tools for making reasoning about observations
+easier.
+
+But because ontologies and theories have been observed to change with changing
+paradigms, it seems like the safest approach is to consider the entire ontology
+as merely a tool. This is not, however, how most scientists (let alone most
+ordinary people) view the world. But however we do think of the real world,
+if the theories are founded on the basis only of constraints in the properties
+and relations of observable events, it seems we are on relatively safe grounds.
+
+It is also mentioned by Chalmers that once theories are reduced to mathematical 
+equations, the equestions themselves may remain invariant as the theory and its
+ontology changes. The interpretation of the symbols used in the equations
+in terms of their real-world references can change, but not the equations
+themselves.
+

@@ -1,0 +1,47 @@
+Chapter 2
+
+Some observations can be active and public. Active means that the observer
+varies the context of observation to reduce the chance of observing the wrong
+thing. Public means the resulting perception is straighforward enough that 
+other people can be convinced of its reality, and can do the observation 
+themselves with little training. 
+
+There are lots of observations for which being active and public reduces the
+chance of inappropriate perception to a negligible level. Under these
+conditions, making reasonable statements about the facts of an observation can
+be non-controversial.
+
+There are two issues from the point of view of a skeptic of such an
+observational statement: that the statements still depend on some basic model
+of the world, and that the instruments used for observation are suspect.
+
+Regarding the first issue, my thinking is that the models used would be so
+simple that a reasonable skeptic would be easily convinced of its validity. I
+guess no reasonable person would object to the idea that objects have different
+colors and shapes. So to the extent that the "model" of the world used in
+observation statements depends on such common "theories", a corresponding
+observational statement should be acceptable by a reasonable person.
+
+Regarding the second issue, namely interference from the observational
+instrument, Chalmers uses the example of Galileo's observation of the moons of
+Jupiter. Skeptics would object that the observed moons may be relics of
+Galileo's telescope, rather than images of actual objects in the heavens. 
+
+But reasonable critics would have to agree that it is quite unlikely 
+that interference from the telescope would vary with time in exactly the 
+same way as if the moons were orbiting Jupiter. Conjectures about the possible
+interference of the telescope in the observation would easily be refuted 
+by Galileo by appeal to common sense. At the end of the day, no other conjecture 
+explaining the telescopic images would come close to the conjecture that 
+Jupiter has moons, and that obsevational statement would come to be
+accepted.
+
+In my machine analogy, the machine is the telescope attached to a video
+recorder, and the output would be a sequence of digital images of what is
+observed through the telescope. The only "perceptual" processing done by our
+"machine" is magnification, whose "thoery" should be non-controversial.
+
+The main issue in this case is convincing skeptics that any other effect caused
+from the machine is irrelevant to the observation statements made, that is the
+basic structure of the materials in the space around Jupiter over time.
+

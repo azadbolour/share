@@ -1,0 +1,62 @@
+Chapter 3 - Experiment
+
+To obtain factual observational statements in science, scientists use carefully
+controlled experiments. That is because generally many factors affect
+uncontrolled naturally-occurring phenomena, but our scientific hypotheses to be
+tested against nature relate to just one or at least very few of those factors. 
+
+Science often attempts to reduce a complex situation into a number of simple
+parts that are superimposed on top of each other. One can then study each
+constituent part more easily in isolation, and only later deal with their
+superposition. 
+
+To observe the workings of an isolated phenomenon, one needs to devise a
+controlled experiment in which other phenomena are either not present or 
+their presence is irrelevant to the hypothesis being tested.
+
+At a given point in the development of a scientific field, there are questions
+for which we do not have secure answers. Scientists then conjecture different
+possible hypotheses to settle a given outstanding question. And the
+conjectured hypotheses are then put to the test by using controlled
+experiments.
+
+The problem with experiments is that for a variety of reasons their results are
+fallible. First, the available technology for isolating a particular effect to
+be put under test may not be adequate. Second, the theory that informs what
+other effects may contribute to the observed behavior in an experiment may be
+wrong or under-developed. Third, assumptions about the relevance of the
+observational statements resulting from the experiment to settling the
+hypothesis in question may be in error.
+
+Chalmers provides interesting examples of these issues from the history of 
+science. Some of the examples:
+
+Ionization of extraneous gases in a cathode ray tube interfering with the
+expected deflection of charged particles. 
+
+Small size of the laboratory interfering with the observation of the speed of
+radio waves.
+
+Measurement of the atomic weight of substances in the presence of different
+isotopes in the samples being measured yielding non-integral atomic weights.
+
+The upshot is the obvious fact that experimental results are subject 
+to revision as better technologies become available, and as the theoretical
+assumptions informing the hypothesis and its complicating factors evolve.
+
+Finally Chalmers warns against falliing into the trap of circular reasoning 
+in experimental design.
+
+Circularity can arise by mixing the theory that informs the experimental design
+with the theory that is being tested by the experiment. The hypothesis under
+test should be independent of the theoretical assumptions made in isolating and
+observing the phenomenon under test lest we end up justifying the hypothesis by
+a circular argument. 
+
+Thus, for experimental results to form a sound basis for scientific knowledge,
+we need a layering of theories, where experiments to test theories at higher
+levels only use assumptions based on theories at lower levels in their setup.
+This scheme is similar to the layering of sets in set theory to avoid Russell's
+paradox.
+
+

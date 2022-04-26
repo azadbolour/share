@@ -1,0 +1,66 @@
+
+Chapter 4 - Induction
+
+Science attempts to come up with general laws applicable in different regions of
+space and time. These general laws are normally justified by making observations
+at different places and diffenet times under specific experimental conditions,
+seeing patterns in the properties and relations of the observed objects, and
+then abstracting those patterns into general statements.
+
+This is the inductive mode of scientific knowldge acquisition.
+
+Induction from a finite set of observed patterns to a general statement about
+nature that should hold even for objects never seen and in regions of time and
+space in which the abstracted patterns were not observed requires a leap of
+faith. In mathematics, induction is taken as an axiom. And so it seems it has to
+be in science.
+
+However, in mathematics the axiom of induction is precisely defined. Alas, not
+so in science! The application of induction in science to "derive" a law of
+nature is a much more complicated affair than the application of induction
+in mathematics to derive a general property of numbers.
+
+Chalmers states three conditions that, intuitively, must be satisfied for an
+inductive argument to be considered legitimate in justifying a general
+scientific law:
+
+"
+1. The number of observations forming the basis of a generalization must be large.
+
+2. The observations must be repeated under a wide variety of conditions.
+
+3. No accepted observation statement should conflict with the 'derived' law.
+"
+
+Unfortunately, conditions 1 and 2 are vague. Trying to make them precise shows
+that they are problematic. Condition 3 is precise. But, according to Chalmers,
+it is too restrictive. TBD is a later chapter.
+
+In order to overcome the issues with these conditions, scientists use 
+their prior knowledge about the circumstances surrounding a phenomenon
+under test, to judge the adequacy of the number of observations and 
+the variety of the conditions under which observations are made.
+
+Some judgments made in these attempts are non-controversial. The example
+given is the fact that the color of the experimenter's socks can easily be 
+ruled out as relevant to most experiments.
+
+But in general the set of observations sufficient to make the inductive 
+leap to a general law is a best guess, based on the current state of 
+knowledge in the field of investigation.
+
+Once we have general laws, of course, we can make logically valid deductive
+arguments about what the laws entail, and use them to predict outcomes.
+
+Food for thought on my part. The needed axiom of induction for physics, it
+seems, in one about the continuity/uniformity of nature, akin to relativity.
+That is, it is taken for granted that the patterns of events one sees for a
+given precondition in one region of space/time/matter/force are invariant of the
+specific region where the precondition holds. Does this make sense as an axiom
+of science? Maybe it can be better stated by a physicist.
+
+We just operate under the assumption of continuity until we find regions where it
+fails, and then we have to come up with revised laws that eliminate that
+failure and restore continuity. Is that the crux of the scientific method?
+
+

@@ -1,0 +1,82 @@
+
+Chaptera 10 and 11 - Feyerabend
+
+First some background. Both Lakatos's and Feyerabend's work was done in the
+context of Kuhn. But Kuhn was basically a historian of science, and the main
+thrust of his model was about the history of science and how sociological
+concerns drive that history. The aim of trying to come up with a rational
+demarcation of science and pseudo-science was not primary in Kuhn's work. And
+by implication it seems it was also not primary in Lakatos and Feyerabend.
+Rather, all three were mainly concerned with describing what scientist do, how
+they do it, and what kinds of scientific activity leads to new discoveries.
+
+The term "[scientific] method" is used mainly for these concerns, but is general
+enough to include also the methods of evaluating the legitimacy of scientific
+knowledge.
+
+In summary, in any given field of enquiry and at given time in the history of
+that field, there is a set of standards and procedures called "method" used by
+the scientists in that field to arrive at new knowledge. One can simply try to
+describe these standards and procedures and see historically which ones were
+successful in generating theories that, in the fullness of time, became part of
+the scientific canon. 
+
+But at the time of the proposal of a new theory, the prevailing "method" of the
+time may or may not be considered rationally compelling in showing the
+correspondence between the theory and reality. 
+
+Feyerabend suggests that important discoveries have been made when a reasonable
+analysis of the situation at the time would lead to the conclusion that the
+arguments for a new theory were not rationally compelling. Therefore, he
+concludes, "anything goes". Feyerabend was very much into freedom in general.
+And a special case of his freedom was freedom to pursue scientific hypotheses
+without constraints. Since as he tries to argue, important discoveries are 
+made in spite of rationally compelling attacks on a theory at its inception,
+there should not be any rational constraints on scientific enquiry, and hence 
+there is no universal "method" of science. His book called "Against Method" 
+elucidates these ideas. 
+
+It is interesting to note that the book was originally conceived as a
+point-counterpoint debate, for and against method, in which Lakatos would argue
+the "for" side. Alas, Lakatos died before that project would come to fuition,
+hence "Against Method" by Feyerabend alone.
+
+Chalmers agrees with Feyerabend that it is far-fetched to think that there is a
+universal all-encompassing and ahistorical scientific method applicable
+everywehere and at all times. Even if there were such a thing, who are we to say
+that we can know today what will be applicable forever.
+
+Where Chalmers poses a serious problem for Feyerabend is in considering such a
+method as ahistorical, that is, immutable over time. For Chalmers, there is no
+problem in the idea that at any given time, there is a method that is rationally
+acceptable according to the standards of that time, but that the standards of
+rationality may evolve over time. When a scientist proposes a new way of looking
+at things, he uses the current standards of rationality to convince the
+scientific community of the merits of his proposal. This works, according to
+Chalmers, because the community as a whole shares the baic tenets of the accepted
+method of the time, and also because the aims of the community in doing science
+at the time are shared.
+
+If this were not the case, if there were different independent stanards
+of rationality and different aims of science that were all held at the
+same level of status, that would make it difficult to come to an acceptance
+of new ways of looking at things. Let alone to decide where to concentrate
+a society's efforts and resources in pushing for new knowledge. In that sense, 
+science is different from art.
+
+Having said all that, of course, the accepted method may evolve.
+
+But the basic idea that theories must correspond to observations is, it seems, a
+universal ahistorical base method. That is a basic philosophical axiom of
+science.  However, by itself it only provides a very general background
+assumption about science. As we have seen in earlier chapters, there are all
+kinds of "details" about what constitutes a rational method that still need to
+be phisophicaly worked out in the context of the basic correspondence principle
+of science.
+
+The example used in both Feyerabend's argument against method, and in
+Chalmers' rejoinder to Feyerabend is Galileo and the Copernican revolution.
+I am skipping the details for now. But it is fascinating to see the 
+different lenses through which Feyerabend and Chalmers view Galileo.
+For myself, I found Chalmers' lens more compelling.
+

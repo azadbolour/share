@@ -1,0 +1,25 @@
+
+Chapter 12 - The Baysian Approach
+
+Like Chalmers, I remain unconvinced about the applicability of Bays thoerem to 
+the likelihood of the correctness of a theory based on evidence.
+
+So I don't think it is useful to get into the details of the theorem and its
+adaptation to scientific evidence.
+
+However, what motivates this line of enquiry is of some interest. Basically, as
+we have seen, a proposed theory is confirmed by some observations and falsified
+by others (the anomalies). It is then natural to ask whether one can come up
+with a calculus, which, based on the strength of the evidence and strength of
+the anomalies, would yield a degree of confidence in a theory. That would solve
+the all-important question of when one theory is to be considered more
+believable than another.
+
+The Baysian approach is one such attempt. But its application is heuristic, and
+relies on subjective probabilities. Probability theory, of which Bayes is a
+theorem, on the other hand, is based on a foundation of objective probabilities.
+So it is difficult to justify Bayes as a rational method of assigning confidence
+to theories.
+
+For the details see the chapter.
+

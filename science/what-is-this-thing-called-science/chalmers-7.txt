@@ -1,0 +1,46 @@
+
+Chapter 7 - Limitations of Falsification
+
+The fundamental problem discussed in this chapter is the fallibility of
+falsifications. How can one be sure that an observational statement
+falsifying a theory describes the actual state of affairs occurring in an
+experiment. There is always the possibility that the equipment was faulty, the
+current observational technology not quite adequate, or that the initial
+conditions of the experiment did not match the actual conditions in the real
+world at the time.
+
+To complicate matters further, the theoretical foundation applicable in a given
+experiment may be a complex of specific theories, and the initial conditions, a
+complex of specific conditions. When we get a falsifying observational
+statement in such a situation, the contradiction may be the fault of any one of
+the impacting theories, or it may be due to the faulty description of any one of
+the initial conditions.
+
+Chalmers provides a variety of examples from the history of science in which 
+it was not obvious to start with how to interpret a falsification. In many cases, 
+sorting out the apparent contradictions and assigning blame to a theory or 
+to the initial conditions or to the experimental setup can take years. 
+Often the problem is sorted out slowly by incremental advances in theory 
+and in the technology of experimental setup and observation of initial 
+condition.
+
+One prominent example of this type of evolution of blame given by Chalmers is
+the evolution of understanding of the Copernican theory of the movement of earth
+and the planets - that the earth is not the center of the universe, and instead 
+that the earth and planets in general revolve around the sun, and that the earth 
+spins around each day.
+
+It took a century from the time Copernicus suggested his theory, through
+Galileo's construction of his telescopes and his theoretical contributions to the
+laws of motion, to Newton's theories of motion and gravity to finally settle the
+fact that various observational objections to the Copernican theory could be
+addressed, thus leading to the acceptance of Copernicus. During that time, the
+Copernican conjecture survived as a viable contender, and little by little the
+objections were addressed by advances in theory and observational technology.
+
+The upshot is that falsification per se does not provide a complete account of
+how science actually evolves over time. The process of verifying falsifications
+and evolving the corresponding theories and experimental practices often remains
+quite messy and uncertain as the real contraditions in apparent observational
+statements and the theory are sorted out.
+

@@ -1,0 +1,40 @@
+
+Chapter 1
+
+The basic issue is that different observers can see the same thing 
+differently.
+
+In describing an observation as a fact, we formulate statements in terms of
+linguistic or mathematical symbols. Here we are just talking about describing 
+what we see. We are not yet talking about formulating scientific theories.
+How scientific theories are formulated comes later. 
+
+The process of formulating a statement of observed fact starts with the retinal
+image of the observation, goes through a process of perception in the brain, and
+a process of verbalization of that perception in some language.
+
+The process of perception will be different for different people, depending on
+what the brain decides to concentrate on, and on the existing model (theory) of
+the world in the specific brain, for example, the current way real-world objects
+are categorized in a given brain.
+
+So formulating statements of facts about observed phenomena presupposes a model
+of the world. The model can change over time, and statements of observed facts
+about the same phemomenon in the old model may no longer be valid in the new
+model.
+
+My initial thought is to set aside the issue of different perceptions by
+different brains, by stipulating that statements of fact about a phenomenon are
+made not by humans but by machines. The machine is programmed to include 
+a given model of the world, to observe certain phenomena, and to print out 
+a statement. The statement can be in a precisely defined mathematical language.
+Then a statement of the fact of an observed phenomenon will include the machine
+that was used to observe it, as well as what the machine printed out.
+
+Then scientific theories may be formulated by saying, for example, that if
+machine M1 prints X then it will print f(X) a little while later.
+
+There is still the issue of the legitimacy of the machines, of course.
+But the confusion of different observers is finessed.
+
+

@@ -1,0 +1,104 @@
+
+Chapter 9 - Lakatos
+
+Pronounced "lakatosh".
+
+Lakatos's philosophy is a reaction to some of the issues in the accounts of Kuhn
+and Popper.
+
+Motivations:
+
+- Reduce Kuhn's over-emphasis on the sociological aspect of scientific progress. 
+
+- Extend the reach of the philosophy of science to "softer" sciences, sociology,
+  psychology, etc.
+
+- Take into account that a falsification may be due to other factors than the 
+  underlying theory.
+
+Lakatos uses the term "research program" as "a" (rather than "the") locus of
+work in a scientific field at a given time. In contrast to Kuhn, who assumes a
+single dominant "paradigm" at a given time in a given field, Lakatos allows for
+multiple competing research programs in a given field to exist at the same time.
+
+A research program accepts certain theories and experimental practices as given,
+like axioms. These are called the "hard core" of the program. The hard core is 
+inviolable and immutable as far as the particular research program in concerned. 
+
+At a given time, a research program will also hypothesize certain tentative
+theories and experimental practices. These are called the program's "protective
+shell". The combination of the hard core and the protective layer form the
+working model [my term] of the research program.
+
+Rather than use the strongly negative term "falsification" of a theory, Lakatos
+uses the more neutral term "anomaly" of a theory. At any given time in the life
+of a research program, its working model may have a number of unexplained
+"anomalies", that is, seeming falsifications. 
+
+Because the blame for the anomalies may lie in the experimental setup or in the
+initial conditions of an experiment, the hard core of the research progarm is
+not abandoned. Instead, the practitioners of the research program attempt to
+adjust the presuppositions of the outer protective layer in such a way that the
+new working model can satisfactorily explain the anomalies.
+
+Anomalies will continue to be discovered and worked on in a research program.
+An anomaly may be dealt with by a fundamental explanation of the source of the
+seeming falsification in terms of experimental setup or initial condition, or by
+an adjustment in the basic theories of the outer protective layer.
+
+There is still the issue of ad hoc modification vs intellectually honest
+modification of a theory discussed in earlier chapters. TODO. Precise
+definition of ad hoc modification.
+
+As a resaerch program progresses, some anomalies will be satisfactorily
+explained. In Lakatos, a research program is "degenerating" when its set of
+satisfactorily explained anomalies is not growing significantly. A "progressing"
+research program is one in which the set of satisfactorily explained anomalies
+keeps growing. That means that new discoveries are being made by the program.
+
+Some practioners may stubbornly cling to a research program even if by all
+accounts it appears to be degenerating, in the hope of finding solutions
+to the anomalies without abandoning the program's hard core. This is 
+not necessarily irrational, since, as shown, for example, by the Copernican
+revolution, it may take a century to satiffactorily explain a theory's anomalies
+by further advances in experimental techniques, in the fomulation of initial 
+consitions, and in tinkering with the theory. 
+
+Other practitioners may abandon a research program for a competing one with a
+different hard core after a reasonable sustained effort without success in
+dealing with its persistent anomalies. That too, is not necessarily irrational. 
+
+Whether the maintenance or the abandonment of a research program is correct, can
+only be judged historically in the fullness of time, according to Lakatos.
+
+Lakatos does not proscribe a rational basis for abandoning a research program in
+favor of another. So this activity is tacitly left to the existing practioners
+of the field. Thus, even though Lakatos is seeking a more rational scheme for
+demarcating science from pseudo-science, in the heat of a crisis within a
+reaserch program, we are not guided by Lakatos on whether to abandon it or not
+using some rational criteria. 
+
+It is just that when most practioners have abandoned a seemingly degenrating
+reaserch program, it kind of fades away, and other research programs that have
+more practitioners become prominent. In this respect, Lakatos has to concede 
+to Kuhn that the idea of progress is a sociological one among a field's 
+practioners.
+
+This is the basic idea. There is a lot more that is presented in the book.
+
+But I am going to stop here since my main aim in studying the philosophy of
+science is in distinguishing science from pseudo-science. So far in the book,
+this issue has been reduced to trying to come up with a rational basis for
+prefering one theory over another (rather than attempting to attach a notion of
+"truth" to a theory). 
+
+Lakatos's best answer to the question of a rational comparison between theories
+relies on the idea of a dicovery. A discovery is a new prediction made by a
+working model.
+
+Paraphrasing profusely now: The working model of one research program is to be
+preferred to another if it leads to more discoveries, and the more unexpected
+the discoveries the better. Of course, this formulation ignores a comparison
+between the unexplained anomalies of the two models.
+
+

@@ -1,0 +1,58 @@
+
+Chapter 6 - Sophisticated Falsification
+
+The view of the progress in a scientific field by falsification works as
+follows: At any given time, we have as-yet-unfalsified theories about a field
+that constitute our best guess as to how the world operates in that particular
+area. When one of our theories is falsified, we look for a better theory that 
+removes the given falsification, and otherwise remains unfalsified given 
+the existing models and machineries available for falsification.
+
+Thus we have a process of constnat modification of theories where a modified
+theory is better at explaining the real world than its falsified predecessor.
+
+However, not all attempts at theory modification will do. A legitimate 
+modification must provide a better explanation of the situation at hand
+
+Suppose we have a theory that is falsified by some test. We can always modify
+the theory to exclude that particular test, without adding any further machinery
+to the theory in termms of what patterns of input/output it allows and what
+patterns it excludes. The resulting theory is contrived. Similarly contrived is
+a modification that postulates the addition of some unobservable artifacts to
+the original theory to get around its falsification. 
+
+The example given in Chalmers is Galileo's observation of mountains and valleys
+on the moon, which falsified the Aristotelian theory that celestial bodies are
+perfect spheres. An attempt to salvage the Aristotelian theory is to postulate
+that the moon's surface is covered by an ocean of invisible material that render
+the moon a perfect sphere. The argument is contrived. There would be no way
+to falsify such a claim, and so it is ruled out in sophisticated falsification.
+
+Contrived modifications are called "ad hoc" by Chalmers.
+
+A reasonable modification is one which provides a different observable model of
+the world. Generally this means that the model entails different falsification
+tests than the original model.
+
+There is a discussion about "bold" versus "cautious" conjectured theories, and
+how they affect the progress of science. A bold conjecture is one that provides
+a great deal more opportunity for falsification than the theory it attempts to
+replace. A cautious one only provides few additional opportunities for
+falsification. If a bold conjecture is offered to modify a theory and it cannot
+be falsified upon sustained attack, that represents a major advance in science.
+It is a great deal more informative than its predecessor. If a cautious
+conjectire is actually falsified, that too represents a major advance in
+science, since hitherto it would have been taken for granted that it would be
+confirmed.
+
+Conversely when a bold conjecture is falsified, that is not a big deal - yet 
+another crazy idea bites the dust! Similar when a cautious conjecture resists
+falsification, that is not a big deal either, that would have been expected.
+
+A different view of boldness of a conjecture is given by the novelty of its
+prediction in the light of background knowledge about a field at the time.
+A bold conjecture predicts new behavior that would hitherto have not been
+guessed or considered likely. When such a bold conjecture resists falsification
+and becomes accepted as our best guess about a state of affairs, that is big
+news, the new theory is considered significant.
+

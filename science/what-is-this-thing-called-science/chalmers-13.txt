@@ -1,0 +1,126 @@
+
+Chapter 13 - The New Experimentalism
+
+In this chapter, we finally see a reasonable definition of the way science can
+be seen as progressive.
+
+So far in the book we have not seen a rational criteria for abandoning one
+paradigm or research program for another that would satisfactorily explain 
+major shifts in paradigm in the history of science as a rational process.
+
+Here is the best we can do in addressing the issue so far. 
+
+At any given time in the evolution of a theory, the theory has a set of
+prediction that are considered confirmed (so far), and a set of predictions that
+are considered anomalous (so far).
+
+For theory A to be rationally better than theory B - AS FAR AS WE KNOW - 
+A must have more confirmed predictions, and less anomalies than B.
+
+As our technologies for measuring the predictions of the theories improve,
+the confirmed and anomalous sets will change, and so the roles of A and B can
+conceivably change.
+
+An issue with this approach is that our measurement architecture may itself be
+theory-dependent. So we'll have to include the theories used in our measurement
+architecture in the specification when a theory is rationally better than
+another.
+
+There is also the issue of whether one can reasonably list all the predictions
+of a theory and differentiate them in terms of confirmation and anomaly.
+
+Finally it could take considerable elapsed time to convince ourselves that all
+the important/relevant predictions of two theories have been adequately tested
+and that theory A is indeed better in terms of its predictions as defined above.
+
+This is the situation we find ourselves in by concentrating on theories and 
+considering experiments as tests of theories.
+
+The new experimentalists, on the other hand, focus on experiments, and try to
+minimize the role of theory in defining science and understanding scientific
+progress to very basic non-controversial theoretical concepts. An example of a
+simple theory is a categorization of objects of interest in an experiment:
+wires, tubes, batteries, springs, etc. We can take it for granted that these
+kinds of objects are different from each other, and that they have specific
+physical characteristics, as well as positions and velocities.
+
+Suppose (1) that we only use simple non-controversial concepts like the above in
+describing the setup and the measurment machinery of our experiments; (2) that
+we provide a specification of the experiment and the expected observations that
+anyone so inclined can use to repeat the experiment; (3) that all of a large
+number of independent runs of the experiment do show the specified result. 
+
+Then that is strong evidence for the reality of the specification of the
+experiment and its expected result. The workings of such an experiment then
+becomes part of the accumulated scientific knowledge. An in this sense science
+progresses.
+
+The example given in this chapter is Faraday's simple electiric motor
+experiment. Faraday's contemporaries could successfully repeat the experiment
+based on Faraday's specifications and verify that his motor works as specified.
+
+Now, of course, there will be failures is some of those trials. But it would be absurd to
+state that because occasionally one encounters a motor that does not work as
+specified, that electric motors don't work. We can just say that electric motors 
+have generally been found experimentally to work as specified. By using of the
+word "generally" we signal that we are not using absolute induction.
+We are just stating something about experiments of a certain type.
+
+Suppose that at the beginning, many independent experimemnts yield the same
+results, so our experimental results are accepted as valid, but later on some other
+independent runs of the experiment contradict our expected result. In that
+case, it is still the case that in those labs where the experiment succeeded,
+the experimental result is valid. 
+
+But the contradiction forces us to look for potential differences in the initial
+conditions of the contradicting labs. If we find such differences, we can then
+describe two experimemts, one for each of the two sets of initial conditions.
+Again scientific knowledge has progressed.
+
+In many experiments it is relatively easy to address objections to the manner 
+of observation without appealing to complicated theory. For example, the validity 
+of observations through a microscope may be made compelling in two ways.
+We can take a picture of something observable by the naked eye, then reduce it
+many thaousands of times, and observe it through a microscope as being identical
+to the original. The "theory" we use is a theory of identity of shapes, which 
+should be non-controversial.
+
+If an objection is raised to one type of observation instrument, we can try 
+other types of instruments whose working are clearly independent of the first.
+Having two independent means of observation that yield the same results is
+strong evidence for the reality of the observations.
+
+Experiment has a life of its own. The results of an experiment can be explained 
+by an underlying theory. The theory may change. But the experimental knowledge
+will remain the same. In a sense then, theory can be thought of as just a tool,
+a shorthand, for describing expected experimental results.
+
+On the othe hand, if experimental results are to be used as evidence for a theory, 
+one needs to show that they would be highly unlikely if the theory were wrong.
+
+A theory restricts the set of possible observations in certain situations. An
+experiment may only show that a superset of the possible observations were
+possible. If the superset is much larger than that dictated by the theory, the
+experiment is incoclusive. This is the case where the experiment has a wide
+margins of error.
+
+It is also possible that the experiment only show a subset of observable effects
+predicted by a theory. In that case, the experiment only proves a special case
+of the theory that entails the observed results. That is the case, for example,
+in Eddington's observation of light bending as it passes close to the sun.
+Einstein's theory of relativity predicts that. But it also predicts lots of
+other things that are not the subject of Eddington's experiment. So it is
+reasonable to assume that Eddington's finding supports a theory of attraction of
+electomagnetic waves by masses (like Eistein's law of gravity), since the
+bending observation seems unlikely without such a theory. But Eddington does not
+support the general theory of relativity.
+
+The formulation of experimental results as the fundamental constituents of
+scientific knowledge can be taken quite far. And it has been, according to
+Chalmers, by recent philosophers of science. The most prominent of these
+philosophers, according to Chalmers is Deborah Mayo. 
+
+If there is one author that I think should be pursued further based
+on Chalmers, so far it looks like Mayo. Error and Growth In Experimental
+Knowledge, 1996. However, that is a quite a hefty book.
+

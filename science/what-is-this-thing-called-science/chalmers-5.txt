@@ -1,0 +1,80 @@
+
+Chapter 5 - Falsification
+
+Popper was a logician. His philosophy is informed by that backgraound.
+
+General theories are useful if they rule out certain patterns of natural
+phenomena. If anything that could possibly transpire in the context of a given
+theory can in fact transpire under the laws of that theory, then the theory is
+of little use, since it cannot be used to predict outcomes, or explain
+observations.
+
+Since a useful theory rules out certain observations, if one can devise an
+experiment within the context of the theory that results in those observations,
+it would logically follow that the theory is not correct. Such observations
+"falsify" the theory. So a theory that rules out certain observational patterns
+in nature is called a "falsifiable" theory.
+
+A theory's context may be understood as its input, and observed behavior in a
+given context as its output. Then the idea of falsification can be seen as the 
+well-known idea of testing a device or a computer program by feeding it input 
+and checking the resulting output.
+
+If the space of possible independent inputs to a device is infinite, no finite
+test can establish the correctness of the device. But a single test that shows
+the relation between some input and the corresponding output does not fit the
+device's specification proves that the device is defective.
+
+An interesting feature of falsification is that it only relies on deductive
+logic. Deductive logic is non-controversial since in dedective logic the
+information derived from a set of premises is already inherent in those
+premises. No leaps of faith are necessary. Falsification thus completely avoids
+the leaps of faith needed in using inductive logic.
+
+In general a theory defines a relation, a set of pairs, {(context,
+observation)}, where in a given context only the related observations are
+allowed. Let's call this the "conforming" relation of a given theory.
+
+Experiments made in a context, c, must yield observations o, such that (c, o) is
+in the conforming relation of the theory. An experiment falsifies the theory if
+it yields a (c, o) pair not in the theory's conforming relation.
+
+The information conveyed by a theory depends on the contexts covered by it, and
+for each context, c, by how precisely the allowed observations are specified,
+that is, by how small is the set of conforming observations in context c.
+
+By using this idea of the information content of a theory, we can define 
+a partial order on the set of theories and thereby have a precise definition 
+for when one theory subsumes another.
+  
+A theory A has >= information-bearing status than theory B (and hence subsumes
+B) if A's contexts include B's contexts, and if in addition, for each of B's
+contexts, no more observations are allowed in A than in B. Thus, A is at least
+as general and at least as precise as B. As general since it applies everywhere
+where B applies. And as precise, since in contexts shared by B it allows no
+more observations than B.
+
+A theory that is more information-bearing is more falsifiable, that is, it 
+provides more opportnities for falsification. First, there may be more contexts
+in which the theory can be falsified. And second, in the shared contexts, 
+the theory may allow less observed outcomes, and therefore more opportunities
+to falsify. So the definition of information-bearing is nicely captured 
+by the extent of falsifiability.
+
+Falsification simply finesses the issues with induction, by allowing that 
+any theory whasoever is legitimate as long as it has not been falsified as yet.
+
+Falsification provides a view of the progress of science in a given area as a
+sequence of crises engendered by the falsification of a theory, each of which
+motivates the invention of a better theory that only lasts until it is
+falsified.
+
+However, falsification per se can only tell us about defects in a theory.
+Falsification per se, says nothing about why a particular scientific theory
+should be believed as a true statement about nature.
+
+To get confidence about an as yet unfalsified theory, there must be convincing
+evidence that sufficient attempts have been made to falsifiy the theory without
+success. But that again puts us in a state of vagaries of definitions and
+subjective judgments!
+

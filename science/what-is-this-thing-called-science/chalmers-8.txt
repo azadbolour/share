@@ -1,0 +1,58 @@
+
+Chapter 8 - Kuhn
+
+This chapter discusses Kuhn's contributions to the philosophy of science.
+Kuhn was principally a historian of science and his philosophy is informed 
+by that background.
+
+The basic structure of scientific knowledge acquisition proposed by Kuhn is 
+summarized as:
+
+    repeat: normal science -> crisis -> revolution -> normal science -> ...
+
+On its face, Kuhn's model looks like an elaboration of the falsification model.
+It adds the idea of "normal science" to the ideas of falsification (leading to
+"crisis") and modification (engendered by a theoretical "evolution"). Normal 
+science is basically the elaboration and consolidation of a theory. 
+
+In Kuhn's conception, normal science takes for granted a certain model of the
+world, as well as certain standards for valid observations, and within the
+constraints of the accepted models and standards, pushes the boundaries of
+theoretical and experimental knowledge about the given field in an incremental
+way. The set of accepted models and behavioral standards forms the core of what
+Kuhn calls a "paradigm", an agreed-upon context for doing scientific research.
+
+I am not going to go into further details about Kuhn's model since they are 
+readily avaliable and relatively well-known.
+
+But this chapter showed me a new aspect of Kuhn's model that I had not appreciated
+on my first reading of his book, namely the sociological nature of scientific
+revolutions (and the ensuing paradigm formations), and the resulting de-emphasis
+of the idea of progress in a scientific field over time.
+
+Basically as told by Chalmers, Kuhn considers the acceptance of a new paradigm
+based on revolutionaly ideas in a scientific field as a sociological affair, in
+which the practitioners in the field are converted one by one to believe in the
+new paradigm, not just because of the theory's ability to better explain the
+given field and to remove falsifications, but also by a variety of other
+concerns. These concerns have to do with things like "values, tolerances,
+disdains" of the scientific community that had been working within the context
+of the old paradigm. The simplest word that comes to my mind for describing them
+is "political". To me, that aspect of the evolution of science, if true, is
+cause for concern. 
+
+Kuhn does attempt to clarify his thoughts in the postscript of a later edition
+of his book, by stating a rational notion of progress in terms of new paradigms
+being applicable in more situations. 
+
+But according to Chalmers the basic thrust of Kuhn's argument is a basically
+"relativist" view of the evolution of scientific thought in which a new
+paradigm's being more "beautiful" is in the eye of the beholders (the scientific
+community of the given field) without necessarily entailing a rational concept
+of progress in understanding the world.
+
+There is a lot more to this chanpter than my summary. But for me the big picture
+is the sociological/political aspect of scietific revolutions. Something that if
+accepted as the norm, would fuel the already shaky standing of science in the
+first half of the 21'st century, with vaccine hesitancy and climate denial.
+
