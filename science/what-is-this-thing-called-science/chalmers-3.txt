@@ -44,7 +44,7 @@ The upshot is the obvious fact that experimental results are subject
 to revision as better technologies become available, and as the theoretical
 assumptions informing the hypothesis and its complicating factors evolve.
 
-Finally Chalmers warns against falliing into the trap of circular reasoning 
+Finally Chalmers warns against falling into the trap of circular reasoning 
 in experimental design.
 
 Circularity can arise by mixing the theory that informs the experimental design

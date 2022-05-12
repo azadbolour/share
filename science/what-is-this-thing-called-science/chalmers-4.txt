@@ -53,7 +53,7 @@ Once we have general laws, of course, we can make logically valid deductive
 arguments about what the laws entail, and use them to predict outcomes.
 
 Food for thought on my part. The needed axiom of induction for physics, it
-seems, in one about the continuity/uniformity of nature, akin to relativity.
+seems, is one about the continuity/uniformity of nature, akin to relativity.
 That is, it is taken for granted that the patterns of events one sees for a
 given precondition in one region of space/time/matter/force are invariant of the
 specific region where the precondition holds. Does this make sense as an axiom

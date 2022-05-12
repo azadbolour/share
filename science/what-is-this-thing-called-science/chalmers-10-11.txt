@@ -1,7 +1,7 @@
 
 Chaptera 10 and 11 - Feyerabend
 
-First some background. Both Lakatos's and Feyerabend's work was done in the
+First some background. Both Lakatos's and Feyerabend's works were done in the
 context of Kuhn. But Kuhn was basically a historian of science, and the main
 thrust of his model was about the history of science and how sociological
 concerns drive that history. The aim of trying to come up with a rational
@@ -27,7 +27,7 @@ correspondence between the theory and reality.
 
 Feyerabend suggests that important discoveries have been made when a reasonable
 analysis of the situation at the time would lead to the conclusion that the
-arguments for a new theory were not rationally compelling. Therefore, he
+arguments for the corresponding theories were not rationally compelling. Therefore, he
 concludes, "anything goes". Feyerabend was very much into freedom in general.
 And a special case of his freedom was freedom to pursue scientific hypotheses
 without constraints. Since as he tries to argue, important discoveries are 
@@ -53,7 +53,7 @@ acceptable according to the standards of that time, but that the standards of
 rationality may evolve over time. When a scientist proposes a new way of looking
 at things, he uses the current standards of rationality to convince the
 scientific community of the merits of his proposal. This works, according to
-Chalmers, because the community as a whole shares the baic tenets of the accepted
+Chalmers, because the community as a whole shares the basic tenets of the accepted
 method of the time, and also because the aims of the community in doing science
 at the time are shared.
 

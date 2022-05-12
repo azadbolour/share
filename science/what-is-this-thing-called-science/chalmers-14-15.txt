@@ -14,7 +14,7 @@ of entity, and a listing of the possible relationships between various types of
 entities. Properties can be thought of as unary relations, so that, basically,
 an ontology would be a listing of entity and relationship types.
 
-A theory then constrains the relationships of the ontology in some way.  f the
+A theory then constrains the relationships of the ontology in some way. If the
 theory is correct, then certain collections of relationships between entities
 are excluded as being observable in the real world.
 

@@ -27,7 +27,7 @@ condition.
 One prominent example of this type of evolution of blame given by Chalmers is
 the evolution of understanding of the Copernican theory of the movement of earth
 and the planets - that the earth is not the center of the universe, and instead 
-that the earth and planets in general revolve around the sun, and that the earth 
+that the earth and the planets revolve around the sun, and that the earth 
 spins around each day.
 
 It took a century from the time Copernicus suggested his theory, through
@@ -41,6 +41,6 @@ objections were addressed by advances in theory and observational technology.
 The upshot is that falsification per se does not provide a complete account of
 how science actually evolves over time. The process of verifying falsifications
 and evolving the corresponding theories and experimental practices often remains
-quite messy and uncertain as the real contraditions in apparent observational
+quite messy and uncertain as the real contradictions in apparent observational
 statements and the theory are sorted out.
 

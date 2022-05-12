@@ -8,15 +8,15 @@ area. When one of our theories is falsified, we look for a better theory that
 removes the given falsification, and otherwise remains unfalsified given 
 the existing models and machineries available for falsification.
 
-Thus we have a process of constnat modification of theories where a modified
+Thus we have a process of constant modification of theories where a modified
 theory is better at explaining the real world than its falsified predecessor.
 
 However, not all attempts at theory modification will do. A legitimate 
-modification must provide a better explanation of the situation at hand
+modification must provide a better explanation of the situation at hand.
 
 Suppose we have a theory that is falsified by some test. We can always modify
 the theory to exclude that particular test, without adding any further machinery
-to the theory in termms of what patterns of input/output it allows and what
+to the theory in terms of what patterns of input/output it allows and what
 patterns it excludes. The resulting theory is contrived. Similarly contrived is
 a modification that postulates the addition of some unobservable artifacts to
 the original theory to get around its falsification. 
@@ -46,7 +46,7 @@ science, since hitherto it would have been taken for granted that it would be
 confirmed.
 
 Conversely when a bold conjecture is falsified, that is not a big deal - yet 
-another crazy idea bites the dust! Similar when a cautious conjecture resists
+another crazy idea bites the dust! Similarly when a cautious conjecture resists
 falsification, that is not a big deal either, that would have been expected.
 
 A different view of boldness of a conjecture is given by the novelty of its

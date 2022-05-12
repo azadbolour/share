@@ -23,7 +23,7 @@ conceivably change.
 
 An issue with this approach is that our measurement architecture may itself be
 theory-dependent. So we'll have to include the theories used in our measurement
-architecture in the specification when a theory is rationally better than
+architecture in the specification of when a theory is rationally better than
 another.
 
 There is also the issue of whether one can reasonably list all the predictions
@@ -52,7 +52,7 @@ number of independent runs of the experiment do show the specified result.
 
 Then that is strong evidence for the reality of the specification of the
 experiment and its expected result. The workings of such an experiment then
-becomes part of the accumulated scientific knowledge. An in this sense science
+becomes part of the accumulated scientific knowledge. And in this sense science
 progresses.
 
 The example given in this chapter is Faraday's simple electiric motor
@@ -62,7 +62,7 @@ based on Faraday's specifications and verify that his motor works as specified.
 Now, of course, there will be failures is some of those trials. But it would be absurd to
 state that because occasionally one encounters a motor that does not work as
 specified, that electric motors don't work. We can just say that electric motors 
-have generally been found experimentally to work as specified. By using of the
+have generally been found experimentally to work as specified. By using the
 word "generally" we signal that we are not using absolute induction.
 We are just stating something about experiments of a certain type.
 
@@ -86,7 +86,7 @@ to the original. The "theory" we use is a theory of identity of shapes, which
 should be non-controversial.
 
 If an objection is raised to one type of observation instrument, we can try 
-other types of instruments whose working are clearly independent of the first.
+other types of instruments whose workings are clearly independent of the first.
 Having two independent means of observation that yield the same results is
 strong evidence for the reality of the observations.
 
@@ -95,7 +95,7 @@ by an underlying theory. The theory may change. But the experimental knowledge
 will remain the same. In a sense then, theory can be thought of as just a tool,
 a shorthand, for describing expected experimental results.
 
-On the othe hand, if experimental results are to be used as evidence for a theory, 
+On the other hand, if experimental results are to be used as evidence for a theory, 
 one needs to show that they would be highly unlikely if the theory were wrong.
 
 A theory restricts the set of possible observations in certain situations. An

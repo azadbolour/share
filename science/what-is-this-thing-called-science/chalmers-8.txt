@@ -43,7 +43,7 @@ cause for concern.
 
 Kuhn does attempt to clarify his thoughts in the postscript of a later edition
 of his book, by stating a rational notion of progress in terms of new paradigms
-being applicable in more situations. 
+being applicable in more contexts. 
 
 But according to Chalmers the basic thrust of Kuhn's argument is a basically
 "relativist" view of the evolution of scientific thought in which a new
