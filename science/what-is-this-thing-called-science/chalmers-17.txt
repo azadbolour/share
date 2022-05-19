@@ -1,0 +1,215 @@
+
+Chapter 17. Postscript.
+
+Work in progress.
+
+Philosophical atoms vs scientific atoms.
+
+Science confirmed "by appeal" to experience - as opposed to "derived from"
+experience. Empirically supported.
+
+Appeal needs "appropriate" notions of confirmation and empirical evidence. 
+
+Fallibility - limited scope, incorrect evidence.
+
+Strong sense of confirmation. I guess large number of experiments, different
+conditions, survive stringent tests, evidence for all the predictions.
+
+Replaced theories as limiting cases of their replacements. In the contexts
+in which they were confirmed they remain valid.
+
+Realism becomes problematic because theories can be superceded beyond their
+observed limits, and the picture of the world provided by the more general 
+theory may be radically different from that provided by the earlier thoery.
+
+However, there are elements of theories that it would be silly to think of as
+unreal. We can say that they are as far as we know practically real. Chalmers
+considers the elctron as practically real.
+
+But the distinction still seems rather subjecive. 
+
+For me, practically real is just good enough. The ontology provided by a
+well-confirmed theory is just practically real. We don't have to worry 
+about whether it is actually real. Just like we don't have to worry about
+whether a scientific fact is absolutely true. 
+
+So rather than speaking of reality and truth which will get us into trouble,
+we can just speak of well-confirmed models of the world.
+
+This reduces the issue to the still ultimately subjecive issue of what 
+constitutes a well-confirmed theory.
+
+If we think of a well-confirmed theory as basically an abstraction or
+factorization of regular observations spanning the entire range of the
+applicability of the theory, then it is almost by definition the case that the
+theory is correct. The problem is that we cannot possibly observe experimentally
+the entire range of applicability of most interseting theories. 
+
+However, assuming that our observations are close enough to areas where
+we claim the theory applies to but have not been directly observed, 
+it would be quite a coincidence if the theory is not an approximation 
+to the situation in the entire range of claimed applicability.
+
+Chalmers considers this type of argument as valid only if the evidence is very
+strong and he has a number of criteria for the strength of the evidence.
+
+1. Stringent objective tests.
+
+2. The complete theory has to be stated up front and tests evaluated 
+   against that complete theory. If you keep finding anomalies and keep 
+   tinkering with the theory (e.g., as in Ptolemy's epicycles) then that 
+   is a theory "smell". This is the idea of "accomodation"  of a theory 
+   to experimental evidence that has not in my mind been precisely defined.
+
+3. Possibilities of error.
+
+   One thing is that a theory may contain multiple sub-theories, 
+   and we may not have specific evidence for the specific sub-theories,
+   and in fact they could be wrong.
+   
+   An example is Newton's particle theory of light which conjectured 
+   assumptions about the attraction of light by materials, etc. which 
+   were just conjectures - not independently tested.
+   
+   Another issue is that to test a theory one may have to make assumptions
+   about the domain of tests, and those assumptions may be wrong.
+
+   An example is the assumption about the distance of the stars in testing
+   for parallax that seemingly falsified Copernicus. In this case, the distance 
+   assumptions were false.
+
+4. Complete tests of all parts of a theory. The tests purported to confirm a
+   theory may only confirm a subset of the postulates of the theory. So care must
+   be taken to partition a theory into orthogonal postulates, and claim only those
+   potulates that are actually needed to explain the existing observations made in
+   experiments so far. An example given is that Newton's theory postulates 
+   absolute space, but experiments only deal with the relative positions 
+   of the bodies involved and not with absolute space per se.
+
+5. Variety of phenomena explained by a theory. The wider the range of seemingly
+   distict phenomena phenomena and discoveries confirming a theory, the stronger is
+   the case for the thoery. For example, Newton's theory explains planeray orbits,
+   billiard balls, tides, etc. It would be an amzing coincidence if the theory were
+   just plain wrong.
+
+Chalmers considers the fact that historically accepted theories were rejected 
+outright, e.g., Aristotelian theories, as insufficient evidence for the
+rejection of currently accepted theories. Some of those theories were 
+not confirmed by evidence, I guess, using even the standards of evidence 
+of the day. 
+
+But in any case, we now have much better standards of evidence which reduce the
+chance of the fallibility of currently accepted theories. 
+
+I guess our standards of rationality and evidence can be improved by future
+generations, and by those standards, those future generations can crtitique
+the acceptance by us of certain theories. But we can only use the best standards
+of rationality at our disposal at a given time. That is the best we can do
+in approximating reality.
+
+Other past theories were well-confirmed by our current standards, and in those
+cases they remain valid as limiting cases of the theories that superceded them.
+
+The difference between philosophical and scientific theories. As exemplified by 
+the atomic theory of matter.
+
+Anceinet philophers attempting to explain the nature of change were able to
+explain change as a rearrangement of constituent particles.
+But this was an explanation of how change CAN happen. They did not show in any
+diect manner that this is the way change DOES happen. Similarly the atmomists of
+the 17'th century (Newton and Boyle) could show that an assumption of the atomic
+nature of matter CAN be used to explain certain natural phenomena. But according
+to Chalmers they too did not produce strong evidence for the actual atomic
+nature of matter. I am wondering about the details of the arguments by Newton
+and Boyle and how they differed from the notions of strong evidence listed by
+Chalmers. Maybe that will become clear later in this chapter.
+
+In any case, when Chalmers talk about "accommodating" a theory to en experimental
+observation, what I think he has in mind is that the ontology and machanisms proposed by
+the theory CAN be used to explain the observation. But that strong evidence has
+not been offered for the claim that that ontologgy and set of mechanisms
+actually describes the underlying reality.
+
+However, for me personally, the fact that the theory can be used to explain 
+observed phenomema is some sort of evidence. So the question becomes does 
+there exist an objective notion of evidence that is qualitatively different 
+from the explanatory property of theories that can be taken to signify 
+"strong" evidence. Or are we mainly concerned with the degree of explanatory 
+power - that is the number of phenomena that fall within the context of 
+theory that can be explained by the theory, and once the additional needed
+assumptions for those explanations are added to the theory, the number of 
+phenomena that should be but are not yet explained by the theory?
+
+Chalmers' claim is that strong evidence for the "atomic" nature of matter
+was first provided by J.J. Thompson's cathode ray experiments. I don't 
+understand the details of those experiments sufficiently to satisfy myself 
+of the nature of the kinds of confirmation they provide in relation to 
+the notion of accommodation and explanatory characters of theories.
+To be figured out.
+
+One idea of strong confirmation is that different and unrelated experiments by
+Peter Zeeman had also pointed to the existence of charged particles.  Again the
+real implications of this independent verification are beyond me as I don't
+understand the details of the Zeeman experiment. Chalmers argues that the 
+nature of the electron was forced on us by the results of experiments.
+And he contrasts this with earlier partculate theories that were something
+like pure speculations. I am not sure I understand this difference as 
+a qualitative distinction. I am going to need more details. 
+
+In any case, the way I see a qualitative distinction (and I am not sure if it
+captures the gist of Chalmers's arguments) is this. A speculative theory is one
+which: 
+
+1. Either is not really a scientific theory because it has not worked out the
+details of the ontology and the mechanisms involved in its explanations. This
+is clearly the case for the anceinet atomic theories. Change can possibly be
+explained by a particulate theory, but no details are given as to how it
+actually occurs.
+
+2. Or it has speculated on the details, but those details have not been
+subjected to serious experimental tests.
+
+In other words, a theory that has merely argued that it CAN possibly explain 
+certain phenomena but has not specifed the details of how, or to the extent it
+has specified them, they have not been subjected to rigorous experimental tests,
+is an "accommodating theory".
+
+Note that by this definition of mine the Ptolemian theory of the planets is 
+not really an accomodating theory just because it includes epicycles.
+
+Perhaps you will find in Chalmers a clearer and more convincing explanation 
+of the distinction betwen an accommodating theory and a strongly confirmed one.
+Or maybe it will be clarified further later in this chapter.
+
+An interesting and extreme example of falsification of a theory with supposedly
+strong evidence is the explanation of Brownian motion by the kinetic theory of
+molecules at the time. In the 1900's Jean Perrin conducted a series of extremely
+careful experiments for observing the behavior of Brownian motion particles. The
+results of these experiments perfectly fit the kinetic theory of molecules.
+Unfortunately, it turned out later that the theory as kknown at the time of
+Perrin included false postulates concerning the equilibrium of different types
+of motions of a particle accounting for its kinetic energy.
+
+The takeaway is that Perrin was mainly concerned with Brownian motion. But the
+underlying kinetic theory had variuos unrelated consequences that only later 
+were found not to exist.
+
+In the case of Brownian motion, specific assumptions used in the kinetic theory
+of molecules that were use to explain Brownian motion by Perrin were simply
+wrong.
+
+A different issue arises when the specific assumptions of a theory are in fact
+not needed to explain a phenomenon, but the theoretician is nontheless wedded 
+to them. The example given by Chalmers is Dalton's atomic theory of matter.
+Chalmers proposes that the existence of atoms as basic constituents of matter 
+was not needed to account for most (all?) of 19'th century chemistry. 
+Thus chemical formulae can just as well be interpreted as describing quantities
+of diferent materials as atoms of different material used in a combined
+chemical. If that is indeed the case, then 19;th century theory of chemical 
+reactions could be "partitioned" into orthogonal dimensions concerning (1) the 
+relative quantities of different elements participating in a chemical reaction,
+and (2) the atomic nature of matter. And the contention is that only the
+quantititative laws of chemistry were proven by 19'th century experiments, 
+and not the atomic nature of matter.
+
+
