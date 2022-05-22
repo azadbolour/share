@@ -1,22 +1,49 @@
 
 Chapter 17. Postscript.
 
-Work in progress.
+In this postscript, Chalmers puts the contents of the book in perspective and
+concludes with what seems to be his overall understanding of how science can be
+rational and progressive.
 
-Philosophical atoms vs scientific atoms.
+[Overview]
 
-Science confirmed "by appeal" to experience - as opposed to "derived from"
-experience. Empirically supported.
+My understanding of the model of science he sketches in this chapter can be
+summarized as follows:
 
-Appeal needs "appropriate" notions of confirmation and empirical evidence. 
+- A scientific theory may be sketchy [my word] or fully worked out. 
 
-Fallibility - limited scope, incorrect evidence.
+- Because a sketchy theory is high-leveal and lacks details and precision, it is
+  not possible to put it to stringent tests.
 
-Strong sense of confirmation. I guess large number of experiments, different
-conditions, survive stringent tests, evidence for all the predictions.
+- When a sketchy theory is fleshed out with details about the machanisms that
+  that supposedly lead to the phenomena in question, those detailed mechanisms
+  generally yield a variety of phenomena in addition to the original subjects of
+  the theory, and hence allow the theory to be be put to the test by experiments
+  on the full range of its implications.
 
-Replaced theories as limiting cases of their replacements. In the contexts
-in which they were confirmed they remain valid.
+- Given a body of experimenmtal results relating to a theory, certain
+  assumptions of the theory may be strongly confirmed, and other assumptions
+  of the theory may not be confirmed at all. 
+
+- It is generally the case that parts that are well-confirmed remain valid
+  as limiting cases of supeceding theories, while the parts that are not 
+  confirmed are eliminated or completely supeceded.
+
+- We should therefore stick with theories that are fully fledged, and in 
+  addition, try to separate out the parts of each theory that have not been 
+  well-confirmed by experiments so far.
+
+- Then in general superceding theories become progressive in the sense that 
+  sperceded theories remain valid as special cases of superceding theories, 
+  and in that sense science becomes a progresive enterprise.
+
+At least this my take-away from this postscript. Your mileage may vary. And I am
+not sure I have fully captured Chalmers' intent by the above summary.
+
+In what follows I will describe some of the above ideas in more detail as 
+presented in this chapter.
+
+[Some Specifics]
 
 Realism becomes problematic because theories can be superceded beyond their
 observed limits, and the picture of the world provided by the more general 
@@ -24,7 +51,7 @@ theory may be radically different from that provided by the earlier thoery.
 
 However, there are elements of theories that it would be silly to think of as
 unreal. We can say that they are as far as we know practically real. Chalmers
-considers the elctron as practically real.
+considers the electron as practically real.
 
 But the distinction still seems rather subjecive. 
 
@@ -114,51 +141,50 @@ The difference between philosophical and scientific theories. As exemplified by
 the atomic theory of matter.
 
 Anceinet philophers attempting to explain the nature of change were able to
-explain change as a rearrangement of constituent particles.
-But this was an explanation of how change CAN happen. They did not show in any
-diect manner that this is the way change DOES happen. Similarly the atmomists of
-the 17'th century (Newton and Boyle) could show that an assumption of the atomic
-nature of matter CAN be used to explain certain natural phenomena. But according
-to Chalmers they too did not produce strong evidence for the actual atomic
-nature of matter. I am wondering about the details of the arguments by Newton
-and Boyle and how they differed from the notions of strong evidence listed by
-Chalmers. Maybe that will become clear later in this chapter.
+explain change as a rearrangement of constituent particles. But this was an
+explanation of how change CAN happen. They did not show in any direct manner
+that this is the way change DOES happen. 
 
-In any case, when Chalmers talk about "accommodating" a theory to en experimental
-observation, what I think he has in mind is that the ontology and machanisms proposed by
-the theory CAN be used to explain the observation. But that strong evidence has
-not been offered for the claim that that ontologgy and set of mechanisms
-actually describes the underlying reality.
+Similarly the atmomists of the 17'th century (Newton and Boyle) could show that
+an assumption of the atomic nature of matter CAN be used to explain certain
+natural phenomena. But according to Chalmers, they too did not produce strong
+evidence for the actual atomic nature of matter. I am wondering about the
+details of the arguments by Newton and Boyle and how they differed from the
+notions of strong evidence listed by Chalmers. 
+
+In any case, when Chalmers talk about "accommodating" a theory to an
+experimental observation, what I think he has in mind is that the ontology and
+machanisms proposed by the theory CAN be used to explain the observation. But
+that strong evidence has not been offered for the claim that that ontologgy and
+set of mechanisms actually [closely] describes the underlying reality.
 
 However, for me personally, the fact that the theory can be used to explain 
-observed phenomema is some sort of evidence. So the question becomes does 
-there exist an objective notion of evidence that is qualitatively different 
-from the explanatory property of theories that can be taken to signify 
-"strong" evidence. Or are we mainly concerned with the degree of explanatory 
-power - that is the number of phenomena that fall within the context of 
-theory that can be explained by the theory, and once the additional needed
-assumptions for those explanations are added to the theory, the number of 
-phenomena that should be but are not yet explained by the theory?
+observed phenomema is a sort of evidence for the theory. So why is it
+considered weak as evidence?
 
-Chalmers' claim is that strong evidence for the "atomic" nature of matter
-was first provided by J.J. Thompson's cathode ray experiments. I don't 
-understand the details of those experiments sufficiently to satisfy myself 
-of the nature of the kinds of confirmation they provide in relation to 
-the notion of accommodation and explanatory characters of theories.
-To be figured out.
+It seems that once you flesh out the explanations to an actual theory with the
+details worked out, then that completed theory could imply various other
+observed phenomena that could be put to the test. And evidence for those
+phenomena can only be tested after the ontology and mechanisms of the theory are 
+completely specified. In order to flesh out the theory it is often necessary
+to augment the original high-level explanatory framework of the theory with
+additional assumptions. Which assumptions would have to be strongly confirmed
+by experiments for the whole theory to be confirmed.
 
-One idea of strong confirmation is that different and unrelated experiments by
-Peter Zeeman had also pointed to the existence of charged particles.  Again the
-real implications of this independent verification are beyond me as I don't
-understand the details of the Zeeman experiment. Chalmers argues that the 
-nature of the electron was forced on us by the results of experiments.
-And he contrasts this with earlier partculate theories that were something
-like pure speculations. I am not sure I understand this difference as 
-a qualitative distinction. I am going to need more details. 
+Chalmers' claim is that strong evidence for the particulate nature of matter was
+first provided by J.J. Thompson's cathode ray experiments. One idea of strong
+confirmation is that different and unrelated experiments can point to the same
+theory. Experiments by Peter Zeeman had also pointed to the existence of charged
+particles, additionally confirming the existence of material particles. 
+
+At this time, I don't understand the details of these two experiments to be able
+to independent judge their qualitative distinction from the more speculative
+theories of earlier scientists. I would have to take Chalmers word for it for
+now.  To be further understood.
 
 In any case, the way I see a qualitative distinction (and I am not sure if it
-captures the gist of Chalmers's arguments) is this. A speculative theory is one
-which: 
+captures the gist of Chalmers's arguments) is this. A speculative [aka
+accommodating] theory is one which: 
 
 1. Either is not really a scientific theory because it has not worked out the
 details of the ontology and the mechanisms involved in its explanations. This
@@ -169,47 +195,39 @@ actually occurs.
 2. Or it has speculated on the details, but those details have not been
 subjected to serious experimental tests.
 
-In other words, a theory that has merely argued that it CAN possibly explain 
-certain phenomena but has not specifed the details of how, or to the extent it
-has specified them, they have not been subjected to rigorous experimental tests,
-is an "accommodating theory".
-
 Note that by this definition of mine the Ptolemian theory of the planets is 
-not really an accomodating theory just because it includes epicycles.
-
-Perhaps you will find in Chalmers a clearer and more convincing explanation 
-of the distinction betwen an accommodating theory and a strongly confirmed one.
-Or maybe it will be clarified further later in this chapter.
+not really a speculative theory just because it includes epicycles.
 
 An interesting and extreme example of falsification of a theory with supposedly
 strong evidence is the explanation of Brownian motion by the kinetic theory of
-molecules at the time. In the 1900's Jean Perrin conducted a series of extremely
+molecules at the time. In the 1900's Jean Perrin conducted a series of very
 careful experiments for observing the behavior of Brownian motion particles. The
 results of these experiments perfectly fit the kinetic theory of molecules.
-Unfortunately, it turned out later that the theory as kknown at the time of
+Unfortunately, it turned out later that the theory as known at the time of
 Perrin included false postulates concerning the equilibrium of different types
 of motions of a particle accounting for its kinetic energy.
 
 The takeaway is that Perrin was mainly concerned with Brownian motion. But the
-underlying kinetic theory had variuos unrelated consequences that only later 
+underlying kinetic theory had various unrelated consequences that only later 
 were found not to exist.
 
-In the case of Brownian motion, specific assumptions used in the kinetic theory
-of molecules that were use to explain Brownian motion by Perrin were simply
+In the case of Brownian motion, specific assumptions in the then kinetic theory
+of molecules that were used to explain Brownian motion by Perrin were simply
 wrong.
 
 A different issue arises when the specific assumptions of a theory are in fact
-not needed to explain a phenomenon, but the theoretician is nontheless wedded 
-to them. The example given by Chalmers is Dalton's atomic theory of matter.
-Chalmers proposes that the existence of atoms as basic constituents of matter 
-was not needed to account for most (all?) of 19'th century chemistry. 
-Thus chemical formulae can just as well be interpreted as describing quantities
-of diferent materials as atoms of different material used in a combined
-chemical. If that is indeed the case, then 19;th century theory of chemical 
-reactions could be "partitioned" into orthogonal dimensions concerning (1) the 
-relative quantities of different elements participating in a chemical reaction,
-and (2) the atomic nature of matter. And the contention is that only the
-quantititative laws of chemistry were proven by 19'th century experiments, 
-and not the atomic nature of matter.
+not needed to explain a phenomenon. The example given by Chalmers is Dalton's
+atomic theory of matter. Chalmers proposes that the existence of atoms as basic
+constituents of matter was not needed to account for most (all?) of 19'th
+century chemistry. 
+
+For example, chemical formulae can be taken to mean qualtities of different
+constituents of a compound independently of whether the constituents are
+particulate. In other words, atomicity is a separable part of 19'th
+century chemistry. And the contention is that that part of the theory 
+was not put to stringent tests in the 19'th century, and the results
+of 19'th century experiments could be adequately explained by using only the 
+idea of quantities of materials participating in chemical reactions.
+
 
 
