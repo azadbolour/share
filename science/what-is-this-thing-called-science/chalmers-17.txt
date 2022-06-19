@@ -12,13 +12,13 @@ summarized as follows:
 
 - A scientific theory may be sketchy [my word] or fully worked out. 
 
-- Because a sketchy theory is high-leveal and lacks details and precision, it is
+- Because a sketchy theory is high-level and lacks details and precision, it is
   not possible to put it to stringent tests.
 
 - When a sketchy theory is fleshed out with details about the machanisms that
-  that supposedly lead to the phenomena in question, those detailed mechanisms
+  supposedly lead to the phenomena in question, those detailed mechanisms
   generally yield a variety of phenomena in addition to the original subjects of
-  the theory, and hence allow the theory to be be put to the test by experiments
+  the theory, and hence allow the theory to be put to the test by experiments
   on the full range of its implications.
 
 - Given a body of experimenmtal results relating to a theory, certain
@@ -26,8 +26,8 @@ summarized as follows:
   of the theory may not be confirmed at all. 
 
 - It is generally the case that parts that are well-confirmed remain valid
-  as limiting cases of supeceding theories, while the parts that are not 
-  confirmed are eliminated or completely supeceded.
+  as limiting cases of superceding theories, while the parts that are not 
+  confirmed are eliminated or completely superceded.
 
 - We should therefore stick with theories that are fully fledged, and in 
   addition, try to separate out the parts of each theory that have not been 
@@ -50,7 +50,7 @@ observed limits, and the picture of the world provided by the more general
 theory may be radically different from that provided by the earlier thoery.
 
 However, there are elements of theories that it would be silly to think of as
-unreal. We can say that they are as far as we know practically real. Chalmers
+unreal. We can say that they are practically reall as far as we know. Chalmers
 considers the electron as practically real.
 
 But the distinction still seems rather subjecive. 
@@ -85,7 +85,7 @@ strong and he has a number of criteria for the strength of the evidence.
 2. The complete theory has to be stated up front and tests evaluated 
    against that complete theory. If you keep finding anomalies and keep 
    tinkering with the theory (e.g., as in Ptolemy's epicycles) then that 
-   is a theory "smell". This is the idea of "accomodation"  of a theory 
+   is a theory "smell". This is the idea of "accommodation" of a theory 
    to experimental evidence that has not in my mind been precisely defined.
 
 3. Possibilities of error.
@@ -114,9 +114,9 @@ strong and he has a number of criteria for the strength of the evidence.
    of the bodies involved and not with absolute space per se.
 
 5. Variety of phenomena explained by a theory. The wider the range of seemingly
-   distict phenomena phenomena and discoveries confirming a theory, the stronger is
-   the case for the thoery. For example, Newton's theory explains planeray orbits,
-   billiard balls, tides, etc. It would be an amzing coincidence if the theory were
+   distict  phenomena and discoveries confirming a theory, the stronger is
+   the case for the theory. For example, Newton's theory explains planeray orbits,
+   billiard balls, tides, etc. It would be an amazing coincidence if the theory were
    just plain wrong.
 
 Chalmers considers the fact that historically accepted theories were rejected 
@@ -129,7 +129,7 @@ But in any case, we now have much better standards of evidence which reduce the
 chance of the fallibility of currently accepted theories. 
 
 I guess our standards of rationality and evidence can be improved by future
-generations, and by those standards, those future generations can crtitique
+generations, and by those standards, those future generations can critique
 the acceptance by us of certain theories. But we can only use the best standards
 of rationality at our disposal at a given time. That is the best we can do
 in approximating reality.
@@ -140,19 +140,19 @@ cases they remain valid as limiting cases of the theories that superceded them.
 The difference between philosophical and scientific theories. As exemplified by 
 the atomic theory of matter.
 
-Anceinet philophers attempting to explain the nature of change were able to
+Ancienet philosophers attempting to explain the nature of change were able to
 explain change as a rearrangement of constituent particles. But this was an
 explanation of how change CAN happen. They did not show in any direct manner
 that this is the way change DOES happen. 
 
-Similarly the atmomists of the 17'th century (Newton and Boyle) could show that
+Similarly the atomists of the 17'th century (Newton and Boyle) could show that
 an assumption of the atomic nature of matter CAN be used to explain certain
 natural phenomena. But according to Chalmers, they too did not produce strong
 evidence for the actual atomic nature of matter. I am wondering about the
 details of the arguments by Newton and Boyle and how they differed from the
 notions of strong evidence listed by Chalmers. 
 
-In any case, when Chalmers talk about "accommodating" a theory to an
+In any case, when Chalmers talks about "accommodating" a theory to an
 experimental observation, what I think he has in mind is that the ontology and
 machanisms proposed by the theory CAN be used to explain the observation. But
 that strong evidence has not been offered for the claim that that ontologgy and
@@ -178,9 +178,9 @@ theory. Experiments by Peter Zeeman had also pointed to the existence of charged
 particles, additionally confirming the existence of material particles. 
 
 At this time, I don't understand the details of these two experiments to be able
-to independent judge their qualitative distinction from the more speculative
-theories of earlier scientists. I would have to take Chalmers word for it for
-now.  To be further understood.
+to independently judge their qualitative distinction from the more speculative
+theories of earlier scientists. I would have to take Chalmers' word for it for
+now. To be further understood.
 
 In any case, the way I see a qualitative distinction (and I am not sure if it
 captures the gist of Chalmers's arguments) is this. A speculative [aka
@@ -188,7 +188,7 @@ accommodating] theory is one which:
 
 1. Either is not really a scientific theory because it has not worked out the
 details of the ontology and the mechanisms involved in its explanations. This
-is clearly the case for the anceinet atomic theories. Change can possibly be
+is clearly the case for the ancient atomic theories. Change can possibly be
 explained by a particulate theory, but no details are given as to how it
 actually occurs.
 
@@ -221,13 +221,13 @@ atomic theory of matter. Chalmers proposes that the existence of atoms as basic
 constituents of matter was not needed to account for most (all?) of 19'th
 century chemistry. 
 
-For example, chemical formulae can be taken to mean qualtities of different
+For example, chemical formulae can be taken to mean quantities of different
 constituents of a compound independently of whether the constituents are
-particulate. In other words, atomicity is a separable part of 19'th
-century chemistry. And the contention is that that part of the theory 
-was not put to stringent tests in the 19'th century, and the results
-of 19'th century experiments could be adequately explained by using only the 
-idea of quantities of materials participating in chemical reactions.
+particulate. In other words, atomicity is a separable part of 19'th century
+chemistry. And the contention is that that part of the theory was not put to
+stringent tests in the 19'th century, and the results of 19'th century
+experiments could be adequately explained by using only the idea of quantities
+of materials participating in chemical reactions.
 
 
 
