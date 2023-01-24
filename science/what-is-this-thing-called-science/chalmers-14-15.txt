@@ -8,7 +8,7 @@ included in the book. I will not attempt to list the pot pouri. Instead, I
 will describe just the basic ideas in my own words.
 
 First some preliminaries. Theories generally need an ontology. Let's assume, for
-simplicity and for specificity, that an ontology is a listing of the types of
+simplicity and specificity, that an ontology is a listing of the types of
 entities the theory is concerned with, a listing of the properties of each type
 of entity, and a listing of the possible relationships between various types of
 entities. Properties can be thought of as unary relations, so that, basically,
@@ -34,7 +34,7 @@ relationship between theories and reality.
 
 The basic idea is called the correspondence principle: a theory is true if
 reality follows the theory. There are two sides to this claim. First the
-constraints imposed by the theory on its relationsgips should not be violated in
+constraints imposed by the theory on its relationships should not be violated in
 reality: a true theory is not falsified. Second, all collections of
 relationships allowed by the theory should actually be observed in the real
 world: evidence for the theory should exhaust all possible cases of the theory.
@@ -101,7 +101,7 @@ if the theories are founded on the basis only of constraints in the properties
 and relations of observable events, it seems we are on relatively safe grounds.
 
 It is also mentioned by Chalmers that once theories are reduced to mathematical 
-equations, the equestions themselves may remain invariant as the theory and its
+equations, the equations themselves may remain invariant as the theory and its
 ontology changes. The interpretation of the symbols used in the equations
 in terms of their real-world references can change, but not the equations
 themselves.

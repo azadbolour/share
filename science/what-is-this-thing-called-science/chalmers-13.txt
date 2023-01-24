@@ -59,16 +59,16 @@ The example given in this chapter is Faraday's simple electiric motor
 experiment. Faraday's contemporaries could successfully repeat the experiment
 based on Faraday's specifications and verify that his motor works as specified.
 
-Now, of course, there will be failures is some of those trials. But it would be absurd to
-state that because occasionally one encounters a motor that does not work as
-specified, that electric motors don't work. We can just say that electric motors 
-have generally been found experimentally to work as specified. By using the
-word "generally" we signal that we are not using absolute induction.
-We are just stating something about experiments of a certain type.
+Now, of course, there will be failures is some of those trials. But it would be
+absurd to state that because occasionally one encounters a motor that does not
+work as specified, that electric motors don't work. We can just say that
+electric motors have generally been found experimentally to work as specified.
+By using the word "generally" we signal that we are not using absolute
+induction. We are just stating something about experiments of a certain type.
 
 Suppose that at the beginning, many independent experimemnts yield the same
-results, so our experimental results are accepted as valid, but later on some other
-independent runs of the experiment contradict our expected result. In that
+results, so our experimental results are accepted as valid, but later on some
+other independent runs of the experiment contradict our expected result. In that
 case, it is still the case that in those labs where the experiment succeeded,
 the experimental result is valid. 
 
@@ -113,7 +113,7 @@ other things that are not the subject of Eddington's experiment. So it is
 reasonable to assume that Eddington's finding supports a theory of attraction of
 electomagnetic waves by masses (like Eistein's law of gravity), since the
 bending observation seems unlikely without such a theory. But Eddington does not
-support the general theory of relativity.
+support the entire general theory of relativity.
 
 The formulation of experimental results as the fundamental constituents of
 scientific knowledge can be taken quite far. And it has been, according to
