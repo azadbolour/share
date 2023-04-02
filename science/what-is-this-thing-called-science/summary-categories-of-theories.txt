@@ -1,0 +1,108 @@
+
+Catgoeries of Theories 
+
+Descriptive Theories
+
+A descriptive theory relates cause and effect by pure curve-fitting, without
+appeal to an underlying mechanism.
+
+We measure the characteristics of a phenomenon in various contexts, e.g., at
+different times, and come up with a formula that fits those measurements based
+on the context. Then we use induction to elevate that formula to a theory.
+
+I'll call the set of all contexts in which a theory is supposed to hold, that
+theory's "domain".
+
+A descriptive theory is predictive in the sense that its formula can be applied
+to parts of its domain that did not participate in the original measurements
+used in its curve-fitting.
+
+I would include Ptolemian epicycle theory in the category of descriptive
+theories. The theory predicts the locations of planets in the future. So its
+predictions can be put to the test. As far as I can tell, the domain of a
+Ptolemian epicycle theory is a particular set of planets and moons.  When new
+bodies in the solar system are discovered, we are outside the domain of the
+earlier epicycle theory, and must extend the theory by adding epicycles and
+possibly modifying existing ones.
+
+Thus, while the Greeks up to Ptolemy devised a general "framework" for
+describing the motions of a set of planets, the application of the framework to
+a set of planets in their system was ad hoc, AFAIK.
+
+Explanatory Theories
+
+An explanatory theory relates cause and effect by appeal to an underlying
+mechanism.
+
+From the point of view of testability, when the specific details of the proposed
+underlying mechanism are provided, useful avenues of testing emerge above and
+beyond the predictions of the original phenomenon leading to the theory.
+
+It may be the case, for example, that the underlying mechanisms imply other,
+hitherto out-of-focus properties of the phenomenon of interest. Or it may be
+that the underlying mechanisms entail predictions about other seemingly
+unrelated phenomena.
+
+All these additional predictions would then be subject to tests. Because a
+richer set of tests then apply to the theory, when it withstands severe testing,
+the argument from coincidence for it becomes more convincing.
+
+Newton's laws are explanatory of the movements of the planets, but also of a
+variety of other phenomena. And therefore provide a very rich set of predictions
+for testing.
+
+All else being equal, an explanatory theory is to be preferred to a purely
+descriptive one (or so I am claiming), if, in fact, the explanatory claim is
+well-tested.
+
+Philosophical Theories
+
+Not all supposedly explanatory theories provide sufficient details for the
+proposed underlying mechanisms to lead to tests, however.
+
+In a philosophical theory, a mechanism is suggested by means of which it would
+be possible, in principle, to explain certain phenomena. But the details, if
+provided at all, are insufficient to allow testable predictions.
+
+This is the case, for example, for the atomic theory of change proposed by the
+Greeks. Change can happen as a result of the rearrangement of atoms. But no
+procedure was given by the Greeks as to how the rearrangement would work to
+affect a certain kind of change.
+
+Because philosophical theories are not subject to testing, they are not
+considered scientific. But there are times when philosophical assumptions are
+mixed into an ostensibly testable theory. Chalmers offers the assumption of
+absolute space in Newton's laws as an example.
+
+Care must be taken to separate out the philosophical aspects of a claim, and
+make scientific claims only about the concrete testable part of the theory that
+have been subjected to severe tests.
+
+Accommodating Theories
+
+Chalmers also makes a distinction between what he calls 'accommodating' theories
+and genuine theories.
+
+His most convincing example of an accommodating theory goes as follows: suppose
+I propose a theory and you find a falsification for it. I can just amend my
+theory by excluding the falsifying context from my theory's domain.
+
+Accommodating theories are treated as inferior by Chalmers, as they seem fudged
+and contrived. Clearly, as Chalmers points out, if one is allowed simply to
+exclude falsifying contexts from the domain of the theory after the fact, that
+would make a mockery of testing.
+
+However, as we have seen in Lakatos, in practice, falsifications are often
+tolerated for promising theories to some degree, in the hope of finding a
+reasonable solution to the resulting puzzle, without abandoning the theory
+wholesale. In that light, there is a place for seemingly accommodating theories
+in the development of a field of research, and the distinction between
+accommodating and genuine theories becomes somewhat arbitrary in that context. 
+
+Are epicycles theories of the movements of the planets accommodating? Chalmers
+seems to imply that, since falsifying measurements lead to a reworking of the
+epicycles involved. I am not so sure. Perhaps one can equally think of epicycle
+theories as theories superseded as limiting cases of more general theories
+involving additional celestial bodies.
+
+
