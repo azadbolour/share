@@ -1,0 +1,138 @@
+
+My Take on Chalmers' Principles of Argument from Coincidence
+
+Principle 1. Observational Fidelity. 
+
+A number of different factors go into making sure that observations used in
+support of a theory are non-controversial. 
+
+Observations must be repeatable by many different agents in many different contexts. 
+
+Observations should only depend on already-strongly-verified theories. 
+
+Different observations made by instruments whose working mechanisms are unrelated 
+strengthen observational fidelity. 
+
+When instruments are used to make indirect observations, convincing
+arguments need to be made that the observed effects are unrelated to the quirks
+of the instruments.
+
+These factors motivate obvious questions one may ask of someone claiming an
+observed effect. Was it repeated in multiple contexts by multiple people?
+Is the theory you are using to derive a quantity of interest from raw
+observations strongly supported? 
+
+Principle 2. Non-evasiveness. 
+
+Chalmers separates out theories that he describes as merely "accommodating" to
+the evidence as relatively unconvincing. I rather like the designation "evasive"
+for such theories. Basically an evasive theory is one that fudges its
+formulation to dodge falsifications. 
+
+It is useful to distinguish between two types of fudging, which may be called
+pre-canonization and post-canonization. 
+
+Before a theory is proposed for widespread adoption, of course, it has to undergo 
+corrections as new experimental evidence about it is generated. That seems perfectly 
+legitimate. 
+
+On the other hand, falsifications may surface once a theory is canonized into a 
+widely accepted law. What to do in such a case? Add one heuristic patch after another
+for each newly-discovered falsification? Or try to come up with a more general
+theory of which the earlier formulation is a limiting case. The former is a
+"theory smell". The latter is legitimate progress in science.
+
+Of course, it is not necessarily easy to decide at the time of a correction.
+whether the correction is a fudging "patch" or a reasonable "extension".
+
+However, a theory that is stubbornly clung to with patch after unrelated patch
+would seem suspect. Such a theory is less convincing than a rival theory that 
+is devoid of patches and subsumes the earlier formulation as a special case.
+
+Consider the case of Ptolemaic epicycles given by Chalmers as an example of
+"accommodation" or evasiveness. My guess is that the epicycles were a purely
+descriptive theory of the motion of celestial bodies, and that the Greeks did
+not have a general epicyclic theory of how multiple celestial bodies move with
+respect to each other. In that sense, the discovery of each new celestial body
+would necessitate a "patch" to the epicyclic descriptions. However, I don't think
+that can be considered a negative at the time of the Greek astronomers. I am
+guessing that It is only after the rival theories of Copernicus, Galileo and
+Newton came along, that the Ptolemaic epicycle theories could be seen as
+wanting.
+
+BTW. An interesting case of pre-canonization theory correction is machine
+learning (used, for example, in ChatGPT). In machine learning, one starts by
+proposing a random theory, and then successive training rounds of the machine
+adjust its internal parameters to reduce the difference between its predictions
+and real-world observations.
+
+Principle 3. Strong Auxiliaries. 
+
+Auxiliaries are background assumptions that are used in interpreting
+observations and making predictions based on the theory.
+
+One example given by Chalmers is the use of the distance of the starts in
+calculating parallax: the change in position of a star when observed from
+different locations. Given the Copernican theory of the rotation of the planets
+around the sun, it is possible to calculate parallax for various stars if one
+knows the distances of stars. Here the assumptions about the distances of the
+stars is an "auxiliary". Based on the distance assumptions at the time, parallax
+should have been observed for certain stars if Copernicus was right, but it was
+not. However, it turned out later that the distance assumptions were the cause
+of the apparent falsification, and not the basic Copernican theory.
+
+So it is necessary to isolate the auxiliary assumptions leading to a prediction, 
+and for each require strong independent evidence.
+
+Principles 4 and 5 - Introduction
+
+The next two principles concern what I call 'analytical theories': theories that
+relate cause and effect by means of detailed explicitly-provided procedures.
+Analytical theories provide an ontology of entities, properties, and
+relationships that are considered causes, and a mathematical/algorithmic
+specification of the mechanisms by which these causes affect observed effects.
+
+Analytical theories are a class of what in an earlier note I called explanatory
+theories. They may be contrasted with philosophical theories which may also
+propose an ontology but do not provide the detailed specification of the 
+mechanisms leading from cause to effect.
+
+The ontology and mechanisms detailed in an analytical theory can lead to a
+variety of predicted phenomena.
+
+Principle 4. Coverage of Analytical Theories. 
+
+Suppose that strong evidence exists for one of the observed phenomena predicted
+by an analytical theory. Coverage basically asks the question: How strong is
+the evidence for a given prediction as evidence for an entire theory?
+
+An example given by Chalmers is Eddington's confirmation of the bending of light
+by gravity, a prediction of general relativity. That is certainly 'an' evidence
+for general relativity. But it only proves the bending of light. It is not
+strong evidence for the whole ontology and mechanisms of general relativity.
+
+In order to sort out the relation between evidence and theory, it is suggested
+that we try to partition a theory into distinct parts, and only make claims for
+the parts of the theory that are strongly tested. For a theory as a whole to be
+accepted, there must be strong evidence for all its parts.
+
+I have not thought through the guidelines for partitioning a theory. But it seems
+plausible that when one is presented with a piece of evidence for a theory, one
+needs to ask does it cover the entire theory. If not, one may legitimately
+consider weaker theories that just stick to the evidence at hand.
+
+5. Variety of Evidence for Analytical Theories.
+
+An analytical theory can lead to predictions in a variety of phenomena, some of
+which may, at first blush, seem to be quite unrelated. The more phenomena
+is explained and tested by an analytical theory, the stronger the case for that
+theory.
+
+The obvious example is Newton's laws of motion and gravity, which explain and
+have been tested for various phenomena include billiard balls, planetary motion, 
+tides, etc.
+
+I am thinking that in a sense this principle is the mirror image of the 
+coverage principle, and so the two may be combined into a single whole.
+But I have not thought through the details. 
+
