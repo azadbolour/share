@@ -47,9 +47,14 @@ All these additional predictions would then be subject to tests. Because a
 richer set of tests then apply to the theory, when it withstands severe testing,
 the argument from coincidence for it becomes more convincing.
 
-Newton's laws are explanatory of the movements of the planets, but also of a
-variety of other phenomena. And therefore provide a very rich set of predictions
-for testing.
+Analytical Theories
+
+I'll call an explanatory theory that precisely specifies the mechanisms by which
+causes lead to effects as an 'analytical theory'.
+
+Newton's laws are analytical in describing the movements of the planets, but
+also of a variety of other phenomena. And therefore provide a very rich set of
+predictions for testing.
 
 All else being equal, an explanatory theory is to be preferred to a purely
 descriptive one (or so I am claiming), if, in fact, the explanatory claim is
