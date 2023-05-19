@@ -1,0 +1,104 @@
+
+5/19/2023. First impressions of Chapter 1, Why Trust Science
+
+Can we agree on a definition of what constitutes a scientific 'method'?
+
+The concept I would like to have a name for is this: the rules of rationality at
+a given time in human history - the rules by which a scientific claim is
+justified or rejected. I am not sure when writers talk about 'method' that is
+what they have in mind.  But it helps me to use this restricted definition for
+the idea of 'method'.
+
+The basic thesis of the book as revealed in the first chapter seems to be that
+having diversity in scientific communities can significantly increase the
+chances both of the justifyability, and of the public's acceptance of scientific
+claims. 
+
+It is important, though, to separate out the two parts of this thesis: the
+effect of diversity of scientific justification vs its effect on public
+acceptance. I will take each one in turn.
+
+People have blind spots. And a homogeneous scientific community is likely to
+have shared blind spots. Certain deeply-embedded assumptions of the members of
+the community may affect consensus on certain claims, when in fact they may
+be irrelevant to those claims.
+
+Diversity can help uncover such assumptions and thereby increase the chance
+of a rational consensus. 
+
+That seems like a reasonable assumption.
+
+But the extent to which diversity might in fact reduce errors in scientific
+claims is not clarified in Chapter 1. It would be nice to have some examples.
+Also the effect of diversity may be more pronounced in social sciences than in
+physical sciences. Chapter 1 does not make distinctions at that level.
+
+Although diversity is not defined precisely, it seems from the chapter's
+emphasis on feminism, and from references to race and gender, that the intent is
+racial, ethnic, and gender diversity.
+
+The most general notion of diversity, however, can quickly lead to trouble in
+the arguments for it in scientific communities. 
+
+Is it reasonable to include in scientific communities representatives from the
+non-trivial groups of citizens whose religious, ideological, and political views
+would trump our current rules of rationality in scientific communities?  
+
+In fact, without additional constraints, increasing diversity in some general
+sense can increase the number of deeply-held subjective assumptions in the
+community and arguably prevent certain otherwise reasobable scientific claims to
+reach consensus.
+
+The chapter emphasizes that the participants should be unbiased, non-defensive,
+self-critical, and open to changing their minds. Points well-taken. But it
+requires a discusion of how to square these arguably rare attributes with the
+need for diversity, which is not broached in Chapter 1.
+
+The primary consideration, it seems to me, is the unbiased application of
+commonly agreed-upon rules of rationality (my interpretation of the word
+'method') to scientific claims. So a higher level question raised by the book is
+what is a rational basis for the 'consensus part' of making scientific claims.
+
+Consider Faraday's motor experiment referenced in Chalmers Chaper 13. Faraday
+described the experimental effect, and his contemporaries could attempt to
+repeat it.  There is a set of rules for actually conducting the experiment with
+fidelity which can be followed by others. But there is another set of rules for
+declaring consensus that the experiment as described does in fact represent a
+repeatable physical phnomenon. 
+
+The problem is that even in this well-defined case, some experiments will fail
+for various reasons. Yet we do have consensus that the a real physical effect
+is being described in Faraday's motor. What allows that consensus to happen in
+a large community? Clearly, one needs to exclude incompetence, lack of
+adequate materials, limited time and resources, and so on, from the results
+that can lead to consensus. Doing that requires certain justifiable rules.
+
+Consensus makes sense only when participants in a community are qualified to
+examine the evidence and apply accepted rules of rationality to that evidence.
+An analogy may be made to the judicial system. It makes no sense to just make
+anyone a justice of the supreme court. And the justices are supposed to be able
+to apply the law as it stands and to actually do so.
+
+So much for the rational justification part of the diversity: a great idea 
+that nevertheless poses significant questions about participation in a
+scientific community.
+
+On the other hand, there is the separate concern of having the general public
+follow scientific consensus, just like the concern of having the public respect
+the judgments of the supreme court. And diversity seems central to that concern.
+It seems reasonable to assume that having like-minded people participate in the
+consensus about a claim would increase its chances of acceptance. Of course,
+that depends on the definition of 'like-minded', and could easily lead us back
+into the difficulty of political and ideological considerations trumping ratioal
+ones.
+
+The book may be making two different claims with respect to diversity. That
+there is already good reason to believe that diversity would have a significant
+effect on the justifyability the public acceptance of scientific claims. Or
+alternatively, that it is worth incereasing diversity anyway because it seems
+likely to increase justifiability and public acceptance. 
+
+Hopefully the rest of the book will make that clear and provide additional 
+evidence n each case.
+
+
