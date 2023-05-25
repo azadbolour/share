@@ -50,11 +50,14 @@ sense can increase the number of deeply-held subjective assumptions in the
 community and arguably prevent certain otherwise reasobable scientific claims to
 reach consensus.
 
-The chapter emphasizes that the participants should be unbiased, non-defensive,
-self-critical, have a shared interest in the truth, devoid of compromising
-conflists of interest, and open to changing their minds. Points well-taken. But it
-requires a discussion of how to square these arguably rare attributes with the
-need for diversity, which is not broached in Chapter 1.
+The chapter emphasizes that the participants should collaborate in good faith
+with a share dinterest in the truth, be unbiased, non-defensive, self-critical,
+be devoid of compromising conflicts of interest, and open to changing their
+minds. Points well-taken. But it requires a discussion of how to square these
+attributes with the need for diversity. The practical aspects of making sure
+that these attributes are present in all members of the community, and at the
+same time, that there is sufficient diversity in the community are not discussed
+in this chapter.
 
 The primary consideration, it seems to me, is the unbiased application of
 commonly agreed-upon rules of rationality (my interpretation of the word
