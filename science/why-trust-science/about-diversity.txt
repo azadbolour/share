@@ -5,9 +5,10 @@ Can we agree on a definition of what constitutes a scientific 'method'?
 
 The concept I would like to have a name for is this: the rules of rationality at
 a given time in human history - the rules by which a scientific claim is
-justified or rejected. I am not sure when writers talk about 'method' that is
-what they have in mind.  But it helps me to use this restricted definition for
-the idea of 'method'.
+justified or rejected. Rules of validation and falsification. I am not sure when
+writers talk about 'method' that is what they have in mind. So would it make
+sense to use a different terminology to specifically denote the basic rules of
+validation in science? Perhaps 'scientific validation criteria'.
 
 The basic thesis of the book as revealed in the first chapter seems to be that
 having diversity in scientific communities can significantly increase the
@@ -50,8 +51,9 @@ community and arguably prevent certain otherwise reasobable scientific claims to
 reach consensus.
 
 The chapter emphasizes that the participants should be unbiased, non-defensive,
-self-critical, and open to changing their minds. Points well-taken. But it
-requires a discusion of how to square these arguably rare attributes with the
+self-critical, have a shared interest in the truth, devoid of compromising
+conflists of interest, and open to changing their minds. Points well-taken. But it
+requires a discussion of how to square these arguably rare attributes with the
 need for diversity, which is not broached in Chapter 1.
 
 The primary consideration, it seems to me, is the unbiased application of
@@ -67,7 +69,7 @@ declaring consensus that the experiment as described does in fact represent a
 repeatable physical phnomenon. 
 
 The problem is that even in this well-defined case, some experiments will fail
-for various reasons. Yet we do have consensus that the a real physical effect
+for various reasons. Yet we do have consensus that a real physical effect
 is being described in Faraday's motor. What allows that consensus to happen in
 a large community? Clearly, one needs to exclude incompetence, lack of
 adequate materials, limited time and resources, and so on, from the results
