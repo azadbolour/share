@@ -1,0 +1,235 @@
+
+Why Trust in Science: Chapter 2
+
+In this chapter, Oreskes uses a number of recent episodes of scientific
+controversy to further expand on her main emphasis on consensus on scientific.
+
+I cannot possibly do justice to this long and informative chapter in my brief
+overview here. I can only highlight my main take-aways.
+
+How do we settle a scientific claim? 
+
+Ideally there should be a convergence of opinion between scientists and the
+general public. But there is widespread mistrust of settled science among the
+general public. The distrust cannot be attributed to a lack of expertise alone,
+as evidenced by the fact that educated democrats and educated republicans differ
+the most on their disbeliefs of scientific claims. 
+
+Ideological considerations appear to be the major motivators of doubt. 
+
+The argument for distrust is bolstered by the instability of scientific facts.
+The philosopher Larry Lauden has called this type of distrust "the pessimistic
+meta-induction of the history of science". A favorite example of science deniers
+is the ever-changing nutritional guidelines.
+
+One answer to the issue of instability is that over time our standards of
+rationality improve, and the new standards point to improved procedures for
+verifying claims.
+
+But to sharpen the debate, Oreskes restricts her attention to quite recent
+controversies and reversal. Arguably, our standards have not changed radically
+during the periods of these incidents. Oreskes examines each of 5 cases of
+recent controversy and reversal in light of consensus, her main concern in the
+book.
+
+I see two overriding threads in her considerations.
+
+First, she argues that a claim that ends up gaining popularity is often not
+based on consensus among the experts. Acceptance is often the result of
+ideological preferences, the charisma of the claiming scientists, and hyperbolic
+coverage by the press.
+
+Second, she argues that requiring consensus among experts by using their "gold
+standards" is too strict a demand for gaining actionable knowledge about a
+claim. 
+
+The gold standards may simply not apply in a given situation. And in cases where
+its achievement is impractical, useful information can still be available
+from non-experts who are engaged with and familiar with the domain at hand.
+
+For example, doctors, care givers, and the patients themselves will have useful
+information about a medical issue. Thus, there is a middle ground of reliability
+of evidence between purely-circumstantial and scientifically-decisive that can 
+usefully inform our decision making.
+
+What is more, such evidence is often bolstered by plausible predictions of known
+scientific cause-effect processes.
+
+So different, less strict, methods of verification of a claim should not be
+rejected out of hand. The question that remains is what standards should apply 
+to the use of such methods in our decision making? 
+
+The obvious high-level answer, as suggested in the chapter, is a kind of Pascal
+wager: Compare the expected cost of informing a decision by a partially
+substantiated claim with the expected cost of not doing so.
+
+What remains to be worked out are the details of putting the Pascal wager to
+practice. Perhaps to look for and deploy accepted standards for categorizing the
+trustworthiness of partial evidence. I am not sure from a reading of the chapter
+where the development of such standards stands today.
+
+Limited Energy Theory
+
+Advocating against higher education for women was a theory that gained
+popularity in late 1900's.  It attempted to apply conservation of energy to
+child bearing. 
+
+The claim was based on three assumptions: that women can only expend a certain
+amount of energy per day, that child bearing and child rearing requires
+significant energy, and that work on higher education also requires significant
+energy. The conclusion was that higher education takes away energy that should
+more profitably be used on child bearing.
+
+Oreskes details a number of methodological issues with the evidence for this
+claim and show that there was in fact no scientific consensus for it at the time.
+
+Two general issues stand out for me. 
+
+First, the argument is what I have elsewhere called "philosophical", that is,
+described in generality at a very high level, without an explanation of the
+mechanisms involved. A simple detail, for example, might be an estimate of the
+amount of energy needed for each type of activity. Once the details of the
+mechanisms are given, possibilities will present themselves for falsification
+based on the different predictions of the offered mechanisms. 
+
+Second, this looks like an obvious case of confirmation bias. There is some
+underlying ideology that women should mostly attend to child bearing and child
+rearing. Then you apply certain scientific principles to justify that ideology
+without providing the details. Then you ignore or downplay contrary evidence,
+for example, the application of those same principles at the same level of
+detail to similar situations yielding false predictions.
+
+Continental Drift
+
+When the theory of continental drift was first proposed by Alfred Wegener of
+Germany in early 1900's, there was a sharp transatlantic divide on the efficacy
+of the so-called "hypothetico-deductive" approach to science. 
+
+Hypothetico-deductive is a fancy name for the common idea of formulating
+hypotheses about a natural phenomenon, explaining reality in terms of their
+deductive predictions, and testing for the correctness of the predictions.
+European scientists like Wegener tended to do science in that fashion.
+
+Many American scientists, on the other hand, were suspicious of the bold
+guesswork used in forming the hypotheses in that approach. They argued that an
+incremental "purely inductive" approach is a more secure way of doing science.
+In a purely inductive approach, observations, lots of them, come first. Then one
+looks for "obvious" emerging regularities in the observational data, and
+inductively formulates laws based on those regularities. Careful science, it was
+argued, would proceed cautiously in small incremental and "natural" inductive
+steps.
+
+Today it is clear that hypotheses generally rely on seeing regularities based on
+observations anyway. And "natural" inductions must involve some level of
+hypothesis formation. So the two ideas are fused in today's scientific method.
+
+Perhaps this controversy reflects general cultural differences on the two sides
+of the Atlantic. Entertaining a bold untested hypothesis required some level of
+trust in the authority of its proponents. And American culture is arguably
+distrustful of authority.
+
+Because of the American distrust of the hypothetico-deductive method, Wegener's
+hypotheses about the possible explanation of continental drift by currents in
+the earth's mantle did not receive the attention it deserved at the time.
+
+The question for me is: what is the solution when there are two seemingly
+competing scientific methods favored by different communities of experts in a
+field? I guess the answer is Lakatos's research programs. Try to fund
+both programs. But that issue is not somehing that is taken up in the chapter.
+
+These controversy also points to a dilemma for scientists confronting their
+colleagues and the public at large (something did not receive attention in the
+chapter). 
+
+Some people tend to react negatively to science know-it-alls that try to project
+authority - is Anthony Fauci a current American example? Such scientists are
+perceived as trying to use their authority rather than reason to persuade.
+
+But suppose the scientist is humble and allows for doubt. Are people going to
+give him the benefit of the doubt?
+
+Eugenics
+
+Oreskes provides convincing evidence of the lack of scientific consensus 
+on eugenics at the time of its popularity. 
+
+Eugenics argument for the control of reproduction suffered from a number of
+known shortcomings: implicit unjustified assumptions, confirmation bias, lack of
+experimental evidence, fallacy of the excluded middle: attributing an effect to
+just one of many causes, ignoring that it could be a result of several causes.
+These too are well-documented in the section.
+
+What is the scientific question here? That the human race can be improved by 
+promoting reproductive practices that enhance fitness, assuming that we have a
+definition for fitness. As a purely philosophical question, it seems reasonable.
+I am not sure whether there was consensus in principle on that philosophical
+question.
+
+From there we have to go on and provide the definition of fitness, and the
+specific mechanisms of reproductive control. Once the details are supplied,
+seemingly insurmountable issues emerge and the idea collapses scientifically and
+morally. 
+
+Eugenics appears to be yet another example of ideology masquerading as science.
+A high-level seemingly reasonable philosophical claim is used to promote
+practices favored by a popular ideology. And the general population does not
+stop to ask about the debunked scientific and moral justifications of the
+details.
+
+Hormonal Birth Control and Depression
+
+The question raised in this section is how much evidence is enough for deciding 
+a scientific claim, and acting on it.
+
+The observed statistical link between the Pill and depression has been reported
+ever since the pill was introduced. A recent mega study from Denmark has
+confirmed the link as statistically significant. But it has also cast doubt on
+whether earlier studies used correct methodologies. The earlier studies did not
+reach the same level of statistical significance, and may have been error-prone
+due to self-reporting. However, the earlier studies were bolstered by the finding
+of a link between sexual hormones and serotonin levels. Serotonin is known to
+affect mood.
+
+So the question is: to what extent should the information in support of 
+the effect of hormonal contraceptives on depression have been paid attention to
+before the Danish study?
+
+Assuming that the link between sexual hormones and seratonin has been
+scientifically established, it would seem reasonable, as Oreskes argues, to take
+the earlier not-so-accurate studies at least somewhat seriously.
+
+Oreskes suggests, for example, that a 90% confidence interval is not
+significantly different from 95%. And yet, there are major studies that simply
+discard results obtained with confidence levels below 95%.
+
+Dental Floss
+
+There were two claims with respect to flossing - that it helps reduce tooth
+decay, and that it reduces the chance of gingivitis. The facts of the matter,
+seem to be as follows. 
+
+Cochrane is a respected third party fact checker of evidence-based health
+information. In 2011 Cochrane did a review of evidence for flossing. It checked
+the data on all existing trials of flossing in the presence of brushing. It
+found no evidence from the available studies that flossing reduces tooth decay.
+And it found only a scant though statistically significant, evidence fro the
+available studies for the reduction of gingivitis pursuant to flossing.
+
+Oreskes's argument here is similar to the case of hormonal therapy. She asserts
+that there was self-reporting by dentists and patients that flossing produces
+healthier teeth. And there is at least some scientific explanation of a
+mechanism improved dental health by flossing.
+
+Once again, the question becomes how to treat subpar evidence for a claim in
+decision making.
+
+Flossing provides an example of a case where the gold-standard double-blind
+experiment is impossible. So what should be the silver and bronze standards 
+in these cases? 
+
+My simple example along these lines is whether we need a clinical trial to
+recommend that children be kept away from fires? Anecdotal accounts of a few
+such incidents do not prove the scientific claim of the adverse effect of heat. 
+But a few observed incidents of severe burns should settle the issue for most 
+reasonable people, it seems.
+
