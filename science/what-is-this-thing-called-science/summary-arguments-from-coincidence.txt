@@ -10,6 +10,11 @@ Observations must be repeatable by many different agents in many different conte
 
 Observations should only depend on already-strongly-verified theories. 
 
+Observations should be relevant and significant.
+
+Observations should use experimemts that isolate the situation to the effects 
+claimed to be involved in a phenomenom.
+
 Different observations made by instruments whose working mechanisms are unrelated 
 strengthen observational fidelity. 
 
