@@ -31,7 +31,7 @@ recent controversy and reversal in light of consensus.
 I see two overriding threads in her considerations.
 
 First, she argues that a claim that ends up gaining popularity is often not
-based on consensus among the experts. Acceptance is can result from
+based on consensus among the experts. Acceptance can result from
 ideological preferences, the charisma of the claiming scientists, and
 sensational press coverage.
 
@@ -156,12 +156,12 @@ known shortcomings: implicit unjustified assumptions, confirmation bias, lack of
 experimental evidence, fallacy of the excluded middle: attributing an effect to
 just one of many causes, ignoring that it could be a result of several causes.
 
-What is the scientific question here? That the human race can be improved by 
+What is the scientific question here? That the human race can be improved by
 promoting reproductive practices that enhance fitness, assuming that we have a
 definition for fitness. As a purely philosophical question, it seems like a
-reasonable question to try to answer scientifically.
-I am not sure whether there was consensus in principle on that philosophical
-question.
+reasonable question to try to answer scientifically. I am not sure whether
+there was consensus in principle on that philosophical question, as a
+legitin=mate question for science.
 
 From there we have to go on and provide the definition of fitness, and the
 specific mechanisms of reproductive control, and provide experiments to prove or
@@ -181,19 +181,19 @@ acting on a scientific claim.
 
 The observed statistical link between the Pill and depression has been reported
 ever since the pill was introduced. A recent mega study from Denmark has
-confirmed the link as statistically significant. In the process, it has cast doubt on
-whether earlier studies used correct methodologies. Those earlier studies did not
-reach the same level of statistical significance, and may have been error-prone
-due to self-reporting. However, the earlier studies were bolstered by the finding
-of a link between sexual hormones and serotonin levels. Serotonin is known to be
-a mood-altering substance.
+confirmed the link as statistically significant. In the process, the same study
+has cast doubt on whether earlier studies used correct methodologies. Those
+earlier studies did not reach the same level of statistical significance, and
+may have been error-prone due to self-reporting. However, the earlier studies
+were bolstered by the finding of a link between sexual hormones and serotonin
+levels. Serotonin is known to be a mood-altering substance.
 
 So the question is: to what extent should the information in support of 
 the effect of hormonal contraceptives on depression have been paid attention to
 before the Danish study (that is, assuming that the shortcomings of those
 earlier studies were understood)?
 
-Assuming that the link between sexual hormones and seratonin has been
+Assuming that the link between sexual hormones and seratonin had been
 scientifically established, it would seem reasonable, as Oreskes argues, to take
 the earlier not-so-accurate studies at least somewhat seriously.
 
@@ -211,7 +211,7 @@ Cochrane is a respected third party fact checker of evidence-based health
 information. In 2011 Cochrane did a review of evidence for flossing. It checked
 the data on all existing trials of flossing in the presence of brushing. It
 found no evidence from the available studies that flossing reduces tooth decay.
-And it found only scant, though statistically significant, evidence 
+And it found only scant, though statistically significant, evidence for
 a reduction in gingivitis.
 
 Oreskes's argument here is similar to the case of hormonal therapy. She asserts
