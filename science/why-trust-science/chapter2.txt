@@ -24,16 +24,16 @@ rationality improve, and the new standards point to improvements in scietific
 knowledge. 
 
 But to sharpen the debate, Oreskes restricts her attention to quite recent
-controversies and instabilities. Arguably, our standards have not changed radically
-during the periods of these incidents. Oreskes examines each of 5 cases of
-recent controversy and reversal in light of consensus.
+controversies and instabilities. Arguably, our standards have not changed
+radically since the periods of these incidents. Oreskes examines each of 5 cases
+of recent controversy and reversal in light of consensus.
 
 I see two overriding threads in her considerations.
 
 First, she argues that a claim that ends up gaining popularity is often not
-based on consensus among the experts. Acceptance can result from
-ideological preferences, the charisma of the claiming scientists, and
-sensational press coverage.
+based on consensus among the experts. Acceptance can result from ideological
+preferences, the charisma of the claiming scientists, and sensational press
+coverage.
 
 Second, she argues that requiring consensus by using the "gold standards" of
 rationality is too strict a demand for gaining actionable knowledge about a
@@ -69,18 +69,19 @@ instability discussed in the chapter.
 Limited Energy Theory
 
 The so-called 'limited energy theory' was used to advocate against higher
-education for women, by applying conservation energy to female physiology.
+education for women, by applying the principle of conservation of energy to
+female physiology.
 
-The limited energy theory was based on three assumptions: that women can only expend a certain
-amount of energy per day, that child bearing and child rearing requires
-significant energy, and that work on higher education also requires significant
-energy. The conclusion was that higher education takes away energy that should
-more profitably be used on child bearing.
+The limited energy theory was based on three assumptions: that women can only
+expend a certain amount of energy per day, that child bearing and child rearing
+requires significant energy, and that work on higher education also requires
+significant energy. The conclusion was that higher education takes away energy
+that should more profitably be used on child bearing.
 
 Oreskes details a number of methodological issues with the evidence for this
 claim and shows that there was in fact no scientific consensus for it at the time.
 
-Two general issues stand out for me. 
+Three general issues stand out for me with respect to this claim.. 
 
 First, the argument is "philosophical", that is, described in generality at a
 high level, without an explanation of the mechanisms involved. A simple detail
@@ -89,12 +90,17 @@ amount of energy needed for each type of activity. Once the details of the
 mechanisms are given, possibilities will present themselves for falsification
 based on the different predictions of the offered mechanisms. 
 
-Second, this looks like an obvious case of confirmation bias. There is some
+SEcond, the "experimental" evidence for it was indequate if present at all.
+
+Third, this looks like an obvious case of confirmation bias. There is some
 underlying ideology that women should mostly attend to child bearing and child
 rearing. Then you apply certain high-level scientific principles to justify that
 ideology, without providing the details. And you ignore or downplay contrary
 evidence, for example, the application of those same principles at the same
 level of detail to similar situations yielding false predictions.
+
+The take-away for me is to expect details of mechanisms and/or solid
+experimental evidence, and to always be on the lookout for cognitive biases. 
 
 Continental Drift
 
@@ -120,7 +126,7 @@ steps.
 Today it is clear that hypotheses generally rely on seeing regularities based on
 observations anyway. And "natural" inductions must involve some level of
 hypothesis formation by informed guessing. So the two ideas are fused in today's
-scientific method.
+scientific method. 
 
 Perhaps this controversy reflects general cultural differences on the two sides
 of the Atlantic. Entertaining a bold untested hypothesis required some level of
@@ -131,10 +137,15 @@ Because of the American distrust of the hypothetico-deductive method, Wegener's
 hypotheses about the possible explanation of continental drift by currents in
 the earth's mantle did not receive the attention it deserved at the time.
 
-The question for me is: what is the solution when there are two seemingly
-competing scientific methods favored by different communities of experts in a
-field? I guess the answer is Lakatos's research programs. Try to fund
-both programs. But that issue is not somehing that is taken up in the chapter.
+Since the hytothetico-deductive and the inductive approaches are merged in
+today's standard scientific method, perhaps this exmaple of science gone awry
+can be explained away by the evolution of standards.
+
+The question that remains for me for me is: what is the solution when there are
+two seemingly competing scientific methods favored by different communities of
+experts in a field? I guess the answer is Lakatos's research programs. Try to
+fund both programs. But that issue is not somehing that is taken up in the
+chapter.
 
 This controversy also points to a dilemma for scientists confronting their
 colleagues and the public at large.
@@ -145,6 +156,15 @@ perceived as trying to use their authority rather than reason to persuade.
 
 But suppose the scientist is humble and allows for doubt. Are people going to
 give him the benefit of the doubt?
+
+Two take-aways for me: 
+
+First as the Covid saga demontrated most recently, humility is perhaps the
+preferable alternative confronting critics and the public.
+
+Second, when there are reasonable competing sensibilities on scientific method,
+rather than stopping a compting program. it is useful to be willing to allow
+the competition proceed in parallel.
 
 Eugenics
 
@@ -161,7 +181,7 @@ promoting reproductive practices that enhance fitness, assuming that we have a
 definition for fitness. As a purely philosophical question, it seems like a
 reasonable question to try to answer scientifically. I am not sure whether
 there was consensus in principle on that philosophical question, as a
-legitin=mate question for science.
+legitimate question for science.
 
 From there we have to go on and provide the definition of fitness, and the
 specific mechanisms of reproductive control, and provide experiments to prove or
@@ -173,6 +193,12 @@ A high-level seemingly plausible philosophical claim is used to promote
 practices favored by a popular ideology. And the general population does not
 stop to ask about the debunked scientific and moral justifications of the
 details.
+
+Take-aways:
+
+- Look for the construction of rigorous experiments.
+
+- Beware of ideology and confirmation bias.
 
 Hormonal Birth Control and Depression
 
@@ -201,10 +227,19 @@ Oreskes suggests, for example, that a 90% confidence interval is not
 significantly different from 95%. And yet, there are various studies that 
 discard results obtained with confidence levels below 95%.
 
+Take aways:
+
+- Consult the real data as opposed to summaries based on arbitrary limits
+  on plausability. Consider plausibility as a fuzzy concept.
+
+- When experimental evidence is not very strong but nevertheless favors a given
+  effect, a detailed mechanistic explanation of the effect
+  the conditions of the experiment bolsters the argument for the effect.
+
 Dental Floss
 
 There were two claims with respect to flossing - that it helps reduce tooth
-decay, and that it reduces the chance of gingivitis. The facts of the matter,
+decay, and that it reduces the chance of gingivitis. The facts of the matter
 seem to be as follows. 
 
 Cochrane is a respected third party fact checker of evidence-based health
@@ -231,4 +266,6 @@ recommend that children be kept away from fires? Anecdotal accounts of a few
 such incidents do not prove the scientific claim of adverse effects from heat. 
 Yet a few observed incidents of severe burns should settle the issue for most 
 reasonable people, it seems.
+
+How do we define this type of evidence and justify its use?
 
