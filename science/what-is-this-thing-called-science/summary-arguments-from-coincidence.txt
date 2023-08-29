@@ -61,7 +61,7 @@ not have a general epicyclic theory of how multiple celestial bodies move with
 respect to each other. In that sense, the discovery of each new celestial body
 would necessitate a "patch" to the epicyclic descriptions. However, I don't think
 that can be considered a negative at the time of the Greek astronomers. I am
-guessing that It is only after the rival theories of Copernicus, Galileo and
+guessing that it is only after the rival theories of Copernicus, Galileo and
 Newton came along, that the Ptolemaic epicycle theories could be seen as
 wanting.
 
@@ -76,13 +76,13 @@ Principle 3. Strong Auxiliaries.
 Auxiliaries are background assumptions that are used in interpreting
 observations and making predictions based on the theory.
 
-One example given by Chalmers is the use of the distance of the starts in
-calculating parallax: the change in position of a star when observed from
+One example given by Chalmers is the use of the distance of the stars in
+calculating parallax: the change in the position of a star when observed from
 different locations. Given the Copernican theory of the rotation of the planets
 around the sun, it is possible to calculate parallax for various stars if one
 knows the distances of stars. Here the assumptions about the distances of the
 stars is an "auxiliary". Based on the distance assumptions at the time, parallax
-should have been observed for certain stars if Copernicus was right, but it was
+should have been observed for certain stars if Copernicus was right. But it was
 not. However, it turned out later that the distance assumptions were the cause
 of the apparent falsification, and not the basic Copernican theory.
 
@@ -123,7 +123,7 @@ accepted, there must be strong evidence for all its parts.
 
 I have not thought through the guidelines for partitioning a theory. But it seems
 plausible that when one is presented with a piece of evidence for a theory, one
-needs to ask does it cover the entire theory. If not, one may legitimately
+needs to ask whether it cover the entire theory. If not, one may legitimately
 consider weaker theories that just stick to the evidence at hand.
 
 5. Variety of Evidence for Analytical Theories.
