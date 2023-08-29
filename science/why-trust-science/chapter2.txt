@@ -8,9 +8,9 @@ Here are my brief notes on this chapter.
 
 Ideally there should be a convergence of opinion between scientists and the
 general public. But there is widespread mistrust of settled science among the
-general public. The distrust cannot be attributed to a lack of expertise alone,
-as evidenced by the fact that educated democrats and educated republicans differ
-the most on their disbeliefs of scientific claims. 
+general public. The distrust cannot be attributed to a lack of expertise alone.
+This is evidenced by the fact that educated democrats and educated republicans
+differ the most on their disbeliefs of scientific claims. 
 
 Ideological considerations appear to be the major motivators of doubt in science. 
 
@@ -60,8 +60,7 @@ Pascal's wager: Compare the expected cost of informing a decision by a partially
 substantiated claim with the expected cost of not doing so.
 
 What remains to be worked out are the details of putting the Pascal wager to
-practice. I am not sure if progress is being made on that front in the
-scientific and philosophical communities.
+practice. See Chapter 5 for one possible initiative in that direction.
 
 Following are the specific incidents of seeming scientific controversy and
 instability discussed in the chapter.
@@ -90,7 +89,7 @@ amount of energy needed for each type of activity. Once the details of the
 mechanisms are given, possibilities will present themselves for falsification
 based on the different predictions of the offered mechanisms. 
 
-SEcond, the "experimental" evidence for it was indequate if present at all.
+Second, the "experimental" evidence for it was indequate if present at all.
 
 Third, this looks like an obvious case of confirmation bias. There is some
 underlying ideology that women should mostly attend to child bearing and child
@@ -99,8 +98,12 @@ ideology, without providing the details. And you ignore or downplay contrary
 evidence, for example, the application of those same principles at the same
 level of detail to similar situations yielding false predictions.
 
-The take-away for me is to expect details of mechanisms and/or solid
-experimental evidence, and to always be on the lookout for cognitive biases. 
+Take aways for me:
+
+Look for repeatable experiments in which the causes are isolated, and for
+large sample sizes.
+
+Be on the lookout for cognitive biases. 
 
 Continental Drift
 
@@ -134,14 +137,14 @@ trust in the authority of its proponents. And American culture is arguably
 distrustful of authority.
 
 Because of the American distrust of the hypothetico-deductive method, Wegener's
-hypotheses about the possible explanation of continental drift by currents in
+hypothesis about the possible explanation of continental drift by currents in
 the earth's mantle did not receive the attention it deserved at the time.
 
 Since the hytothetico-deductive and the inductive approaches are merged in
 today's standard scientific method, perhaps this exmaple of science gone awry
 can be explained away by the evolution of standards.
 
-The question that remains for me for me is: what is the solution when there are
+The question that remains for me is: what is the solution when there are
 two seemingly competing scientific methods favored by different communities of
 experts in a field? I guess the answer is Lakatos's research programs. Try to
 fund both programs. But that issue is not somehing that is taken up in the
@@ -160,11 +163,11 @@ give him the benefit of the doubt?
 Two take-aways for me: 
 
 First as the Covid saga demontrated most recently, humility is perhaps the
-preferable alternative confronting critics and the public.
+preferable alternative in confronting critics and the public.
 
 Second, when there are reasonable competing sensibilities on scientific method,
-rather than stopping a compting program. it is useful to be willing to allow
-the competition proceed in parallel.
+rather than stifling a compting program. it is useful to be willing to allow
+the competition to proceed in parallel.
 
 Eugenics
 
@@ -198,7 +201,7 @@ Take aways for me:
 
 - Look for the construction of rigorous experiments.
 
-- Beware of ideology and confirmation bias.
+- Beware of ideology, confirmation bias, and other cognitive biases and fallcies.
 
 Hormonal Birth Control and Depression
 
@@ -233,7 +236,7 @@ My take aways:
   on plausability. Consider plausibility as a fuzzy concept.
 
 - When experimental evidence is not very strong but nevertheless favors a given
-  effect, a detailed mechanistic explanation of the effect
+  effect, a detailed mechanistic explanation of the effect under 
   the conditions of the experiment bolsters the argument for the effect.
 
 Dental Floss
@@ -271,6 +274,7 @@ How do we define this type of evidence and justify its use?
 
 Take aways for me:
 
-Use judgment in assessing the relevance of partial information possibly
-obtained from subpar experiments. Do not just discount it verbatim.
+Use judgment in assessing the relevance of partial information possibly obtained
+from subpar experiments. Do not just discount subpar evidence verbatim.
+
 

@@ -80,7 +80,7 @@ mixed into an ostensibly testable theory. Chalmers offers the assumption of
 absolute space in Newton's laws as an example.
 
 Care must be taken to separate out the philosophical aspects of a claim, and
-make scientific claims only about the concrete testable part of the theory that
+make scientific claims only about the concrete testable parts of the theory that
 have been subjected to severe tests.
 
 Accommodating Theories
@@ -104,7 +104,7 @@ wholesale. In that light, there is a place for seemingly accommodating theories
 in the development of a field of research, and the distinction between
 accommodating and genuine theories becomes somewhat arbitrary in that context. 
 
-Are epicycles theories of the movements of the planets accommodating? Chalmers
+Are the epicyclic theories of the movement of the planets accommodating? Chalmers
 seems to imply that, since falsifying measurements lead to a reworking of the
 epicycles involved. I am not so sure. Perhaps one can equally think of epicycle
 theories as theories superseded as limiting cases of more general theories
