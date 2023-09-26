@@ -1,0 +1,64 @@
+
+Because of inherent human limitations in actually knowing things, scientific
+claims are generally only our best guesses on particular aspects of reality.
+And such guesses, not being certain, will generally have associated levels of
+confidence.
+
+What are the rules by which we judge evidence for scientific claims, guess that
+the totality of evidence favors or disfavors a claim, and attach a level of
+confidence to our guesses? 
+
+As civilizations progress, such rules can change, hopefully in a positive
+direction by allowing better guesses to be made with more confidence. 
+
+It is also possible that the rules vary among different scientific communities.
+
+However, if we have any hope of being "rational" about our scientific claims, it
+seems that we need to be explicit about the rules governing our guesses.
+
+I call these rules the standards of rationality [at a given time and for a given
+community, though I will not repeat these qualifications in every use of the term]. 
+
+I would include as a basis in those standards, the rules of logic, and the rules
+of arithmetic.
+
+TODO. Spell out all the rules we know about.
+
+Note that in my definition of standards of rationality, I have explicitly
+excluded mention of the rules that may govern the day-to-day work of scientists.
+Clearly, there are also standards of reasonable conduct in particular scientific
+communities at any given time, some of which may be motivated by the governing
+standards of rationality.
+
+But it is important to make a distinction between the activity of judging a
+claim based on evidence, on the one hand, and the activity of attempting to 
+produce evidence for or against a claim on the other. In my terminology,
+"standards of rationality" are rules that apply to the former activity. 
+To make this distinction clear, we may call the rules that apply to the latter 
+activity "standards of procedure".
+
+I tend to avoid using the common term "scientific method" because to me 
+it confounds the two concepts of judgement and procedure in science.
+
+I am willing to allow considerable flexibility in procedure. 
+But when it comes to judgement, it seems to me, we need a firm grip on 
+the governing constituitional regime. The bar for changing the constitution, 
+that is, our standards of rationality, should be quite high. We can't just 
+change those standards willy-nilly, lest we make a mockery of rationality.
+
+In 'Why Trust Science?', Naomi Oreskes argues for scientific consensus as 
+the main requirement for a scientific claim. That characterization, while
+clearly relevant, misses the point in my view. It gives the impression 
+that the validity of a claim is merely a matter of the opinion of the 
+expert practitioners in a field, without acknowledging the idea of the
+rationality or irrationality of a claim relative to a set of standards.
+
+Clearly, judging the evidence for a claim cannot be entirely a matter of the
+opinions of a number of people, whatever their level of expertise. To the extent
+that our standards of rationality are spelled out, they must be applied in
+verifying a claim independently of opinion. Where the standards are vague and
+leave room for opiniotated judgement, of course, that level of judgement is
+unavoidable. However, a judgemnet that is not based on the canonized standards
+of rationality should be called out as such, and clearly it must be given less
+weight than a judgement that is supported by the standards.
+
