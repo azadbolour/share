@@ -1,0 +1,92 @@
+
+Why Trust in Science? Chapter 6
+
+In this chapter, Jon A. Krosnick, a professor of Political Science at Stanford, 
+speculates (his characterization) that science is still going awry 
+frequently, and considers the influence of reasons other than the pure search
+for the truth on scientific work.
+
+There are two main issues: fraud and "p-hacking".
+
+In fraud, of course, experimental data is simply fabricated to support a particular
+result. 
+
+In p-hacking, the conditions of an experiment are tweaked until a desired result
+is achieved, and the results of those trials in which the desired result was not
+achieved are simply discarded.
+
+Of course, there is a fine line between p-hacking and legitimate improvements in
+experimental procedure. But because the results of all but the successful trials
+are generally discarded, it is difficult for reviewers to distinguish p-hacking
+from perfection of experimental practice.
+
+These issues are detected when other groups attempt to replicate an experiment
+and encounter anomalies and questions. But once a fraudulent or p-hacked result
+is published, it can quickly make its way to the community and to the general
+public, often way before attempts at its replication. And then, it may be quite
+hard to undo the damage, even by an official retraction. To make things even
+worse, the original authors can refuse to cooperate with the replicating team in
+addressing their anomalies and questions.
+
+Krosnick provides what appears to be convincing examples of these issues in
+contemporary science. See, for example:
+
+https://www.nytimes.com/2015/08/28/science/many-social-science-findings-not-as-strong-as-claimed-study-says.html
+
+However, there is some pushback in Oreskes' response on the severity of these
+issues. They seem to occur often only in specific sciences like psychology and
+social science, and their frequency may be insignificant compared to the volume
+of scientific work produced each year and compared to earlier times in which
+oversight and retractions may have been less prevalent. Or so speculates
+Oreskes.
+
+Another complicating factor for the lack of reproducibility may be secrecy.
+Even though results are published in open journals, not all the details of an
+experiment may be revealed in its publication, for fear of letting others
+compete jump-start their work and compete. Because of the lack of details, it is
+often impossible to know whether a purported replication is in fact a
+replication or differs significantly from the original experiment.
+
+Krosnick attributes the issues of fraud and p-hacking at least partly to the
+wrong incentives in scientific work. The need for professional growth and
+recognition favors early publication, many publications, and the publication of
+significant and surprising results over mundane findings. Replication does not
+bring a scientist fame and fortune.
+
+Krosnick advocates studying these issues and their hupothesized solutions
+scientifically. That would be good, of course. But it is not that hard to come
+up with interim measures that seem non-controversially to improve the situation. 
+
+For one thing, initial results can be given way lower prominence in
+publications, and replications way higher prominence. The conditions of certian
+experiments may be pre-registered when a grant is obtained for it, and progress
+of the work may be monitored regularly to make sure all results are recorded and
+ultimetely reported.
+
+Krosnick makes the surprising claim that sources of funding are not important in
+distorting scientific work. Oreskes takes major issue with that claim in her
+response, citing biased research supporting climate denial and tabocco harm.
+
+In her response, Oreskes also brings a number of other related points to light.
+
+One that is particularly intriguing is a bold proposal to do away with statistical 
+significance as the mainstay of relevance of scientific work on populations.
+
+https://media.nature.com/original/magazine-assets/d41586-019-00857-9/d41586-019-00857-9.pdf
+
+That seems to merit some serious consideration. And dependiing on where it goes
+it may finesse the issue of p-hacking.
+
+Also part of the problem, according to Oreskes, is the issue of "fake academia",
+for-profit conferences and journals, often initiated by special interest groups
+with an agenda to give the impression that certain results are adequately
+peer-reviewed.
+
+Another point of emphasis fror Oreskes is that scientific progress on a claim is
+a process, and in general the process should be given significance just like the
+individual events in it. Credit needs to be distributed between all the
+participants in that process. As important as Eistein's 1905 special relativity
+paper is, it too was part of a process with significant contributions from
+others, Lorenz, and Michelson and Morley, among others, who are not exactly
+household names.
+
