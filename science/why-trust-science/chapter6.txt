@@ -40,6 +40,11 @@ of scientific work produced each year and compared to earlier times in which
 oversight and retractions may have been less prevalent. Or so speculates
 Oreskes.
 
+Also, it may be argued, if a finding has practical significance, then it is
+likely that others will soon attempt to pick up where it left off, and make use
+of that finding, and in the process find that they cannopt reproduce the
+finding.
+
 Another complicating factor for the lack of reproducibility may be secrecy.
 Even though results are published in open journals, not all the details of an
 experiment may be revealed in its publication, for fear of letting others
