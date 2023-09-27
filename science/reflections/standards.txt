@@ -24,7 +24,7 @@ of arithmetic.
 
 TODO. Spell out all the rules we know about.
 
-Note that in my definition of standards of rationality, I have explicitly
+Note that in my definition of the standards of rationality, I have explicitly
 excluded mention of the rules that may govern the day-to-day work of scientists.
 Clearly, there are also standards of reasonable conduct in particular scientific
 communities at any given time, some of which may be motivated by the governing
@@ -44,12 +44,12 @@ I am willing to allow considerable flexibility in procedure.
 But when it comes to judgement, it seems to me, we need a firm grip on 
 the governing constituitional regime. The bar for changing the constitution, 
 that is, our standards of rationality, should be quite high. We can't just 
-change those standards willy-nilly, lest we make a mockery of rationality.
+change those standards willy-nilly. That would make a mockery of rationality.
 
-In 'Why Trust Science?', Naomi Oreskes argues for scientific consensus as 
-the main requirement for a scientific claim. That characterization, while
-clearly relevant, misses the point in my view. It gives the impression 
-that the validity of a claim is merely a matter of the opinion of the 
+In 'Why Trust Science?', Naomi Oreskes argues for scientific consensus as the
+main requirement for our guesses on scientific claims. In my view, that
+characterization, while clearly relevant, misses the point. It gives the
+impression that the validity of a claim is merely a matter of the opinion of the
 expert practitioners in a field, without acknowledging the idea of the
 rationality or irrationality of a claim relative to a set of standards.
 
@@ -57,8 +57,67 @@ Clearly, judging the evidence for a claim cannot be entirely a matter of the
 opinions of a number of people, whatever their level of expertise. To the extent
 that our standards of rationality are spelled out, they must be applied in
 verifying a claim independently of opinion. Where the standards are vague and
-leave room for opiniotated judgement, of course, that level of judgement is
-unavoidable. However, a judgemnet that is not based on the canonized standards
-of rationality should be called out as such, and clearly it must be given less
-weight than a judgement that is supported by the standards.
+leave room for opinionated judgement, of course, that level of judgement from
+experts in a field is unavoidable. However, a judgemnet that is not based on the
+canonized and explicitly stated standards of rationality should be called out as
+such, and clearly it must be given less weight than a judgement that is
+supported by the prevailing standards.
+
+We can apply the same treatment to mathemetics itself.
+
+There is a distinction between accepting an axiomatic system for judging the
+truth of a proposition, that is, the rules of rationality for a particular
+branch of mathematics, on the one hand, and accepting a particular proof of a
+proposition based on that axiomatic system, on the other.
+
+The acceptance of the axioms requires a major leap of faith in a way that the
+acceptance of a given proof does not. Working within such a system, a particular
+proof becomes, in principle, a mechanical process, which can be checked by a
+proof assistant. If the human-provided proof has errors or gaps in logic, the
+proof assistant can detect the errors and fill in the gaps.
+
+To be sure, like all human-engineered physical processes, the proof assistant
+itself is subject to inaccuracies.
+
+But the likelihood of those inaccuracies may easily be reduced by testing,
+independent inspection, and comparison of independent implementations.
+
+Since the accuracy of no gadget can be guaranteed 100%, one may make a
+philosophical argument that using a well-vetted proof assistant requires a leap
+of faith in the accuracy of the proof assistant, and is ultimately an
+opinionated enterprise. But is that characterization helpful in any way? We must
+do our best within the boundaries of our limitations.
+
+On the other hand, accepting the use of a particular axiomatic system requires a
+qualitatively different leap of faith. There are fundamental issues such as
+completeness, orthogonality, understandability, and consistency that are not so
+easily taken care of by inspection and testing. The axioms and rules of
+inference are generally the result of centuries of painstaking reflection,
+debate, evolution, and correction, and are chosen based on their ability to as
+completely and consistently as possible so far to our knowledge to be applicable
+to modeling a variety of situations.  As such they are not to be trifled with at
+the drop of a hat, because the utility of a purportedly corrected set of rules
+in terms of completeness, consistency, and so on, cannot be demonstrated that
+easily.
+
+In axiomatic mathematics, the rules by which we judge proofs are completely
+spelled out, the rules unamgiguously govern the proof of a proposition, and the
+bar for chaging those rules is very high.
+
+In science, there are, or, I am arguing, there should be, stated sets of rules
+by which we judge the validity of a scientific claim. Those rules too are the
+product of centuries of trial and error, reflection, and debate, and as such
+there should be a very high bar for their evolution.
+
+The difference in science is that our propositions are rated guesses, and the
+rules do not necessarily govern the validation of our guesses unambuguously.
+However, that does not mean that the guesses are entirely a matter of expert
+opinion. To the extent that our stated standards guide the validation of our
+guesses about a scientific claim, the standards should be used, and they should
+given priority over guesswork that is not explicitly supported by the standards.
+
+As a simple example, suppose that a claim is based on a set of arithmetic
+calculations on data obtained from experiments. Clearly the calculations can 
+be checked mechanically. Their validity is not a matter of expert opinion
+in any practically useful way.
 
