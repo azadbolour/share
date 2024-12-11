@@ -80,7 +80,7 @@ One example given by Chalmers is the use of the distance of the stars in
 calculating parallax: the change in the position of a star when observed from
 different locations. Given the Copernican theory of the rotation of the planets
 around the sun, it is possible to calculate parallax for various stars if one
-knows the distances of stars. Here the assumptions about the distances of the
+knows the distances of the stars. Here the assumptions about the distances of the
 stars is an "auxiliary". Based on the distance assumptions at the time, parallax
 should have been observed for certain stars if Copernicus was right. But it was
 not. However, it turned out later that the distance assumptions were the cause

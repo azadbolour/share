@@ -102,7 +102,7 @@ easily.
 
 In axiomatic mathematics, the rules by which we judge proofs are completely
 spelled out, the rules unamgiguously govern the proof of a proposition, and the
-bar for chaging those rules is very high.
+bar for changing those rules is very high.
 
 In science, there are, or, I am arguing, there should be, stated sets of rules
 by which we judge the validity of a scientific claim. Those rules too are the
@@ -114,7 +114,7 @@ rules do not necessarily govern the validation of our guesses unambuguously.
 However, that does not mean that the guesses are entirely a matter of expert
 opinion. To the extent that our stated standards guide the validation of our
 guesses about a scientific claim, the standards should be used, and they should
-given priority over guesswork that is not explicitly supported by the standards.
+be given priority over guesswork that is not explicitly supported by the standards.
 
 As a simple example, suppose that a claim is based on a set of arithmetic
 calculations on data obtained from experiments. Clearly the calculations can 

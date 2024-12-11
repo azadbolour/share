@@ -20,7 +20,7 @@ used in its curve-fitting.
 I would include Ptolemian epicycle theory in the category of descriptive
 theories. The theory predicts the locations of planets in the future. So its
 predictions can be put to the test. As far as I can tell, the domain of a
-Ptolemian epicycle theory is a particular set of planets and moons.  When new
+Ptolemian epicycle theory is a particular set of planets and moons. When new
 bodies in the solar system are discovered, we are outside the domain of the
 earlier epicycle theory, and must extend the theory by adding epicycles and
 possibly modifying existing ones.
@@ -50,7 +50,7 @@ the argument from coincidence for it becomes more convincing.
 Analytical Theories
 
 I'll call an explanatory theory that precisely specifies the mechanisms by which
-causes lead to effects as an 'analytical theory'.
+causes lead to effects an 'analytical theory'.
 
 Newton's laws are analytical in describing the movements of the planets, but
 also of a variety of other phenomena. And therefore provide a very rich set of
@@ -105,7 +105,7 @@ in the development of a field of research, and the distinction between
 accommodating and genuine theories becomes somewhat arbitrary in that context. 
 
 Are the epicyclic theories of the movement of the planets accommodating? Chalmers
-seems to imply that, since falsifying measurements lead to a reworking of the
+seems to imply that they are, since falsifying measurements lead to a reworking of the
 epicycles involved. I am not so sure. Perhaps one can equally think of epicycle
 theories as theories superseded as limiting cases of more general theories
 involving additional celestial bodies.
